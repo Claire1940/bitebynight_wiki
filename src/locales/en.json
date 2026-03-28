@@ -10,7 +10,16 @@
       "twitterDescription": "Bite By Night Wiki for classes, killers, maps, release date, and code tracking. Follow the latest Roblox horror survival guides and roster updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "release-&-access": "Release & Access",
+    "community": "Community",
+    "guide": "Guide",
+    "codes": "Codes",
+    "roster": "Roster",
+    "character": "Character",
+    "media": "Media",
+    "rumors-&-issues": "Rumors & Issues"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -809,114 +818,74 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "classes": {
-      "title": "Bite By Night Classes",
-      "description": "Complete class guides covering abilities, roles, tier rankings, and team composition strategies for Bite By Night.",
-      "metaTitle": "Bite By Night Classes - Abilities, Roles & Tier List",
-      "metaDescription": "Complete Bite By Night class guides covering abilities, roles, tier rankings, and team composition strategies for the Roblox horror game.",
-      "categoryLabel": "SURVIVOR CLASSES",
-      "whatIs": "What are Classes?",
-      "whatIsDescription": "Comprehensive guides covering survivor class abilities, roles, and strategies. Learn the strengths and weaknesses of each class to maximize your team's survival.",
-      "why": "Why learn classes?",
+    "release-&-access": {
+      "title": "Bite By Night Release & Access",
+      "description": "Release date tracking, platform access info, early access updates, and launch timeline for Bite By Night on Roblox.",
+      "metaTitle": "Bite By Night Release Date & Access - Launch Timeline",
+      "metaDescription": "Track the Bite By Night release date, platform access, early access status, and launch updates for the Roblox FNAF-inspired horror game.",
+      "categoryLabel": "RELEASE & ACCESS",
+      "whatIs": "What is Release & Access?",
+      "whatIsDescription": "Everything about Bite By Night's release timeline, platform availability, early access status, and launch updates. Stay informed on when and how to play.",
+      "why": "Why track release info?",
       "whySteps": {
-        "step1Title": "Choose the Right Role",
-        "step1Description": "Understand which class fits your playstyle and team needs",
-        "step2Title": "Master Abilities",
-        "step2Description": "Learn when and how to use each class's unique powers effectively",
-        "step3Title": "Build Better Teams",
-        "step3Description": "Create balanced team compositions with complementary class picks"
+        "step1Title": "Know the Launch Date",
+        "step1Description": "Stay updated on the official release date and any schedule changes",
+        "step2Title": "Check Platform Access",
+        "step2Description": "Find out which platforms support Bite By Night and how to access it",
+        "step3Title": "Follow Early Access",
+        "step3Description": "Track early access updates and testing phases before full launch"
       },
       "featured": "Featured & Essential",
-      "all": "All Class Guides"
+      "all": "All Release & Access Articles"
     },
-    "killers": {
-      "title": "Bite By Night Killers",
-      "description": "All killer guides covering abilities, playstyles, counter strategies, and tier rankings.",
-      "metaTitle": "Bite By Night Killers - Abilities, Counters & Tier List",
-      "metaDescription": "Complete Bite By Night killer guides covering abilities, playstyles, counter strategies, and tier rankings for the Roblox horror game.",
-      "categoryLabel": "KILLER ROSTER",
-      "whatIs": "What are Killers?",
-      "whatIsDescription": "Detailed guides on every killer in Bite By Night. Learn their abilities, strengths, weaknesses, and how to counter each one as a survivor.",
-      "why": "Why study killers?",
+    "community": {
+      "title": "Bite By Night Community",
+      "description": "Official community links, Discord server, Reddit, social media, and player discussion hubs for Bite By Night.",
+      "metaTitle": "Bite By Night Community - Discord, Reddit & Social Links",
+      "metaDescription": "Join the Bite By Night community on Discord, Reddit, X, and Instagram. Connect with players, get updates, and find official community resources.",
+      "categoryLabel": "COMMUNITY",
+      "whatIs": "What is Community?",
+      "whatIsDescription": "Connect with the Bite By Night community through Discord, Reddit, X, and other official channels. Find the latest announcements, player discussions, and social links.",
+      "why": "Why join the community?",
       "whySteps": {
-        "step1Title": "Know Your Enemy",
-        "step1Description": "Understand killer abilities to anticipate their moves",
-        "step2Title": "Learn Counters",
-        "step2Description": "Develop specific strategies to survive against each killer",
-        "step3Title": "Play Killer Better",
-        "step3Description": "Master killer mechanics for when you play the hunter role"
+        "step1Title": "Get Latest Updates",
+        "step1Description": "Receive official announcements, code drops, and patch notes first",
+        "step2Title": "Connect with Players",
+        "step2Description": "Join active Discord and Reddit communities to discuss strategies",
+        "step3Title": "Access Official Channels",
+        "step3Description": "Follow verified developer accounts for authentic news and reveals"
       },
       "featured": "Featured & Essential",
-      "all": "All Killer Guides"
+      "all": "All Community Resources"
     },
-    "maps": {
-      "title": "Bite By Night Maps",
-      "description": "Map guides covering layouts, objective locations, escape routes, and strategic positions.",
-      "metaTitle": "Bite By Night Maps - Layouts, Routes & Strategy Guide",
-      "metaDescription": "Complete Bite By Night map guides with layouts, objective locations, escape routes, and strategic positions for every map.",
-      "categoryLabel": "MAP GUIDES",
-      "whatIs": "What are Maps?",
-      "whatIsDescription": "Detailed guides for every map in Bite By Night. Learn objective placements, escape routes, danger zones, and the best positions for survivors and killers.",
-      "why": "Why learn maps?",
+    "guide": {
+      "title": "Bite By Night Guides",
+      "description": "Complete gameplay guides covering classes, killers, maps, objectives, tier lists, and survival strategies for Bite By Night.",
+      "metaTitle": "Bite By Night Guides - Classes, Killers & Survival Strategies",
+      "metaDescription": "Complete Bite By Night guides covering classes, killers, maps, objectives, and survival strategies for the Roblox asymmetrical horror game.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "From beginner tips to advanced strategies, these guides cover everything about Bite By Night's survivor classes, killer matchups, map tactics, and objective completion.",
+      "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Find Objectives Fast",
-        "step1Description": "Know where generators and key locations spawn on each map",
-        "step2Title": "Plan Escape Routes",
-        "step2Description": "Identify the safest paths and shortcuts to avoid the killer",
-        "step3Title": "Control the Map",
-        "step3Description": "Use map knowledge to set up barricades and team strategies"
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand match flow, class roles, and killer mechanics from your first game",
+        "step2Title": "Improve Your Play",
+        "step2Description": "Master class abilities, killer counters, and map positioning",
+        "step3Title": "Win More Matches",
+        "step3Description": "Apply tier list knowledge and team strategies to escape consistently"
       },
       "featured": "Featured & Essential",
-      "all": "All Map Guides"
-    },
-    "objectives": {
-      "title": "Bite By Night Objectives",
-      "description": "Objective guides covering generators, barricades, exits, and task mechanics.",
-      "metaTitle": "Bite By Night Objectives - Tasks, Generators & Exit Guide",
-      "metaDescription": "Complete Bite By Night objectives guide covering generators, barricades, exit mechanics, and task strategies for survivor gameplay.",
-      "categoryLabel": "GAME OBJECTIVES",
-      "whatIs": "What are Objectives?",
-      "whatIsDescription": "Guides to all objective mechanics in Bite By Night including generators, barricades, exits, and time pressure systems.",
-      "why": "Why learn objectives?",
-      "whySteps": {
-        "step1Title": "Complete Tasks Faster",
-        "step1Description": "Understand generator mechanics and optimal task order",
-        "step2Title": "Use Barricades Effectively",
-        "step2Description": "Learn placement strategies to slow down killers at key points",
-        "step3Title": "Coordinate Exits",
-        "step3Description": "Plan the final escape with your team for maximum survival"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Objective Guides"
-    },
-    "skins": {
-      "title": "Bite By Night Skins",
-      "description": "Complete skin gallery with unlock methods, rarity tiers, and event-exclusive cosmetics.",
-      "metaTitle": "Bite By Night Skins - Gallery, Rarity & Unlock Guide",
-      "metaDescription": "Browse all Bite By Night skins including common, rare, and event-exclusive cosmetics. Learn how to unlock every skin in the game.",
-      "categoryLabel": "COSMETICS",
-      "whatIs": "What are Skins?",
-      "whatIsDescription": "Browse all cosmetic options in Bite By Night. Find rarity tiers, unlock requirements, and event-exclusive skins for both survivors and killers.",
-      "why": "Why collect skins?",
-      "whySteps": {
-        "step1Title": "Customize Your Look",
-        "step1Description": "Stand out from other players with unique character appearances",
-        "step2Title": "Track Event Skins",
-        "step2Description": "Never miss limited-time cosmetics from seasonal events",
-        "step3Title": "Complete Collections",
-        "step3Description": "Work toward unlocking all available skins in the game"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Skins"
+      "all": "All Guides"
     },
     "codes": {
       "title": "Bite By Night Codes",
-      "description": "All active and expired codes with rewards and redemption instructions.",
+      "description": "All active and expired Bite By Night codes with rewards and step-by-step redemption instructions.",
       "metaTitle": "Bite By Night Codes - Free Rewards & Redemption Guide",
-      "metaDescription": "All active and expired Bite By Night codes with free rewards and step-by-step redemption instructions. Updated regularly.",
+      "metaDescription": "All active and expired Bite By Night codes with free rewards and redemption instructions. Updated regularly with new code drops.",
       "categoryLabel": "CODES & REWARDS",
       "whatIs": "What are Codes?",
-      "whatIsDescription": "Redeem codes in Bite By Night for free rewards including skins, currency, and items. Check this page regularly for the latest active codes.",
+      "whatIsDescription": "Redeem codes in Bite By Night for free rewards including skins, currency, and items. Codes are released during updates, events, and community milestones.",
       "why": "Why check codes?",
       "whySteps": {
         "step1Title": "Free Rewards",
@@ -929,45 +898,85 @@
       "featured": "Featured & Essential",
       "all": "All Codes"
     },
-    "lore": {
-      "title": "Bite By Night Lore",
-      "description": "Story lore, character origins, FNAF connections, and world-building details.",
-      "metaTitle": "Bite By Night Lore - Story, Characters & FNAF Connections",
-      "metaDescription": "Explore Bite By Night lore including character origins, FNAF connections, and world-building details for the Roblox horror game.",
-      "categoryLabel": "LORE & STORY",
-      "whatIs": "What is Lore?",
-      "whatIsDescription": "Deep dives into Bite By Night's story, character backgrounds, FNAF inspirations, and the game's expanding universe.",
-      "why": "Why explore lore?",
+    "roster": {
+      "title": "Bite By Night Roster",
+      "description": "Complete killer and survivor roster overview including launch characters, upcoming additions, and role breakdowns.",
+      "metaTitle": "Bite By Night Roster - Killers, Survivors & Upcoming Characters",
+      "metaDescription": "Browse the full Bite By Night roster of killers and survivors. Track launch characters, upcoming additions, and role breakdowns for the Roblox horror game.",
+      "categoryLabel": "ROSTER",
+      "whatIs": "What is the Roster?",
+      "whatIsDescription": "The complete list of playable killers and survivor classes in Bite By Night, including confirmed launch characters and upcoming roster additions.",
+      "why": "Why browse the roster?",
       "whySteps": {
-        "step1Title": "Understand the Story",
-        "step1Description": "Piece together the narrative behind the game's horror setting",
-        "step2Title": "FNAF Connections",
-        "step2Description": "Discover how Bite By Night references and reimagines FNAF elements",
-        "step3Title": "Character Depth",
-        "step3Description": "Learn the backstories behind each killer and the game world"
+        "step1Title": "Know All Characters",
+        "step1Description": "See every killer and survivor class available in the game",
+        "step2Title": "Track New Additions",
+        "step2Description": "Stay updated on upcoming killers like Marionette and Mangle",
+        "step3Title": "Compare Roles",
+        "step3Description": "Understand how each character fits into the killer vs survivor dynamic"
       },
       "featured": "Featured & Essential",
-      "all": "All Lore Articles"
+      "all": "All Roster Articles"
     },
-    "news": {
-      "title": "Bite By Night News",
-      "description": "Latest updates, patch notes, reveals, and development announcements.",
-      "metaTitle": "Bite By Night News - Updates, Patches & Announcements",
-      "metaDescription": "Latest Bite By Night news including updates, patch notes, character reveals, and development announcements for the Roblox horror game.",
-      "categoryLabel": "NEWS & UPDATES",
-      "whatIs": "What is News?",
-      "whatIsDescription": "Stay up to date with the latest Bite By Night announcements, patch notes, new content reveals, and developer updates.",
-      "why": "Why follow news?",
+    "character": {
+      "title": "Bite By Night Characters",
+      "description": "Individual character guides for Springtrap, Ennard, The Mimic, Marionette, and more in Bite By Night.",
+      "metaTitle": "Bite By Night Characters - Springtrap, Ennard & Mimic Guides",
+      "metaDescription": "Detailed Bite By Night character guides covering Springtrap, Ennard, The Mimic, Marionette, and more. Learn abilities, counters, and lore.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are Character Guides?",
+      "whatIsDescription": "In-depth guides for individual Bite By Night characters. Learn each killer's abilities, strengths, weaknesses, FNAF origins, and how to play against them.",
+      "why": "Why study characters?",
       "whySteps": {
-        "step1Title": "New Content",
-        "step1Description": "Be first to know about new killers, classes, maps, and features",
-        "step2Title": "Balance Changes",
-        "step2Description": "Track patches that affect class and killer balance",
-        "step3Title": "Events & Codes",
-        "step3Description": "Never miss limited-time events and new code releases"
+        "step1Title": "Master Abilities",
+        "step1Description": "Understand each character's full kit including attacks, traps, and special moves",
+        "step2Title": "Learn Counterplay",
+        "step2Description": "Develop specific strategies to survive against each killer",
+        "step3Title": "Discover Origins",
+        "step3Description": "Explore the FNAF-inspired backstories behind each character"
       },
       "featured": "Featured & Essential",
-      "all": "All News"
+      "all": "All Character Guides"
+    },
+    "media": {
+      "title": "Bite By Night Media",
+      "description": "Trailers, skins gallery, OST, logos, and visual media content for Bite By Night.",
+      "metaTitle": "Bite By Night Media - Trailers, Skins & Visual Content",
+      "metaDescription": "Browse Bite By Night media including official trailers, skin galleries, OST tracks, logos, and visual content for the Roblox horror game.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is Media?",
+      "whatIsDescription": "Official and community media for Bite By Night including trailers, skin showcases, soundtracks, logos, and other visual content.",
+      "why": "Why browse media?",
+      "whySteps": {
+        "step1Title": "Watch Trailers",
+        "step1Description": "See official trailer breakdowns and character reveal analysis",
+        "step2Title": "Browse Skins",
+        "step2Description": "Preview all killer skins, cosmetic variants, and unlock methods",
+        "step3Title": "Explore Content",
+        "step3Description": "Access OST, logos, and other visual assets from the game"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media Content"
+    },
+    "rumors-&-issues": {
+      "title": "Bite By Night Rumors & Issues",
+      "description": "Community discussions on concepts, leaks, collaborations, and known issues for Bite By Night.",
+      "metaTitle": "Bite By Night Rumors & Issues - Leaks, Concepts & Community Topics",
+      "metaDescription": "Bite By Night community discussions covering concepts, leaks, potential collaborations, and known issues for the Roblox horror game.",
+      "categoryLabel": "RUMORS & ISSUES",
+      "whatIs": "What are Rumors & Issues?",
+      "whatIsDescription": "Community-discussed topics including game concepts, potential leaks, collaboration possibilities, and known issues in Bite By Night.",
+      "why": "Why follow rumors & issues?",
+      "whySteps": {
+        "step1Title": "Stay Informed",
+        "step1Description": "Know what the community is discussing about upcoming content and changes",
+        "step2Title": "Track Known Issues",
+        "step2Description": "Stay aware of current bugs, glitches, and developer responses",
+        "step3Title": "Follow Concepts",
+        "step3Description": "See community concepts and potential collaborations being discussed"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Rumors & Issues"
     }
   }
 }

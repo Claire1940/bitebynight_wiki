@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "release-&-access": "リリース＆アクセス",
+    "community": "コミュニティ",
+    "guide": "ガイド",
+    "codes": "コード",
+    "roster": "ロスター",
+    "character": "キャラクター",
+    "media": "メディア",
+    "rumors-&-issues": "噂＆問題"
   },
   "common": {
     "home": "ホーム",
@@ -807,125 +809,165 @@
     "disclaimer": "非公式のファン作成リソースサイトです。"
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks 攻略ガイド",
-      "description": "初心者向けの基本から、高度な Apotheosis 戦略まで網羅した完全攻略ガイド。サバイバルとクラフトを極めましょう。",
-      "metaTitle": "Lucid Blocks 攻略ガイド - 初心者から上級者向けの戦略",
-      "metaDescription": "初心者向けのヒント、Apotheosis システム、サバイバル戦略、そしてシュールなサンドボックスの世界を攻略するための専門的な戦術を網羅した Lucid Blocks 完全ガイド。",
-      "categoryLabel": "ゲームガイド",
-      "whatIs": "ガイドとは？",
-      "whatIsDescription": "ゲームの仕組み、サバイバル戦略、Apotheosis クラフトシステムを網羅した包括的なガイド。最初の一歩から高度なテクニックまで、すべてを学びましょう。",
-      "why": "なぜガイドを読むのか？",
+    "release-&-access": {
+      "title": "Bite By Night Release & Access",
+      "description": "Release date tracking, platform access info, early access updates, and launch timeline for Bite By Night on Roblox.",
+      "metaTitle": "Bite By Night Release Date & Access - Launch Timeline",
+      "metaDescription": "Track the Bite By Night release date, platform access, early access status, and launch updates for the Roblox FNAF-inspired horror game.",
+      "categoryLabel": "RELEASE & ACCESS",
+      "whatIs": "What is Release & Access?",
+      "whatIsDescription": "Everything about Bite By Night's release timeline, platform availability, early access status, and launch updates. Stay informed on when and how to play.",
+      "why": "Why track release info?",
       "whySteps": {
-        "step1Title": "基本システムを学ぶ",
-        "step1Description": "Apotheosis システムを理解し、初心者が陥りやすいミスを回避しましょう",
-        "step2Title": "素早い進行",
-        "step2Description": "シュールな世界で生き残り、繁栄するための実証済みの道筋を辿りましょう",
-        "step3Title": "戦略を極める",
-        "step3Description": "探索とクラフトのための高度な戦術を身につけましょう"
+        "step1Title": "Know the Launch Date",
+        "step1Description": "Stay updated on the official release date and any schedule changes",
+        "step2Title": "Check Platform Access",
+        "step2Description": "Find out which platforms support Bite By Night and how to access it",
+        "step3Title": "Follow Early Access",
+        "step3Description": "Track early access updates and testing phases before full launch"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのガイド"
+      "featured": "Featured & Essential",
+      "all": "All Release & Access Articles"
     },
-    "crafting": {
-      "title": "Lucid Blocks クラフト",
-      "description": "エッセンスの仕組み、レシピ、強力なアイテムを作るためのクラフト戦略など、Apotheosis 合成システムをマスターしましょう。",
-      "metaTitle": "Lucid Blocks クラフト - Apotheosis システムとレシピ",
-      "metaDescription": "Lucid Blocks の Apotheosis クラフトシステムを極める。エッセンスの仕組み、合成レシピ、強力な道具や武器を作るための戦略を学びましょう。",
-      "categoryLabel": "クラフトシステム",
-      "whatIs": "クラフトとは？",
-      "whatIsDescription": "Apotheosis システムは、最大6つのアイテムを組み合わせて新しいレシピを発見する、独自のエッセンス駆動型合成メカニズムです。固定されたクラフトメニューはなく、実験が鍵となります。",
-      "why": "なぜクラフトを極めるのか？",
+    "community": {
+      "title": "Bite By Night Community",
+      "description": "Official community links, Discord server, Reddit, social media, and player discussion hubs for Bite By Night.",
+      "metaTitle": "Bite By Night Community - Discord, Reddit & Social Links",
+      "metaDescription": "Join the Bite By Night community on Discord, Reddit, X, and Instagram. Connect with players, get updates, and find official community resources.",
+      "categoryLabel": "COMMUNITY",
+      "whatIs": "What is Community?",
+      "whatIsDescription": "Connect with the Bite By Night community through Discord, Reddit, X, and other official channels. Find the latest announcements, player discussions, and social links.",
+      "why": "Why join the community?",
       "whySteps": {
-        "step1Title": "強力なアイテムをアンロック",
-        "step1Description": "合成を通じて、不可欠な道具、武器、移動用装備を発見しましょう",
-        "step2Title": "エッセンスを理解する",
-        "step2Description": "アイテムのエッセンスがどのように組み合わさり、予測可能な結果を生み出すかを学びましょう",
-        "step3Title": "リソースを最適化",
-        "step3Description": "希釈メカニズムを使用して、安価な材料から出力を最大化しましょう"
+        "step1Title": "Get Latest Updates",
+        "step1Description": "Receive official announcements, code drops, and patch notes first",
+        "step2Title": "Connect with Players",
+        "step2Description": "Join active Discord and Reddit communities to discuss strategies",
+        "step3Title": "Access Official Channels",
+        "step3Description": "Follow verified developer accounts for authentic news and reveals"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのクラフトガイド"
+      "featured": "Featured & Essential",
+      "all": "All Community Resources"
     },
-    "items": {
-      "title": "Lucid Blocks アイテム",
-      "description": "道具、武器、移動用装備、収納ソリューションを網羅した詳細なアイテムガイド。クラフトレシピや使い方のヒントも掲載。",
-      "metaTitle": "Lucid Blocks アイテム - 道具、武器、装備ガイド",
-      "metaDescription": "道具、武器、移動用装備、収納を含む Lucid Blocks の完全アイテムデータベース。各アイテムを効果的に作り、使用する方法を学びましょう。",
-      "categoryLabel": "アイテム＆装備",
-      "whatIs": "アイテムとは？",
-      "whatIsDescription": "道具、武器、移動用装備、機能的なアイテムに関する包括的なガイド。クラフトレシピ、使用戦略、最適な組み合わせを学びましょう。",
-      "why": "なぜアイテムガイドをチェックするのか？",
+    "guide": {
+      "title": "Bite By Night Guides",
+      "description": "Complete gameplay guides covering classes, killers, maps, objectives, tier lists, and survival strategies for Bite By Night.",
+      "metaTitle": "Bite By Night Guides - Classes, Killers & Survival Strategies",
+      "metaDescription": "Complete Bite By Night guides covering classes, killers, maps, objectives, and survival strategies for the Roblox asymmetrical horror game.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "From beginner tips to advanced strategies, these guides cover everything about Bite By Night's survivor classes, killer matchups, map tactics, and objective completion.",
+      "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "クラフトレシピを学ぶ",
-        "step1Description": "Apotheosis を使用して、不可欠な道具や武器をクラフトする方法を発見しましょう",
-        "step2Title": "装備を最適化",
-        "step2Description": "プレイスタイルや進行状況に合わせて最適なアイテムを選びましょう",
-        "step3Title": "生存率を高める",
-        "step3Description": "移動用装備や武器を装備して、危険な世界を探索しましょう"
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand match flow, class roles, and killer mechanics from your first game",
+        "step2Title": "Improve Your Play",
+        "step2Description": "Master class abilities, killer counters, and map positioning",
+        "step3Title": "Win More Matches",
+        "step3Description": "Apply tier list knowledge and team strategies to escape consistently"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのアイテム"
+      "featured": "Featured & Essential",
+      "all": "All Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks バイオーム",
-      "description": "世界の各地域、環境の特徴、リソースの場所、各バイオームでのサバイバルのヒントを探索しましょう。",
-      "metaTitle": "Lucid Blocks バイオーム - 世界の地域と探索",
-      "metaDescription": "ティアマナ・レイライン、Fog Meadow、シュールな地域を含む Lucid Blocks のバイオームを探索。リソースを見つけ、危険を回避し、無限の世界を旅しましょう。",
-      "categoryLabel": "世界の地域",
-      "whatIs": "バイオームとは？",
-      "whatIsDescription": "世界のさまざまな地域、環境の特徴、リソースの分布、危険地帯に関するガイド。各エリアで何が待ち受けているか、どのように準備すべきかを学びましょう。",
-      "why": "なぜバイオームを探索するのか？",
+    "codes": {
+      "title": "Bite By Night Codes",
+      "description": "All active and expired Bite By Night codes with rewards and step-by-step redemption instructions.",
+      "metaTitle": "Bite By Night Codes - Free Rewards & Redemption Guide",
+      "metaDescription": "All active and expired Bite By Night codes with free rewards and redemption instructions. Updated regularly with new code drops.",
+      "categoryLabel": "CODES & REWARDS",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Redeem codes in Bite By Night for free rewards including skins, currency, and items. Codes are released during updates, events, and community milestones.",
+      "why": "Why check codes?",
       "whySteps": {
-        "step1Title": "リソースを見つける",
-        "step1Description": "各地域特有の希少な材料やエッセンスの場所を特定しましょう",
-        "step2Title": "危険を回避",
-        "step2Description": "環境の危険や敵対的な生物について理解しましょう",
-        "step3Title": "探索を計画",
-        "step3Description": "各バイオームのタイプに合わせて、適切な道具と装備を準備しましょう"
+        "step1Title": "Free Rewards",
+        "step1Description": "Get skins, currency, and items without spending anything",
+        "step2Title": "Limited Time",
+        "step2Description": "Codes expire — redeem them before they are gone",
+        "step3Title": "Stay Updated",
+        "step3Description": "New codes drop with updates, events, and milestones"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのバイオーム"
+      "featured": "Featured & Essential",
+      "all": "All Codes"
     },
-    "building": {
-      "title": "Lucid Blocks 建築",
-      "description": "クオリア個人次元、拠点建築、収納管理、クリエイティブな建設テクニックをマスターしましょう。",
-      "metaTitle": "Lucid Blocks 建築 - クオリアと拠点建設",
-      "metaDescription": "クオリア個人次元、拠点建設、収納ソリューション、クリエイティブな建築テクニックなど、Lucid Blocks の建築を極めましょう。",
-      "categoryLabel": "建築＆拠点",
-      "whatIs": "建築とは？",
-      "whatIsDescription": "クオリア個人次元システム、拠点建設、収納管理、クリエイティブな建築に関するガイド。シュールな世界の中に自分だけの安息の地を作る方法を学びましょう。",
-      "why": "なぜ拠点を建てるのか？",
+    "roster": {
+      "title": "Bite By Night Roster",
+      "description": "Complete killer and survivor roster overview including launch characters, upcoming additions, and role breakdowns.",
+      "metaTitle": "Bite By Night Roster - Killers, Survivors & Upcoming Characters",
+      "metaDescription": "Browse the full Bite By Night roster of killers and survivors. Track launch characters, upcoming additions, and role breakdowns for the Roblox horror game.",
+      "categoryLabel": "ROSTER",
+      "whatIs": "What is the Roster?",
+      "whatIsDescription": "The complete list of playable killers and survivor classes in Bite By Night, including confirmed launch characters and upcoming roster additions.",
+      "why": "Why browse the roster?",
       "whySteps": {
-        "step1Title": "安全な場所を作る",
-        "step1Description": "収納やクラフト作業のための安全な拠点を確立しましょう",
-        "step2Title": "リソースを管理",
-        "step2Description": "収納ソリューションを使用して、材料を効率的に整理しましょう",
-        "step3Title": "クオリアをアンロック",
-        "step3Description": "究極の利便性を備えた個人のポケット次元にアクセスしましょう"
+        "step1Title": "Know All Characters",
+        "step1Description": "See every killer and survivor class available in the game",
+        "step2Title": "Track New Additions",
+        "step2Description": "Stay updated on upcoming killers like Marionette and Mangle",
+        "step3Title": "Compare Roles",
+        "step3Description": "Understand how each character fits into the killer vs survivor dynamic"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべての建築ガイド"
+      "featured": "Featured & Essential",
+      "all": "All Roster Articles"
     },
-    "support": {
-      "title": "Lucid Blocks サポート",
-      "description": "テクニカルサポート、プラットフォームの互換性、パフォーマンスの最適化、一般的な問題のトラブルシューティング。",
-      "metaTitle": "Lucid Blocks サポート - テクニカルヘルプと修正",
-      "metaDescription": "Steam Deck のセットアップ、クラッシュの修正、パフォーマンスの最適化、プラットフォームの互換性ガイドなど、Lucid Blocks のテクニカルサポートを受けられます。",
-      "categoryLabel": "テクニカルサポート",
-      "whatIs": "サポートとは？",
-      "whatIsDescription": "プラットフォームの互換性、パフォーマンスの最適化、クラッシュの修正、一般的な問題を網羅したテクニカルガイド。Steam Deck、マルチプレイヤーに関する質問、設定などのヘルプ。",
-      "why": "なぜサポートをチェックするのか？",
+    "character": {
+      "title": "Bite By Night Characters",
+      "description": "Individual character guides for Springtrap, Ennard, The Mimic, Marionette, and more in Bite By Night.",
+      "metaTitle": "Bite By Night Characters - Springtrap, Ennard & Mimic Guides",
+      "metaDescription": "Detailed Bite By Night character guides covering Springtrap, Ennard, The Mimic, Marionette, and more. Learn abilities, counters, and lore.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are Character Guides?",
+      "whatIsDescription": "In-depth guides for individual Bite By Night characters. Learn each killer's abilities, strengths, weaknesses, FNAF origins, and how to play against them.",
+      "why": "Why study characters?",
       "whySteps": {
-        "step1Title": "技術的な問題を解決",
-        "step1Description": "クラッシュ、パフォーマンスの問題、互換性の問題を解決しましょう",
-        "step2Title": "パフォーマンスを最適化",
-        "step2Description": "お使いのプラットフォームで最高の体験を得るために設定を構成しましょう",
-        "step3Title": "プラットフォームの互換性",
-        "step3Description": "Steam Deck、コントローラーのサポート、システム要件について学びましょう"
+        "step1Title": "Master Abilities",
+        "step1Description": "Understand each character's full kit including attacks, traps, and special moves",
+        "step2Title": "Learn Counterplay",
+        "step2Description": "Develop specific strategies to survive against each killer",
+        "step3Title": "Discover Origins",
+        "step3Description": "Explore the FNAF-inspired backstories behind each character"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのサポート記事"
+      "featured": "Featured & Essential",
+      "all": "All Character Guides"
+    },
+    "media": {
+      "title": "Bite By Night Media",
+      "description": "Trailers, skins gallery, OST, logos, and visual media content for Bite By Night.",
+      "metaTitle": "Bite By Night Media - Trailers, Skins & Visual Content",
+      "metaDescription": "Browse Bite By Night media including official trailers, skin galleries, OST tracks, logos, and visual content for the Roblox horror game.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is Media?",
+      "whatIsDescription": "Official and community media for Bite By Night including trailers, skin showcases, soundtracks, logos, and other visual content.",
+      "why": "Why browse media?",
+      "whySteps": {
+        "step1Title": "Watch Trailers",
+        "step1Description": "See official trailer breakdowns and character reveal analysis",
+        "step2Title": "Browse Skins",
+        "step2Description": "Preview all killer skins, cosmetic variants, and unlock methods",
+        "step3Title": "Explore Content",
+        "step3Description": "Access OST, logos, and other visual assets from the game"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media Content"
+    },
+    "rumors-&-issues": {
+      "title": "Bite By Night Rumors & Issues",
+      "description": "Community discussions on concepts, leaks, collaborations, and known issues for Bite By Night.",
+      "metaTitle": "Bite By Night Rumors & Issues - Leaks, Concepts & Community Topics",
+      "metaDescription": "Bite By Night community discussions covering concepts, leaks, potential collaborations, and known issues for the Roblox horror game.",
+      "categoryLabel": "RUMORS & ISSUES",
+      "whatIs": "What are Rumors & Issues?",
+      "whatIsDescription": "Community-discussed topics including game concepts, potential leaks, collaboration possibilities, and known issues in Bite By Night.",
+      "why": "Why follow rumors & issues?",
+      "whySteps": {
+        "step1Title": "Stay Informed",
+        "step1Description": "Know what the community is discussing about upcoming content and changes",
+        "step2Title": "Track Known Issues",
+        "step2Description": "Stay aware of current bugs, glitches, and developer responses",
+        "step3Title": "Follow Concepts",
+        "step3Description": "See community concepts and potential collaborations being discussed"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Rumors & Issues"
     }
   }
 }

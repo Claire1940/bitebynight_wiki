@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "release-&-access": "Veröffentlichung & Zugang",
+    "community": "Community",
+    "guide": "Anleitungen",
+    "codes": "Codes",
+    "roster": "Aufstellung",
+    "character": "Charaktere",
+    "media": "Medien",
+    "rumors-&-issues": "Gerüchte & Probleme"
   },
   "common": {
     "home": "Startseite",
@@ -841,125 +843,165 @@
     "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+    "release-&-access": {
+      "title": "Bite By Night Release & Access",
+      "description": "Release date tracking, platform access info, early access updates, and launch timeline for Bite By Night on Roblox.",
+      "metaTitle": "Bite By Night Release Date & Access - Launch Timeline",
+      "metaDescription": "Track the Bite By Night release date, platform access, early access status, and launch updates for the Roblox FNAF-inspired horror game.",
+      "categoryLabel": "RELEASE & ACCESS",
+      "whatIs": "What is Release & Access?",
+      "whatIsDescription": "Everything about Bite By Night's release timeline, platform availability, early access status, and launch updates. Stay informed on when and how to play.",
+      "why": "Why track release info?",
       "whySteps": {
-        "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
-        "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
-        "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step1Title": "Know the Launch Date",
+        "step1Description": "Stay updated on the official release date and any schedule changes",
+        "step2Title": "Check Platform Access",
+        "step2Description": "Find out which platforms support Bite By Night and how to access it",
+        "step3Title": "Follow Early Access",
+        "step3Description": "Track early access updates and testing phases before full launch"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "featured": "Featured & Essential",
+      "all": "All Release & Access Articles"
     },
-    "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+    "community": {
+      "title": "Bite By Night Community",
+      "description": "Official community links, Discord server, Reddit, social media, and player discussion hubs for Bite By Night.",
+      "metaTitle": "Bite By Night Community - Discord, Reddit & Social Links",
+      "metaDescription": "Join the Bite By Night community on Discord, Reddit, X, and Instagram. Connect with players, get updates, and find official community resources.",
+      "categoryLabel": "COMMUNITY",
+      "whatIs": "What is Community?",
+      "whatIsDescription": "Connect with the Bite By Night community through Discord, Reddit, X, and other official channels. Find the latest announcements, player discussions, and social links.",
+      "why": "Why join the community?",
       "whySteps": {
-        "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
-        "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
-        "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step1Title": "Get Latest Updates",
+        "step1Description": "Receive official announcements, code drops, and patch notes first",
+        "step2Title": "Connect with Players",
+        "step2Description": "Join active Discord and Reddit communities to discuss strategies",
+        "step3Title": "Access Official Channels",
+        "step3Description": "Follow verified developer accounts for authentic news and reveals"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "featured": "Featured & Essential",
+      "all": "All Community Resources"
     },
-    "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
-      "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
-      "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+    "guide": {
+      "title": "Bite By Night Guides",
+      "description": "Complete gameplay guides covering classes, killers, maps, objectives, tier lists, and survival strategies for Bite By Night.",
+      "metaTitle": "Bite By Night Guides - Classes, Killers & Survival Strategies",
+      "metaDescription": "Complete Bite By Night guides covering classes, killers, maps, objectives, and survival strategies for the Roblox asymmetrical horror game.",
+      "categoryLabel": "GAME GUIDES",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "From beginner tips to advanced strategies, these guides cover everything about Bite By Night's survivor classes, killer matchups, map tactics, and objective completion.",
+      "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
-        "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
-        "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand match flow, class roles, and killer mechanics from your first game",
+        "step2Title": "Improve Your Play",
+        "step2Description": "Master class abilities, killer counters, and map positioning",
+        "step3Title": "Win More Matches",
+        "step3Description": "Apply tier list knowledge and team strategies to escape consistently"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Gegenstände"
+      "featured": "Featured & Essential",
+      "all": "All Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
-      "categoryLabel": "WELTREGIONEN",
-      "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
-      "why": "Warum Biome erkunden?",
+    "codes": {
+      "title": "Bite By Night Codes",
+      "description": "All active and expired Bite By Night codes with rewards and step-by-step redemption instructions.",
+      "metaTitle": "Bite By Night Codes - Free Rewards & Redemption Guide",
+      "metaDescription": "All active and expired Bite By Night codes with free rewards and redemption instructions. Updated regularly with new code drops.",
+      "categoryLabel": "CODES & REWARDS",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Redeem codes in Bite By Night for free rewards including skins, currency, and items. Codes are released during updates, events, and community milestones.",
+      "why": "Why check codes?",
       "whySteps": {
-        "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
-        "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
-        "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step1Title": "Free Rewards",
+        "step1Description": "Get skins, currency, and items without spending anything",
+        "step2Title": "Limited Time",
+        "step2Description": "Codes expire — redeem them before they are gone",
+        "step3Title": "Stay Updated",
+        "step3Description": "New codes drop with updates, events, and milestones"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Biome"
+      "featured": "Featured & Essential",
+      "all": "All Codes"
     },
-    "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
-      "categoryLabel": "BAUEN & BASEN",
-      "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
-      "why": "Warum Basen bauen?",
+    "roster": {
+      "title": "Bite By Night Roster",
+      "description": "Complete killer and survivor roster overview including launch characters, upcoming additions, and role breakdowns.",
+      "metaTitle": "Bite By Night Roster - Killers, Survivors & Upcoming Characters",
+      "metaDescription": "Browse the full Bite By Night roster of killers and survivors. Track launch characters, upcoming additions, and role breakdowns for the Roblox horror game.",
+      "categoryLabel": "ROSTER",
+      "whatIs": "What is the Roster?",
+      "whatIsDescription": "The complete list of playable killers and survivor classes in Bite By Night, including confirmed launch characters and upcoming roster additions.",
+      "why": "Why browse the roster?",
       "whySteps": {
-        "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
-        "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
-        "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step1Title": "Know All Characters",
+        "step1Description": "See every killer and survivor class available in the game",
+        "step2Title": "Track New Additions",
+        "step2Description": "Stay updated on upcoming killers like Marionette and Mangle",
+        "step3Title": "Compare Roles",
+        "step3Description": "Understand how each character fits into the killer vs survivor dynamic"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
+      "featured": "Featured & Essential",
+      "all": "All Roster Articles"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
-      "categoryLabel": "TECHNISCHER SUPPORT",
-      "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
-      "why": "Warum Support prüfen?",
+    "character": {
+      "title": "Bite By Night Characters",
+      "description": "Individual character guides for Springtrap, Ennard, The Mimic, Marionette, and more in Bite By Night.",
+      "metaTitle": "Bite By Night Characters - Springtrap, Ennard & Mimic Guides",
+      "metaDescription": "Detailed Bite By Night character guides covering Springtrap, Ennard, The Mimic, Marionette, and more. Learn abilities, counters, and lore.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are Character Guides?",
+      "whatIsDescription": "In-depth guides for individual Bite By Night characters. Learn each killer's abilities, strengths, weaknesses, FNAF origins, and how to play against them.",
+      "why": "Why study characters?",
       "whySteps": {
-        "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
-        "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
-        "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step1Title": "Master Abilities",
+        "step1Description": "Understand each character's full kit including attacks, traps, and special moves",
+        "step2Title": "Learn Counterplay",
+        "step2Description": "Develop specific strategies to survive against each killer",
+        "step3Title": "Discover Origins",
+        "step3Description": "Explore the FNAF-inspired backstories behind each character"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Support-Artikel"
+      "featured": "Featured & Essential",
+      "all": "All Character Guides"
+    },
+    "media": {
+      "title": "Bite By Night Media",
+      "description": "Trailers, skins gallery, OST, logos, and visual media content for Bite By Night.",
+      "metaTitle": "Bite By Night Media - Trailers, Skins & Visual Content",
+      "metaDescription": "Browse Bite By Night media including official trailers, skin galleries, OST tracks, logos, and visual content for the Roblox horror game.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What is Media?",
+      "whatIsDescription": "Official and community media for Bite By Night including trailers, skin showcases, soundtracks, logos, and other visual content.",
+      "why": "Why browse media?",
+      "whySteps": {
+        "step1Title": "Watch Trailers",
+        "step1Description": "See official trailer breakdowns and character reveal analysis",
+        "step2Title": "Browse Skins",
+        "step2Description": "Preview all killer skins, cosmetic variants, and unlock methods",
+        "step3Title": "Explore Content",
+        "step3Description": "Access OST, logos, and other visual assets from the game"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media Content"
+    },
+    "rumors-&-issues": {
+      "title": "Bite By Night Rumors & Issues",
+      "description": "Community discussions on concepts, leaks, collaborations, and known issues for Bite By Night.",
+      "metaTitle": "Bite By Night Rumors & Issues - Leaks, Concepts & Community Topics",
+      "metaDescription": "Bite By Night community discussions covering concepts, leaks, potential collaborations, and known issues for the Roblox horror game.",
+      "categoryLabel": "RUMORS & ISSUES",
+      "whatIs": "What are Rumors & Issues?",
+      "whatIsDescription": "Community-discussed topics including game concepts, potential leaks, collaboration possibilities, and known issues in Bite By Night.",
+      "why": "Why follow rumors & issues?",
+      "whySteps": {
+        "step1Title": "Stay Informed",
+        "step1Description": "Know what the community is discussing about upcoming content and changes",
+        "step2Title": "Track Known Issues",
+        "step2Description": "Stay aware of current bugs, glitches, and developer responses",
+        "step3Title": "Follow Concepts",
+        "step3Description": "See community concepts and potential collaborations being discussed"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Rumors & Issues"
     }
   }
 }
