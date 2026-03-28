@@ -136,8 +136,8 @@
       },
       {
         "icon": "Database",
-        "title": "Bite By Night Wiki",
-        "description": "Browse all wiki categories, guides, and content"
+        "title": "Bite By Night Wiki Hub",
+        "description": "Browse all wiki categories, database pages, and content hubs"
       }
     ]
   },
@@ -570,122 +570,186 @@
       ]
     },
     "biteByNightSkinsGuide": {
-      "title": "Bite By Night Skins Guide",
-      "displayType": "accordion",
-      "intro": "Skins in Bite By Night range from common cosmetics to rare event-exclusive looks. The cosmetic system covers both survivor and killer appearances with various unlock methods.",
-      "faqs": [
+      "title": "Bite By Night Skins and Cosmetic Variants",
+      "displayType": "gallery",
+      "eyebrow": "Cosmetics",
+      "subtitle": "The visible killer skin lineup currently shown across the official wiki, centered on Springtrap and The Mimic, with release, upcoming, and unconfirmed variants separated by status.",
+      "intro": "Bite By Night already has a meaningful cosmetic pipeline for killers, especially around Springtrap. The public skin pages currently show four upcoming Springtrap skins, two possible Springtrap skins, one upcoming Mimic skin, and one unconfirmed Mimic skin, while Marionette and Ennard do not yet have publicly listed upcoming skins.",
+      "items": [
         {
-          "question": "How do skins work in Bite By Night?",
-          "answer": "Skins change the visual appearance of your character without affecting gameplay. They are available for both survivors and killers, offering unique character designs."
+          "name": "Purple Guy",
+          "character": "Springtrap",
+          "status": "Upcoming",
+          "origin": "Five Night's at Freddy's 2 Hoax",
+          "unlock": "TBA",
+          "summary": "A large purple animatronic variant with void-black eye sockets, small white pupils, a dark mouth, and a gold badge."
         },
         {
-          "question": "How do I unlock Bite By Night skins?",
-          "answer": "Skins can be earned through gameplay progression, in-game currency, special events, and code redemptions. Different skins have different unlock requirements."
+          "name": "Toon Springtrap",
+          "character": "Springtrap",
+          "status": "Upcoming",
+          "origin": "5 AM at Freddy's: The Sequel",
+          "unlock": "TBA",
+          "summary": "A cartoon-styled Springtrap with a lighter palette and a crowbar instead of the standard axe."
         },
         {
-          "question": "Are there limited-time skins in Bite By Night?",
-          "answer": "Yes. Seasonal events and special promotions offer exclusive skins that become unavailable after the event period ends. Check the official channels for upcoming events."
+          "name": "RustTrap",
+          "character": "Springtrap",
+          "status": "Upcoming",
+          "origin": "Original Bite By Night skin line",
+          "unlock": "Face Springtrap in LMS, stun him 5 times as a Sentinel, and survive",
+          "summary": "A rustier and more broken version of Springtrap with a challenge-based unlock path already listed on the skin page."
         },
         {
-          "question": "What rarity tiers exist for Bite By Night skins?",
-          "answer": "Skins are organized by rarity from common to legendary. Higher rarity skins have more detailed designs and unique visual effects that stand out in matches."
+          "name": "Ghost of Slaughter",
+          "character": "Springtrap",
+          "status": "Launch skin",
+          "origin": "God of War",
+          "unlock": "Available at launch",
+          "summary": "A Kratos-inspired variant that swaps Springtrap's look toward armor styling and changes the axe into a Leviathan Axe."
         },
         {
-          "question": "Can I preview Bite By Night skins before unlocking?",
-          "answer": "The in-game store and collection menu allow you to preview skins before spending currency or completing unlock requirements."
+          "name": "SpringMiku / Mikutrap",
+          "character": "Springtrap",
+          "status": "Unconfirmed",
+          "origin": "Hatsune Miku",
+          "unlock": "TBA",
+          "summary": "A possible crossover-styled concept that gives Springtrap Hatsune Miku-inspired clothing and hair."
+        },
+        {
+          "name": "Ignited Springtrap",
+          "character": "Springtrap",
+          "status": "Unconfirmed",
+          "origin": "The Joy of Creation: Halloween Edition",
+          "unlock": "TBA",
+          "summary": "A darker, more withered Springtrap variant with a missing jaw and bright orange eyes."
+        },
+        {
+          "name": "Ruined",
+          "character": "The Mimic",
+          "status": "Upcoming",
+          "origin": "Five Nights at Freddy's: Security Breach - Ruin",
+          "unlock": "Unknown",
+          "summary": "An older and rustier Mimic model with a squarer head and torso, humanoid-shaped teeth, and mixed endoskeleton parts."
+        },
+        {
+          "name": "Aftermath",
+          "character": "The Mimic",
+          "status": "Unconfirmed",
+          "origin": "Original Bite By Night skin concept",
+          "unlock": "Unknown",
+          "summary": "A recovery-team-inspired Mimic appearance with a yellow glove, one black shoe, torn clothes, and a green jacket."
         }
       ]
     },
     "biteByNightMarionetteGuide": {
       "title": "Bite By Night Marionette Guide",
-      "displayType": "settingCards",
-      "intro": "Marionette is an upcoming killer teased for post-launch content in Bite By Night. Drawing from deep FNAF lore, Marionette is one of the most anticipated roster additions in the community.",
-      "settings": [
+      "displayType": "cardList",
+      "eyebrow": "Upcoming Killer",
+      "subtitle": "Marionette is already listed as an upcoming killer on the official killer roadmap. The public page also establishes the character's Puppet and Charlie identity ties, visual design, and current in-development state.",
+      "intro": "This module gives players a clean snapshot of everything public about Marionette right now. It covers who the killer is, where the character comes from, what the model looks like, and which parts of the gameplay profile are still waiting on final numbers and role details.",
+      "items": [
         {
-          "name": "Current Status",
-          "type": "Upcoming",
-          "description": "Marionette has been teased through developer hints and community discussion but is not yet playable. Watch official channels for reveal dates."
+          "title": "Status",
+          "meta": "Upcoming killer",
+          "description": "Marionette is listed under the upcoming killer section and is not part of the launch release lineup."
         },
         {
-          "name": "FNAF Lore Connection",
-          "type": "Background",
-          "description": "The Marionette is one of the most iconic FNAF characters. Its Bite By Night version is expected to reimagine the character for asymmetrical gameplay."
+          "title": "Identity",
+          "meta": "Puppet / Charlotte / Charlie",
+          "description": "The page identifies Marionette as Puppet and ties the character to Charlie, with pronouns shown separately for the animatronic and Charlie."
         },
         {
-          "name": "Expected Playstyle",
-          "type": "Prediction",
-          "description": "Based on community discussion, Marionette may feature puppet-like movement mechanics and unique zone control abilities that differ from launch killers."
+          "title": "Origin",
+          "meta": "Five Nights at Freddy's 2",
+          "description": "The official wiki points to Five Nights at Freddy's 2 as Marionette's origin and frames the character as part of the game's broader FNAF-inspired roster."
         },
         {
-          "name": "Community Anticipation",
-          "type": "Community",
-          "description": "Marionette is among the most requested killers in the Bite By Night community Discord and Reddit. Post-launch roster reveals are highly anticipated."
+          "title": "Appearance",
+          "meta": "Public design notes",
+          "description": "Marionette is described as a thin black animatronic with white limb stripes, three long fingers, a comedy-mask face, red cheeks, purple tears, and three white chest buttons."
+        },
+        {
+          "title": "Current Stats",
+          "meta": "Price, role, and movement",
+          "description": "The character page keeps Price, Walkspeed, Sprint Speed, Stamina, and Role as TBA for now."
+        },
+        {
+          "title": "Development Notes",
+          "meta": "Model rework",
+          "description": "The gallery shows a scrapped model and notes that the character will receive a future texture rework."
         }
       ]
     },
     "biteByNightLoreGuide": {
       "title": "Bite By Night Lore Guide",
-      "displayType": "timeline",
-      "intro": "Bite By Night builds its own horror universe within Roblox, drawing heavy inspiration from Five Nights at Freddy's while creating original narrative elements. The lore is being revealed through trailers, teasers, and in-game details.",
-      "entries": [
+      "displayType": "accordion",
+      "eyebrow": "Story",
+      "subtitle": "The public story material is still compact, but the official wiki already defines the game's overall direction. Bite By Night is building its own lore while still drawing heavily from FNAF-inspired characters and themes.",
+      "intro": "This module keeps the story summary grounded in what the official pages already say. It explains the game's lore direction, the current public scope of the story, and which character threads are visible on the wiki today without drifting into theorycraft or fan speculation.",
+      "items": [
         {
-          "title": "FNAF Inspiration and Original Lore",
-          "type": "Foundation",
-          "description": "Bite By Night features animatronic killers inspired by FNAF but tells its own story. Character designs reference classic animatronics with unique Roblox interpretations."
+          "title": "The Core Setup",
+          "content": "Bite By Night is framed as an upcoming Roblox asymmetrical survival horror game where survivors and a killer face off in timed rounds. Its overall style is clearly rooted in FNAF-inspired horror while being built for a class-versus-killer match structure."
         },
         {
-          "title": "Killer Backstories",
-          "type": "Characters",
-          "description": "Each killer has a backstory that connects to the game world. Springtrap, The Mimic, and Ennard all carry lore elements that players can discover through gameplay."
+          "title": "Lore Direction",
+          "content": "The public Q&A states that the game follows its own lore. That makes the project more than a straight retelling, even though it uses recognizable FNAF-linked characters and inspirations."
         },
         {
-          "title": "Map Lore and Environmental Storytelling",
-          "type": "World",
-          "description": "Maps contain environmental details that hint at the game's larger narrative. Facility rooms, forest structures, and industrial areas all carry story significance."
+          "title": "What the Lore Page Currently Establishes",
+          "content": "The dedicated Lore page says that the game's major story details are still unknown. At the moment, it mainly points readers toward the killer side of the roster rather than a full timeline or world history."
         },
         {
-          "title": "Community Theories and Developer Reveals",
-          "type": "Ongoing",
-          "description": "The community actively pieces together lore through trailer analysis, in-game clues, and developer Q&A sessions. New reveals are expected with each content update."
+          "title": "Named Story Anchors",
+          "content": "The current lore structure already centers the killer cast, with Springtrap, The Mimic, and Ennard called out directly. Marionette also adds a Charlie-linked thread through the upcoming killer page."
+        },
+        {
+          "title": "Marionette's Public Story Thread",
+          "content": "Marionette's page connects the character to Charlie and explains that the animatronic was meant to protect her but failed to help when she was trapped away. This is one of the clearest lore-style character writeups currently visible on the wiki."
+        },
+        {
+          "title": "Where the Public Story Stops",
+          "content": "There is not yet a broader public timeline, faction breakdown, or full event chronology on the lore page. Right now the visible story layer is character-first, with the wider narrative still being held back."
         }
       ]
     },
-    "biteByNightCommunityFAQ": {
-      "title": "Bite By Night Community FAQ",
-      "displayType": "steps",
-      "intro": "Answers to the most common questions players have about Bite By Night, from platform availability to gameplay mechanics and community resources.",
-      "steps": [
+    "biteByNightWiki": {
+      "title": "Bite By Night Wiki and Navigation Hub",
+      "displayType": "cardGrid",
+      "eyebrow": "Database Hub",
+      "subtitle": "A browse-first entry point for players who want fast access to database pages instead of reading one long guide. This mirrors the strongest public navigation paths already exposed by the official wiki and supporting Roblox wiki coverage.",
+      "intro": "Use this module as the homepage directory for the site's most important reference pages. The official wiki already groups the project around killers, classes, maps, store content, emotes, and quick-answer pages.",
+      "items": [
         {
-          "title": "What platform is Bite By Night on?",
-          "description": "Bite By Night is a Roblox game available on all platforms that support Roblox, including PC, mobile, and console."
+          "title": "Killers",
+          "meta": "Roster hub",
+          "description": "The killer hub covers the release trio of Springtrap, The Mimic, and Ennard, and also tracks upcoming names such as Marionette and Mangle."
         },
         {
-          "title": "Is Bite By Night free to play?",
-          "description": "Yes. Bite By Night is free to play on Roblox. Some cosmetic items and class unlocks may require in-game currency."
+          "title": "Classes",
+          "meta": "Survivor role hub",
+          "description": "The class hub is the main entry point for survivor playstyles and role pages, making it the best place to branch into build and role-specific browsing."
         },
         {
-          "title": "How many players per match in Bite By Night?",
-          "description": "Bite By Night features asymmetrical gameplay with multiple survivors versus one killer per match."
+          "title": "Maps",
+          "meta": "Location hub",
+          "description": "The official wiki navigation includes a Maps section for players who want stage references, environment pages, and related match-location browsing."
         },
         {
-          "title": "Is Bite By Night related to FNAF?",
-          "description": "Bite By Night is inspired by Five Nights at Freddy's and Dead by Daylight but is an original Roblox game, not an official FNAF product."
+          "title": "Store",
+          "meta": "Shop and unlock hub",
+          "description": "The Store section is already present in the main wiki navigation and works well as a destination for cosmetics, unlockables, and future purchase-related pages."
         },
         {
-          "title": "Are there active codes for Bite By Night?",
-          "description": "Currently there are no confirmed active codes. Codes are expected to be released with future updates and events."
+          "title": "Q&A and FAQ",
+          "meta": "Quick-answer hub",
+          "description": "These pages centralize short official answers on story direction, gameplay framing, and platform support, which makes them useful for fast intent-led searches."
         },
         {
-          "title": "When was Bite By Night released?",
-          "description": "Bite By Night launched on Roblox on March 28, 2026."
-        },
-        {
-          "title": "Who made Bite By Night?",
-          "description": "Bite By Night was developed by OzelBlox and the Totally Not Secret Games team on Roblox."
-        },
-        {
-          "title": "How do I report bugs in Bite By Night?",
-          "description": "Join the official Discord server to report bugs in the dedicated bug-reports channel."
+          "title": "Game Content and Emotes",
+          "meta": "Browse hub",
+          "description": "These navigation branches act as lighter database categories for players who want to explore content lists, side systems, and collectible-style pages."
         }
       ]
     }

@@ -6,6 +6,7 @@ import {
   ArrowRight,
   Axe,
   BookOpen,
+  Brush,
   Building2,
   Cable,
   Camera,
@@ -14,8 +15,10 @@ import {
   ChevronDown,
   Clock,
   Coffee,
+  Compass,
   Cpu,
   Crosshair,
+  Database,
   DoorOpen,
   Eye,
   EyeOff,
@@ -25,13 +28,22 @@ import {
   Gauge,
   Ghost,
   Gift,
+  Grid3X3,
   Heart,
+  HelpCircle,
+  Layers,
   Lightbulb,
   Map,
   MessageCircle,
+  Music,
+  Paintbrush,
+  Palette,
+  Puzzle,
   ScrollText,
   Shield,
+  ShieldAlert,
   Shirt,
+  ShoppingBag,
   Skull,
   Sparkles,
   Star,
@@ -309,7 +321,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 'beginner-guide', 'release-date', 'codes', 'classes-guide',
                 'class-tier-list', 'killers-guide', 'killer-tier-list', 'survivor-guide',
                 'springtrap-guide', 'mimic-guide', 'ennard-guide', 'maps-guide',
-                'skins-guide', 'marionette-guide', 'lore-guide', 'community-faq'
+                'skins-guide', 'marionette-guide', 'lore-guide', 'wiki-hub'
               ]
               const sectionId = sectionIds[index]
 
@@ -860,29 +872,46 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
 
       {/* Module 13: Skins Guide */}
       <section id="skins-guide" className="scroll-mt-24 px-4 py-20">
-        <div className="container mx-auto max-w-5xl">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
+            <span className="inline-block text-xs font-bold tracking-widest uppercase text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.biteByNightSkinsGuide.eyebrow}</span>
             <div className="flex items-center justify-center gap-3 mb-4">
               <Shirt className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
               <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['biteByNightSkinsGuide']} locale={locale}>{t.modules.biteByNightSkinsGuide.title}</LinkedTitle></h2>
             </div>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightSkinsGuide.intro}</p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">{t.modules.biteByNightSkinsGuide.subtitle}</p>
+            <p className="text-muted-foreground text-base max-w-3xl mx-auto">{t.modules.biteByNightSkinsGuide.intro}</p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.biteByNightSkinsGuide.faqs.map((faq: any, index: number) => (
-              <div key={index} className="border border-border rounded-xl overflow-hidden">
-                <button
-                  onClick={() => setDeckExpanded(deckExpanded === index ? null : index)}
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
-                >
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform ${deckExpanded === index ? "rotate-180" : ""}`} />
-                </button>
-                {deckExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm">{faq.answer}</div>
-                )}
-              </div>
-            ))}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {(() => {
+              const skinIcons = [Fingerprint, Paintbrush, Wrench, Axe, Music, Flame, ShieldAlert, Layers]
+              return t.modules.biteByNightSkinsGuide.items.map((skin: any, index: number) => {
+                const SkinIcon = skinIcons[index % skinIcons.length]
+                const statusColors: Record<string, string> = {
+                  'Upcoming': 'bg-blue-500/10 border-blue-500/30 text-blue-400',
+                  'Launch skin': 'bg-green-500/10 border-green-500/30 text-green-400',
+                  'Unconfirmed': 'bg-yellow-500/10 border-yellow-500/30 text-yellow-400',
+                }
+                const statusClass = statusColors[skin.status] || 'bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]'
+                return (
+                  <div key={index} className="group p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.05)]">
+                    <div className="flex items-start justify-between mb-4">
+                      <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                        <SkinIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <span className={`text-xs px-2 py-1 rounded-full border ${statusClass}`}>{skin.status}</span>
+                    </div>
+                    <h3 className="font-bold text-lg mb-1">{skin.name}</h3>
+                    <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-3">{skin.character}</p>
+                    <p className="text-muted-foreground text-sm mb-4">{skin.summary}</p>
+                    <div className="space-y-1 text-xs text-muted-foreground border-t border-border pt-3">
+                      <p><span className="font-medium text-foreground/70">Origin:</span> {skin.origin}</p>
+                      <p><span className="font-medium text-foreground/70">Unlock:</span> {skin.unlock}</p>
+                    </div>
+                  </div>
+                )
+              })
+            })()}
           </div>
         </div>
       </section>
@@ -891,24 +920,39 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="marionette-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightMarionetteGuide']} locale={locale}>{t.modules.biteByNightMarionetteGuide.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightMarionetteGuide.intro}</p>
+            <span className="inline-block text-xs font-bold tracking-widest uppercase text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.biteByNightMarionetteGuide.eyebrow}</span>
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <Ghost className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
+              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['biteByNightMarionetteGuide']} locale={locale}>{t.modules.biteByNightMarionetteGuide.title}</LinkedTitle></h2>
+            </div>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">{t.modules.biteByNightMarionetteGuide.subtitle}</p>
+            <p className="text-muted-foreground text-base max-w-3xl mx-auto">{t.modules.biteByNightMarionetteGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.biteByNightMarionetteGuide.settings.map((s: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Ghost className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`biteByNightMarionetteGuide::settings::${index}`]} locale={locale}>
-                      {s.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{s.type}</span>
-                </div>
-                <p className="text-muted-foreground text-sm">{s.description}</p>
-              </div>
-            ))}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
+            {(() => {
+              const marionetteIcons = [Clock, Fingerprint, BookOpen, Eye, Gauge, Wrench]
+              return t.modules.biteByNightMarionetteGuide.items.map((item: any, index: number) => {
+                const ItemIcon = marionetteIcons[index % marionetteIcons.length]
+                return (
+                  <div key={index} className="group p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.05)]">
+                    <div className="flex items-center gap-3 mb-3">
+                      <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                        <ItemIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold">
+                          <LinkedTitle linkData={moduleLinkMap[`biteByNightMarionetteGuide::items::${index}`]} locale={locale}>
+                            {item.title}
+                          </LinkedTitle>
+                        </h3>
+                        <span className="text-xs text-[hsl(var(--nav-theme-light))]">{item.meta}</span>
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground text-sm">{item.description}</p>
+                  </div>
+                )
+              })
+            })()}
           </div>
         </div>
       </section>
@@ -917,73 +961,83 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="lore-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightLoreGuide']} locale={locale}>{t.modules.biteByNightLoreGuide.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightLoreGuide.intro}</p>
+            <span className="inline-block text-xs font-bold tracking-widest uppercase text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.biteByNightLoreGuide.eyebrow}</span>
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <ScrollText className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
+              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['biteByNightLoreGuide']} locale={locale}>{t.modules.biteByNightLoreGuide.title}</LinkedTitle></h2>
+            </div>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">{t.modules.biteByNightLoreGuide.subtitle}</p>
+            <p className="text-muted-foreground text-base max-w-3xl mx-auto">{t.modules.biteByNightLoreGuide.intro}</p>
           </div>
-          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {t.modules.biteByNightLoreGuide.entries.map((entry: any, index: number) => (
-              <div key={index} className="relative">
-                <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
-                <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                  <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{entry.type}</span>
-                    <ScrollText className="w-4 h-4 text-muted-foreground" />
+          <div className="scroll-reveal space-y-3">
+            {(() => {
+              const loreIcons = [Compass, BookOpen, Puzzle, Target, Ghost, Shield]
+              return t.modules.biteByNightLoreGuide.items.map((item: any, index: number) => {
+                const LoreIcon = loreIcons[index % loreIcons.length]
+                return (
+                  <div key={index} className="border border-border rounded-xl overflow-hidden hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                    <button
+                      onClick={() => setFaqExpanded(faqExpanded === 100 + index ? null : 100 + index)}
+                      className="w-full flex items-center gap-4 p-5 text-left hover:bg-white/5 transition-colors"
+                    >
+                      <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center flex-shrink-0">
+                        <LoreIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <span className="font-semibold flex-1">
+                        <LinkedTitle linkData={moduleLinkMap[`biteByNightLoreGuide::items::${index}`]} locale={locale}>
+                          {item.title}
+                        </LinkedTitle>
+                      </span>
+                      <ChevronDown className={`w-5 h-5 flex-shrink-0 transition-transform text-muted-foreground ${faqExpanded === 100 + index ? "rotate-180" : ""}`} />
+                    </button>
+                    {faqExpanded === 100 + index && (
+                      <div className="px-5 pb-5 pl-[4.5rem] text-muted-foreground text-sm leading-relaxed">{item.content}</div>
+                    )}
                   </div>
-                  <h3 className="font-bold mb-1">
-                    <LinkedTitle linkData={moduleLinkMap[`biteByNightLoreGuide::entries::${index}`]} locale={locale}>
-                      {entry.title}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground text-sm">{entry.description}</p>
-                </div>
-              </div>
-            ))}
+                )
+              })
+            })()}
           </div>
         </div>
       </section>
 
-      {/* Module 16: Community FAQ */}
-      <section id="community-faq" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
-        <div className="container mx-auto max-w-5xl">
+      {/* Module 16: Wiki Navigation Hub */}
+      <section id="wiki-hub" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightCommunityFAQ']} locale={locale}>{t.modules.biteByNightCommunityFAQ.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightCommunityFAQ.intro}</p>
-          </div>
-          <div className="scroll-reveal space-y-4 mb-8">
-            {t.modules.biteByNightCommunityFAQ.steps.map((step: any, index: number) => (
-              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
-                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">
-                    <LinkedTitle linkData={moduleLinkMap[`biteByNightCommunityFAQ::steps::${index}`]} locale={locale}>
-                      {step.title}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground">{step.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="scroll-reveal p-6 bg-yellow-500/10 border border-yellow-500/30 rounded-xl">
-            <div className="flex items-start gap-3">
-              <AlertTriangle className="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="font-bold text-yellow-400 mb-2">Need more help?</h3>
-                <p className="text-sm text-muted-foreground mb-3">Join the official channels for the latest updates and community support:</p>
-                <div className="flex flex-wrap gap-3">
-                  <a href="https://discord.gg/Nj4ZJVcZ5d" target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    <MessageCircle className="w-4 h-4" /> Discord <ExternalLink className="w-3 h-3" />
-                  </a>
-                  <a href="https://www.reddit.com/r/BiteByNight/" target="_blank" rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    Reddit <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-              </div>
+            <span className="inline-block text-xs font-bold tracking-widest uppercase text-[hsl(var(--nav-theme-light))] mb-3">{t.modules.biteByNightWiki.eyebrow}</span>
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <Database className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
+              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['biteByNightWiki']} locale={locale}>{t.modules.biteByNightWiki.title}</LinkedTitle></h2>
             </div>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">{t.modules.biteByNightWiki.subtitle}</p>
+            <p className="text-muted-foreground text-base max-w-3xl mx-auto">{t.modules.biteByNightWiki.intro}</p>
+          </div>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {(() => {
+              const wikiIcons = [Skull, Users, Map, ShoppingBag, HelpCircle, Grid3X3]
+              return t.modules.biteByNightWiki.items.map((item: any, index: number) => {
+                const WikiIcon = wikiIcons[index % wikiIcons.length]
+                return (
+                  <div key={index} className="group p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.05)]">
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="w-12 h-12 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                        <WikiIcon className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-lg">
+                          <LinkedTitle linkData={moduleLinkMap[`biteByNightWiki::items::${index}`]} locale={locale}>
+                            {item.title}
+                          </LinkedTitle>
+                        </h3>
+                        <span className="text-xs text-[hsl(var(--nav-theme-light))]">{item.meta}</span>
+                      </div>
+                    </div>
+                    <p className="text-muted-foreground text-sm">{item.description}</p>
+                  </div>
+                )
+              })
+            })()}
           </div>
         </div>
       </section>
