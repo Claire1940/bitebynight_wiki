@@ -1,6 +1,5 @@
 import {
 	Rocket,
-	Users,
 	BookOpen,
 	Gift,
 	Shield,
@@ -19,7 +18,6 @@ export interface NavigationItem {
 
 export const NAVIGATION_CONFIG: NavigationItem[] = [
 	{ key: 'release-and-access', path: '/release-and-access', icon: Rocket, isContentType: true },
-	{ key: 'community', path: '/community', icon: Users, isContentType: false },
 	{ key: 'guide', path: '/guide', icon: BookOpen, isContentType: true },
 	{ key: 'codes', path: '/codes', icon: Gift, isContentType: true },
 	{ key: 'roster', path: '/roster', icon: Shield, isContentType: true },

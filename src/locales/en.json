@@ -12,7 +12,6 @@
   },
   "nav": {
     "release-and-access": "Release & Access",
-    "community": "Community",
     "guide": "Guide",
     "codes": "Codes",
     "roster": "Roster",
@@ -285,7 +284,10 @@
           "soloValue": "A",
           "teamUtility": "A",
           "easeOfUse": "Medium",
-          "coreTools": ["Taser", "Cams"],
+          "coreTools": [
+            "Taser",
+            "Cams"
+          ],
           "summary": "The most balanced class in the current roster. It can scout the killer and objectives with cameras while also creating space with a charged taser stun."
         },
         {
@@ -295,7 +297,10 @@
           "soloValue": "A",
           "teamUtility": "S",
           "easeOfUse": "High",
-          "coreTools": ["Heal", "Self Heal"],
+          "coreTools": [
+            "Heal",
+            "Self Heal"
+          ],
           "summary": "The strongest dedicated support class. It keeps teammates alive, extends generator pressure, and is especially valuable when a team wants steady rounds instead of risky duels."
         },
         {
@@ -305,7 +310,10 @@
           "soloValue": "B",
           "teamUtility": "A",
           "easeOfUse": "Medium",
-          "coreTools": ["Swing", "Parry"],
+          "coreTools": [
+            "Swing",
+            "Parry"
+          ],
           "summary": "A stun-focused class with real team value, but it needs timing and coordination. Fighter is much better in groups that can capitalize on parries and axe stuns."
         },
         {
@@ -315,7 +323,10 @@
           "soloValue": "S",
           "teamUtility": "B",
           "easeOfUse": "High",
-          "coreTools": ["Pizza", "Drink"],
+          "coreTools": [
+            "Pizza",
+            "Drink"
+          ],
           "summary": "The default beginner class. It offers strong self-heal and escape tools for solo survival, but it contributes less team pressure than the more specialized classes."
         }
       ]
@@ -329,35 +340,53 @@
           "name": "Springtrap",
           "status": "Confirmed Release",
           "role": "Balanced pressure and chase killer",
-          "highlights": ["Skillshot finisher", "Trap control in chokepoints", "Tracking utility", "Charge mobility"],
+          "highlights": [
+            "Skillshot finisher",
+            "Trap control in chokepoints",
+            "Tracking utility",
+            "Charge mobility"
+          ],
           "summary": "Springtrap is the most rounded killer in the current pool, combining offense, crowd control, and reliable chase pressure."
         },
         {
           "name": "The Mimic",
           "status": "Confirmed Release",
           "role": "Flexible stance-based killer",
-          "highlights": ["Speed mode finisher", "Strength burst damage", "Stealth approach option"],
+          "highlights": [
+            "Speed mode finisher",
+            "Strength burst damage",
+            "Stealth approach option"
+          ],
           "summary": "The Mimic trades raw consistency for flexibility. It can swap between different modes to adapt to the situation, but it needs cleaner decision-making than the other killers."
         },
         {
           "name": "Ennard",
           "status": "Confirmed Release",
           "role": "Ambush and disguise killer",
-          "highlights": ["Disguise mindgames", "Muted presence", "Wirethings scouting", "Pull mobility"],
+          "highlights": [
+            "Disguise mindgames",
+            "Muted presence",
+            "Wirethings scouting",
+            "Pull mobility"
+          ],
           "summary": "Ennard is built around deception and surprise. It rewards players who can use disguise pressure and catch grouped Survivors before they react."
         },
         {
           "name": "Marionette",
           "status": "Upcoming",
           "role": "TBA",
-          "highlights": ["Confirmed for a future update"],
+          "highlights": [
+            "Confirmed for a future update"
+          ],
           "summary": "Marionette is already listed as an upcoming killer, making it one of the next major roster expansions to watch."
         },
         {
           "name": "Mangle",
           "status": "Upcoming",
           "role": "TBA",
-          "highlights": ["Confirmed for a future update"],
+          "highlights": [
+            "Confirmed for a future update"
+          ],
           "summary": "Mangle is also listed in the upcoming section, giving the game another confirmed killer planned beyond the release pool."
         }
       ]
@@ -837,26 +866,6 @@
       },
       "featured": "Featured & Essential",
       "all": "All Release & Access Articles"
-    },
-    "community": {
-      "title": "Bite By Night Community",
-      "description": "Official community links, Discord server, Reddit, social media, and player discussion hubs for Bite By Night.",
-      "metaTitle": "Bite By Night Community - Discord, Reddit & Social Links",
-      "metaDescription": "Join the Bite By Night community on Discord, Reddit, X, and Instagram. Connect with players, get updates, and find official community resources.",
-      "categoryLabel": "COMMUNITY",
-      "whatIs": "What is Community?",
-      "whatIsDescription": "Connect with the Bite By Night community through Discord, Reddit, X, and other official channels. Find the latest announcements, player discussions, and social links.",
-      "why": "Why join the community?",
-      "whySteps": {
-        "step1Title": "Get Latest Updates",
-        "step1Description": "Receive official announcements, code drops, and patch notes first",
-        "step2Title": "Connect with Players",
-        "step2Description": "Join active Discord and Reddit communities to discuss strategies",
-        "step3Title": "Access Official Channels",
-        "step3Description": "Follow verified developer accounts for authentic news and reveals"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Community Resources"
     },
     "guide": {
       "title": "Bite By Night Guides",

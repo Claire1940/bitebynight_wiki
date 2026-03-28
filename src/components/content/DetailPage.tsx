@@ -25,7 +25,6 @@ export async function DetailPage({ frontmatter, content, contentType, language, 
 	// 内容类型翻译映射
 	const contentTypeLabels: Record<string, string> = {
 		'release-and-access': t('nav.release-and-access'),
-		community: t('nav.community'),
 		guide: t('nav.guide'),
 		codes: t('nav.codes'),
 		roster: t('nav.roster'),

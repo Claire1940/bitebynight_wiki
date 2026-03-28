@@ -12,7 +12,6 @@
   },
   "nav": {
     "release-and-access": "Veröffentlichung & Zugang",
-    "community": "Community",
     "guide": "Anleitungen",
     "codes": "Codes",
     "roster": "Aufstellung",
@@ -862,26 +861,6 @@
       },
       "featured": "Featured & Essential",
       "all": "All Release & Access Articles"
-    },
-    "community": {
-      "title": "Bite By Night Community",
-      "description": "Official community links, Discord server, Reddit, social media, and player discussion hubs for Bite By Night.",
-      "metaTitle": "Bite By Night Community - Discord, Reddit & Social Links",
-      "metaDescription": "Join the Bite By Night community on Discord, Reddit, X, and Instagram. Connect with players, get updates, and find official community resources.",
-      "categoryLabel": "COMMUNITY",
-      "whatIs": "What is Community?",
-      "whatIsDescription": "Connect with the Bite By Night community through Discord, Reddit, X, and other official channels. Find the latest announcements, player discussions, and social links.",
-      "why": "Why join the community?",
-      "whySteps": {
-        "step1Title": "Get Latest Updates",
-        "step1Description": "Receive official announcements, code drops, and patch notes first",
-        "step2Title": "Connect with Players",
-        "step2Description": "Join active Discord and Reddit communities to discuss strategies",
-        "step3Title": "Access Official Channels",
-        "step3Description": "Follow verified developer accounts for authentic news and reveals"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Community Resources"
     },
     "guide": {
       "title": "Bite By Night Guides",
