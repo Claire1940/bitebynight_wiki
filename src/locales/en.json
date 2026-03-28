@@ -416,124 +416,122 @@
     },
     "biteByNightSpringtrapGuide": {
       "title": "Bite By Night Springtrap Guide",
-      "displayType": "mixedCards",
-      "intro": "Springtrap is one of the launch killers in Bite By Night, inspired by the iconic FNAF animatronic. Known for ambush pressure and indoor dominance, Springtrap punishes survivors who do not watch their surroundings.",
+      "displayType": "accordion",
+      "subtitle": "Springtrap is the release starter killer and the easiest launch character to understand at a glance. His kit mixes direct damage, route denial, and reveal pressure.",
+      "intro": "Springtrap is positioned as Bite By Night's launch anchor and expected first killer unlock. He pressures survivors by alternating between basic hits, axe control, trap placement, and a reveal sequence that can turn information into a fast follow-up chase.",
       "sections": [
         {
-          "name": "Ambush Abilities",
-          "description": "Springtrap excels at setting up ambushes near objectives and tight corridors. Survivors should avoid lingering in closed rooms without an exit plan."
+          "name": "Launch Role",
+          "description": "Springtrap is a release killer and is expected to be the first killer unlocked by players. He is framed as the starter killer for the game."
         },
         {
-          "name": "Indoor Pressure",
-          "description": "On facility and indoor maps, Springtrap has a significant advantage. Use doors and terrain to break line of sight and create distance."
+          "name": "Base Damage Profile",
+          "description": "Swing is Springtrap's LMB attack. With the axe equipped, the attack deals 36 damage. Without the axe, his fist deals 28 damage."
         },
         {
-          "name": "Chase Patterns",
-          "description": "Springtrap's chase tools make him deadly in straight corridors. Survivors should use turns, obstacles, and barricades to create separation."
+          "name": "Remnant Cleaver",
+          "description": "Remnant Cleaver is used on Q. Springtrap slows down, throws his axe, and a hit applies Weakness. After the throw, he must return to the axe and hold E to retrieve it."
         },
         {
-          "name": "Counter Strategies",
-          "description": "Fighter's stun and Security Guard's cams are the strongest counters. Keep barricades ready and avoid isolated areas of the map."
+          "name": "Trap and Reveal Sequence",
+          "description": "With the axe in hand, Springtrap can place a Beartrap on E. If a survivor steps on it, they take damage and are stunned for 10 seconds. After using Remnant Cleaver, that third-slot action changes into Scream, which highlights all survivors, and then into Charge for a fast grab follow-up."
+        },
+        {
+          "name": "Pressure Pattern",
+          "description": "Springtrap's strongest flow is to control a route with Beartrap, force movement with the axe threat, then convert information from Scream into a commit with Charge. He is at his best when survivors are funneled through doors and narrow paths."
+        },
+        {
+          "name": "Best Punish Windows",
+          "description": "Springtrap is easiest to contest while planting a Beartrap, during the slowdown before the axe throw, and after a failed Charge attempt. If he has already thrown the axe, forcing distance before he reclaims it cuts down his immediate close-range threat."
         }
       ],
       "growthMilestones": [
-        "Recognize Springtrap's audio cues",
-        "Use terrain to break ambush setups",
-        "Time barricades during Springtrap chases",
-        "Coordinate team response to pressure"
+        "Recognize Springtrap's axe throw slowdown",
+        "Use Beartrap placement windows to create distance",
+        "Bait and dodge the Remnant Cleaver",
+        "Punish Charge commits with barricades"
       ]
     },
     "biteByNightTheMimicGuide": {
       "title": "Bite By Night The Mimic Guide",
       "displayType": "priorityCards",
-      "intro": "The Mimic is a deception-focused killer that thrives against uncoordinated teams. Understanding The Mimic's tricks and tells is the key to surviving encounters in Bite By Night.",
+      "subtitle": "The Mimic is a release killer built around stance swapping. Its mode system gives it different chase speeds, damage values, and ambush tools.",
+      "intro": "The Mimic is one of the three confirmed release killers and has the most explicit stance-based kit shown so far. It can shift between Strength, Speed, and Stealth to trade raw damage for mobility, ambush pressure, or grab utility.",
       "priorities": [
         {
-          "name": "Disguise Mechanics",
+          "name": "Launch Role",
           "priority": "Essential",
-          "description": "The Mimic can disguise itself to confuse survivors. Always verify teammate identity through communication and behavior patterns."
+          "description": "The Mimic is a confirmed release killer. It begins the round with Strength selected and uses Mode Switch on Q to access the rest of its kit."
         },
         {
-          "name": "Team Communication",
+          "name": "Mode Damage Values",
           "priority": "Essential",
-          "description": "Callout positions and confirm teammate locations frequently. The Mimic punishes silent teams harder than any other killer."
+          "description": "The Mimic's base Swing changes by mode. Strength mode deals 42 damage, Speed mode deals 10 damage, and Stealth mode deals 34 damage."
         },
         {
-          "name": "Detection Methods",
+          "name": "Speed Mode",
           "priority": "Very High",
-          "description": "Security Guard's cams can reveal The Mimic's true position. Audio cues and movement patterns also give away the disguise."
+          "description": "Speed mode increases movement speed, removes the endlag for missing Swing, and unlocks Ground Slam. Ground Slam launches The Mimic forward, ragdolls a nearby survivor, and deals damage on impact."
         },
         {
-          "name": "Chase Behavior",
-          "priority": "High",
-          "description": "When revealed, The Mimic relies on closing distance quickly. Use barricades and doors to create space after breaking the disguise."
+          "name": "Stealth Mode",
+          "priority": "Very High",
+          "description": "Stealth mode unlocks Grab and Tunneling. It gives The Mimic the Undetectable status effect, mutes its footsteps, and lowers its basic hit damage to 34."
         },
         {
-          "name": "Map Awareness",
+          "name": "Grab and Tunneling Details",
           "priority": "High",
-          "description": "The Mimic is strongest in areas with multiple entry points. Avoid locations where the killer can approach from unexpected angles."
+          "description": "Grab can hold a survivor for about 7 seconds and follow up with an 18-damage punch before throwing the target away. Tunneling takes about 3 seconds to enter, grants speed and invisibility underground, and can erupt out of the floor to knock down nearby survivors while dealing 21 damage on emergence."
         },
         {
-          "name": "Counterplay Summary",
+          "name": "How to React to The Mimic",
           "priority": "High",
-          "description": "Stay grouped, communicate constantly, use Security Guard cams, and verify every teammate interaction before trusting it."
+          "description": "The safest way to read The Mimic is to track its current mode first. Strength means high hit damage, Speed means chase commitment, and Stealth means ambush pressure. Spacing matters because a thrown survivor can ragdoll teammates, and tunneling still creates loud digging noise even while underground."
         }
       ]
     },
     "biteByNightEnnardGuide": {
       "title": "Bite By Night Ennard Guide",
       "displayType": "achievementGrid",
-      "intro": "Ennard is a fast, aggressive killer with high mobility and chase pressure. Learning Ennard's movement patterns and timing is essential for both playing as and against this killer in Bite By Night.",
+      "subtitle": "Ennard is a confirmed release killer centered on deception. Its toolkit is built to confuse survivor reads, pull targets into range, and punish teams that group carelessly around bodies.",
+      "intro": "Among the launch killers, Ennard leans hardest into trickery. Instead of pure route control or stance swapping, it threatens survivors with corpse disguise, wire-based pull tools, and delayed pressure that can turn a picked-off teammate into a second trap.",
       "groups": [
         {
-          "name": "Abilities",
+          "name": "Core Identity",
           "achievements": [
             {
-              "title": "High Mobility",
-              "description": "Ennard moves faster than other killers, making open areas dangerous for survivors."
+              "title": "Launch Role",
+              "description": "Ennard is a confirmed release killer and was the final killer finished for the launch roster. It joins Springtrap and The Mimic as the three killers listed for release."
             },
             {
-              "title": "Traversal Tools",
-              "description": "Ennard can cover ground quickly between objectives, putting constant pressure on the team."
+              "title": "Hijacking",
+              "description": "Hijacking lets Ennard enter a deceased player and wear them as a disguise. While disguised, movement is more sluggish, and survivors cannot hear Ennard's chase theme."
             }
           ]
         },
         {
-          "name": "Counters",
+          "name": "Attack Tools",
           "achievements": [
             {
-              "title": "Use Tight Spaces",
-              "description": "Ennard's speed advantage is reduced in narrow corridors and around obstacles."
+              "title": "Disguise Burst Threat",
+              "description": "When ready to attack, Ennard can burst out of the corpse disguise, sending body pieces around the area and damaging nearby players on contact. While disguised, it can also land a stabbing attack with an exposed wire."
             },
             {
-              "title": "Barricade Timing",
-              "description": "Well-timed barricades at choke points can shut down Ennard's chase momentum."
+              "title": "Pull Tool",
+              "description": "Pull throws an extended wire in a straight line. If it connects, the survivor is dragged toward Ennard until they are inside basic attack range."
             }
           ]
         },
         {
-          "name": "Strategy",
+          "name": "Pressure and Counterplay",
           "achievements": [
             {
-              "title": "Stay Near Cover",
-              "description": "Open areas favor Ennard. Always position near doors, walls, and obstacles."
+              "title": "Wirething Pressure",
+              "description": "Wirething releases a tracking device from Ennard's knee. It follows survivors and is meant to explode on contact, and players must shake their screen to remove it before the bar fills."
             },
             {
-              "title": "Split Focus",
-              "description": "Force Ennard to choose between multiple survivors working separate objectives."
-            }
-          ]
-        },
-        {
-          "name": "Matchup Tips",
-          "achievements": [
-            {
-              "title": "Fighter vs Ennard",
-              "description": "Fighter's stun is crucial for stopping Ennard's aggressive chases."
-            },
-            {
-              "title": "Healer vs Ennard",
-              "description": "Healer sustain helps recover from Ennard's frequent hit-and-run attacks."
+              "title": "How to Play Around Ennard",
+              "description": "Springtrap controls space and The Mimic changes tempo by mode, but Ennard creates the most mindgame pressure around corpses and disguise checks. Survivors should confirm bodies before grouping, avoid blind rescues around a fallen teammate, and respect any straight lane where Pull can drag them into melee range."
             }
           ]
         }
@@ -541,28 +539,33 @@
     },
     "biteByNightMapsGuide": {
       "title": "Bite By Night Maps Guide",
-      "displayType": "accordion",
-      "intro": "Maps in Bite By Night feature distinct layouts with unique hazards, objective placements, and escape routes. Knowing each map gives survivors a significant advantage and helps killers plan their patrol routes.",
-      "faqs": [
+      "displayType": "mapCards",
+      "subtitle": "The official map pool currently names two confirmed maps: The Forest and Warehouse. Shared round systems matter just as much as scenery because doors, objectives, and timing define how both sides position.",
+      "intro": "Bite By Night's current official map list is compact, so the most useful guide structure is to pair each confirmed map with the core mechanics that shape every round. Survivors work one objective at a time, any class can barricade doors, and killers win by wiping the team before 6 AM.",
+      "maps": [
         {
-          "question": "What maps are available at launch in Bite By Night?",
-          "answer": "Bite By Night launches with multiple maps including forest, industrial, and facility environments. Each map has unique generator placements, door layouts, and escape routes."
+          "name": "The Forest",
+          "status": "Confirmed Map",
+          "identity": "The Forest is one of the two maps listed on the official Maps page and has also been described in a teaser as a map based on the FNAF 4 forest.",
+          "sharedSystems": "Electric Wiring is the only teased objective so far, and only one survivor can work an objective at a time.",
+          "survivorTips": "Use doors as stall points, rotate after objective progress, and avoid stacking the whole team into one approach lane.",
+          "killerTips": "Pressure isolated objective players, force short chases, and attack door control before survivors settle into safe space."
         },
         {
-          "question": "How do objectives spawn on Bite By Night maps?",
-          "answer": "Generator and objective locations can vary between rounds on the same map. Learning all possible spawn points helps you find objectives faster and complete them efficiently."
+          "name": "Warehouse",
+          "status": "Confirmed Map",
+          "identity": "Warehouse is the other named map on the official Maps page and gives the release pool a second confirmed setting alongside The Forest.",
+          "sharedSystems": "Barricading remains important here because any class can press F near a door to start a barricade minigame.",
+          "survivorTips": "Play around rooms and reset points, keep spacing between teammates, and do not let one failed door hold collapse the whole side of the map.",
+          "killerTips": "Lean into room-to-room pressure, challenge barricades quickly, and punish survivors who overcommit to one room or one objective."
         },
         {
-          "question": "What are the best barricade positions?",
-          "answer": "Choke points near objectives and single-entry rooms are the strongest barricade spots. On forest maps, use narrow paths between structures. On facility maps, use doorways and corridors."
-        },
-        {
-          "question": "Which Bite By Night maps favor killers vs survivors?",
-          "answer": "Indoor facility maps tend to favor ambush killers like Springtrap, while open forest maps give mobile killers like Ennard more room to chase. Mixed maps reward adaptable strategies."
-        },
-        {
-          "question": "How do I learn Bite By Night map layouts quickly?",
-          "answer": "Play custom matches or explore maps during rounds. Focus on generator locations, exit paths, and strong barricade positions first. Watch experienced players for route optimization."
+          "name": "Shared Round Rules",
+          "status": "All Maps",
+          "identity": "Killers are trying to hunt down every survivor before the timer reaches 6 AM. A failed barricade minigame can end with the survivor getting knocked to the ground.",
+          "sharedSystems": "Doors, timed rounds, and single-user objective interaction are the main map-shaping systems currently shown on the official wiki.",
+          "survivorTips": "Split objective pressure, keep at least one escape path open, and save stun tools for doorway commits or recovery windows after killer abilities.",
+          "killerTips": "Shorten survivor rotations, force one-on-one checks at doors, and capitalize whenever only one survivor is locked into an objective animation."
         }
       ]
     },
