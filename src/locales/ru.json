@@ -11,14 +11,14 @@
     }
   },
   "nav": {
-    "release-&-access": "Релиз и доступ",
+    "release-and-access": "Релиз и доступ",
     "community": "Сообщество",
     "guide": "Гайды",
     "codes": "Коды",
     "roster": "Ростер",
     "character": "Персонажи",
     "media": "Медиа",
-    "rumors-&-issues": "Слухи и проблемы"
+    "rumors-and-issues": "Слухи и проблемы"
   },
   "common": {
     "home": "Главная",
@@ -205,7 +205,7 @@
     "disclaimer": "Неофициальный фанатский ресурс."
   },
   "pages": {
-    "release-&-access": {
+    "release-and-access": {
       "title": "Bite By Night Release & Access",
       "description": "Release date tracking, platform access info, early access updates, and launch timeline for Bite By Night on Roblox.",
       "metaTitle": "Bite By Night Release Date & Access - Launch Timeline",
@@ -345,7 +345,7 @@
       "featured": "Featured & Essential",
       "all": "All Media Content"
     },
-    "rumors-&-issues": {
+    "rumors-and-issues": {
       "title": "Bite By Night Rumors & Issues",
       "description": "Community discussions on concepts, leaks, collaborations, and known issues for Bite By Night.",
       "metaTitle": "Bite By Night Rumors & Issues - Leaks, Concepts & Community Topics",

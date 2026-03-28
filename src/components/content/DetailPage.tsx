@@ -24,14 +24,14 @@ export async function DetailPage({ frontmatter, content, contentType, language, 
 
 	// 内容类型翻译映射
 	const contentTypeLabels: Record<string, string> = {
-		'release-&-access': t('nav.release-&-access'),
+		'release-and-access': t('nav.release-and-access'),
 		community: t('nav.community'),
 		guide: t('nav.guide'),
 		codes: t('nav.codes'),
 		roster: t('nav.roster'),
 		character: t('nav.character'),
 		media: t('nav.media'),
-		'rumors-&-issues': t('nav.rumors-&-issues'),
+		'rumors-and-issues': t('nav.rumors-and-issues'),
 	}
 
 	// 提取图片元数据

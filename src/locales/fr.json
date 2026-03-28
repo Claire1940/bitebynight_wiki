@@ -11,14 +11,14 @@
     }
   },
   "nav": {
-    "release-&-access": "Sortie et Accès",
+    "release-and-access": "Sortie et Accès",
     "community": "Communauté",
     "guide": "Guides",
     "codes": "Codes",
     "roster": "Liste",
     "character": "Personnages",
     "media": "Médias",
-    "rumors-&-issues": "Rumeurs et Problèmes"
+    "rumors-and-issues": "Rumeurs et Problèmes"
   },
   "common": {
     "home": "Accueil",
@@ -843,7 +843,7 @@
     "disclaimer": "Site web de ressources non officiel créé par des fans."
   },
   "pages": {
-    "release-&-access": {
+    "release-and-access": {
       "title": "Bite By Night Release & Access",
       "description": "Release date tracking, platform access info, early access updates, and launch timeline for Bite By Night on Roblox.",
       "metaTitle": "Bite By Night Release Date & Access - Launch Timeline",
@@ -983,7 +983,7 @@
       "featured": "Featured & Essential",
       "all": "All Media Content"
     },
-    "rumors-&-issues": {
+    "rumors-and-issues": {
       "title": "Bite By Night Rumors & Issues",
       "description": "Community discussions on concepts, leaks, collaborations, and known issues for Bite By Night.",
       "metaTitle": "Bite By Night Rumors & Issues - Leaks, Concepts & Community Topics",

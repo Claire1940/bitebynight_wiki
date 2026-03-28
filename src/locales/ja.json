@@ -11,14 +11,14 @@
     }
   },
   "nav": {
-    "release-&-access": "リリース＆アクセス",
+    "release-and-access": "リリース＆アクセス",
     "community": "コミュニティ",
     "guide": "ガイド",
     "codes": "コード",
     "roster": "ロスター",
     "character": "キャラクター",
     "media": "メディア",
-    "rumors-&-issues": "噂＆問題"
+    "rumors-and-issues": "噂＆問題"
   },
   "common": {
     "home": "ホーム",
@@ -809,7 +809,7 @@
     "disclaimer": "非公式のファン作成リソースサイトです。"
   },
   "pages": {
-    "release-&-access": {
+    "release-and-access": {
       "title": "Bite By Night Release & Access",
       "description": "Release date tracking, platform access info, early access updates, and launch timeline for Bite By Night on Roblox.",
       "metaTitle": "Bite By Night Release Date & Access - Launch Timeline",
@@ -949,7 +949,7 @@
       "featured": "Featured & Essential",
       "all": "All Media Content"
     },
-    "rumors-&-issues": {
+    "rumors-and-issues": {
       "title": "Bite By Night Rumors & Issues",
       "description": "Community discussions on concepts, leaks, collaborations, and known issues for Bite By Night.",
       "metaTitle": "Bite By Night Rumors & Issues - Leaks, Concepts & Community Topics",
