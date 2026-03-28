@@ -76,7 +76,7 @@ interface HomePageClientProps {
 
 export default function HomePageClient({ latestArticles, moduleLinkMap, locale }: HomePageClientProps) {
   const t = useMessages() as any
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.bitebynight.wiki'
 
   // Structured data
   const structuredData = {
@@ -86,14 +86,14 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         '@type': 'WebSite',
         '@id': `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
-        description: "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+        name: "Bite By Night Wiki",
+        description: "Complete Bite By Night Wiki covering classes, killers, maps, codes, skins, lore, and survival tips for the Roblox asymmetrical horror game.",
         image: {
           '@type': 'ImageObject',
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "Bite By Night - Roblox FNAF-Inspired Asymmetrical Horror",
         },
         potentialAction: {
           '@type': 'SearchAction',
@@ -104,10 +104,10 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       {
         '@type': 'Organization',
         '@id': `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Bite By Night Wiki",
+        alternateName: "Bite By Night",
         url: siteUrl,
-        description: "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+        description: "Complete Bite By Night Wiki resource hub for classes, killers, maps, codes, and survival guides",
         logo: {
           '@type': 'ImageObject',
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -119,30 +119,34 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Bite By Night Wiki - Roblox Asymmetrical Horror Game",
         },
         sameAs: [
-          'https://store.steampowered.com/app/3495730/Lucid_Blocks/',
-          'https://discord.com/invite/lucidblocks',
-          'https://www.reddit.com/r/LucidBlocks/',
-          'https://www.youtube.com/@lucy_b_locks',
+          'https://www.roblox.com/games/70845479499574/Bite-by-Night',
+          'https://discord.gg/Nj4ZJVcZ5d',
+          'https://www.reddit.com/r/BiteByNight/',
+          'https://www.youtube.com/@OzelBlox/videos',
+          'https://x.com/bitebynightdev',
+          'https://www.instagram.com/bitebynightdev',
+          'https://www.tiktok.com/@bitebynight',
         ],
       },
       {
         '@type': 'VideoGame',
-        name: "Lucid Blocks",
-        gamePlatform: ['PC', 'Steam'],
+        name: "Bite By Night",
+        gamePlatform: ['Roblox'],
         applicationCategory: 'Game',
-        genre: ['Survival', 'Sandbox', 'Adventure', 'Psychedelic'],
+        genre: ['Horror', 'Asymmetrical', 'Survival', 'FNAF-Inspired'],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 1,
+          maxValue: 10,
         },
         offers: {
           '@type': 'Offer',
           priceCurrency: 'USD',
+          price: '0',
           availability: 'https://schema.org/InStock',
-          url: 'https://store.steampowered.com/app/3495730/Lucid_Blocks/',
+          url: 'https://www.roblox.com/games/70845479499574/Bite-by-Night',
         },
       },
     ],
@@ -219,14 +223,14 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://www.roblox.com/games/70845479499574/Bite-by-Night"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4
                            border border-border hover:bg-white/10 rounded-lg
                            font-semibold text-lg transition-colors"
               >
-                {t.hero.playOnSteamCTA}
+                {t.hero.playOnRobloxCTA}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -247,8 +251,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         <div className="scroll-reveal container mx-auto">
           <div className="relative rounded-2xl overflow-hidden">
             <VideoFeature
-              videoId="7C7fybRM_No"
-              title="LUCID BLOCKS | AVAILABLE NOW"
+              videoId="kwT9_sUBdKM"
+              title="Bite By Night - Official Trailer"
               posterImage="/images/hero.webp"
             />
           </div>
@@ -324,25 +328,25 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <LinkedTitle linkData={moduleLinkMap['lucidBlocksBeginnerGuide']} locale={locale}>
-                {t.modules.lucidBlocksBeginnerGuide.title}
+              <LinkedTitle linkData={moduleLinkMap['biteByNightBeginnerGuide']} locale={locale}>
+                {t.modules.biteByNightBeginnerGuide.title}
               </LinkedTitle>
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              {t.modules.lucidBlocksBeginnerGuide.intro}
+              {t.modules.biteByNightBeginnerGuide.intro}
             </p>
           </div>
 
           {/* Steps */}
           <div className="scroll-reveal space-y-4 mb-10">
-            {t.modules.lucidBlocksBeginnerGuide.steps.map((step: any, index: number) => (
+            {t.modules.biteByNightBeginnerGuide.steps.map((step: any, index: number) => (
               <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
                   <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksBeginnerGuide::steps::${index}`]} locale={locale}>
+                    <LinkedTitle linkData={moduleLinkMap[`biteByNightBeginnerGuide::steps::${index}`]} locale={locale}>
                       {step.title}
                     </LinkedTitle>
                   </h3>
@@ -359,7 +363,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               <h3 className="font-bold text-lg">Quick Tips</h3>
             </div>
             <ul className="space-y-2">
-              {t.modules.lucidBlocksBeginnerGuide.quickTips.map((tip: string, index: number) => (
+              {t.modules.biteByNightBeginnerGuide.quickTips.map((tip: string, index: number) => (
                 <li key={index} className="flex items-start gap-2">
                   <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
                   <span className="text-muted-foreground text-sm">{tip}</span>
@@ -377,14 +381,14 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="apotheosis-crafting" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksApotheosisCrafting']} locale={locale}>{t.modules.lucidBlocksApotheosisCrafting.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksApotheosisCrafting.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightClassTierList']} locale={locale}>{t.modules.biteByNightClassTierList.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightClassTierList.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksApotheosisCrafting.cards.map((card: any, index: number) => (
+            {t.modules.biteByNightClassTierList.cards.map((card: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
-                  <LinkedTitle linkData={moduleLinkMap[`lucidBlocksApotheosisCrafting::cards::${index}`]} locale={locale}>
+                  <LinkedTitle linkData={moduleLinkMap[`biteByNightClassTierList::cards::${index}`]} locale={locale}>
                     {card.name}
                   </LinkedTitle>
                 </h3>
@@ -393,7 +397,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             ))}
           </div>
           <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.lucidBlocksApotheosisCrafting.milestones.map((m: string, i: number) => (
+            {t.modules.biteByNightClassTierList.milestones.map((m: string, i: number) => (
               <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
                 <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{m}
               </span>
@@ -406,18 +410,18 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="tools-weapons" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksToolsAndWeapons']} locale={locale}>{t.modules.lucidBlocksToolsAndWeapons.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksToolsAndWeapons.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightKillerGuide']} locale={locale}>{t.modules.biteByNightKillerGuide.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightKillerGuide.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksToolsAndWeapons.items.map((item: any, index: number) => (
+            {t.modules.biteByNightKillerGuide.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-3 mb-3">
                   <Hammer className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.type}</span>
                 </div>
                 <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`lucidBlocksToolsAndWeapons::items::${index}`]} locale={locale}>
+                  <LinkedTitle linkData={moduleLinkMap[`biteByNightKillerGuide::items::${index}`]} locale={locale}>
                     {item.name}
                   </LinkedTitle>
                 </h3>
@@ -432,15 +436,15 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="storage-inventory" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksStorageAndInventory']} locale={locale}>{t.modules.lucidBlocksStorageAndInventory.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksStorageAndInventory.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightMapBreakdown']} locale={locale}>{t.modules.biteByNightMapBreakdown.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightMapBreakdown.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksStorageAndInventory.solutions.map((s: any, index: number) => (
+            {t.modules.biteByNightMapBreakdown.solutions.map((s: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-2 mb-3">
                   <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksStorageAndInventory::solutions::${index}`]} locale={locale}>
+                    <LinkedTitle linkData={moduleLinkMap[`biteByNightMapBreakdown::solutions::${index}`]} locale={locale}>
                       {s.name}
                     </LinkedTitle>
                   </h3>
@@ -456,7 +460,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               <h3 className="font-bold">Management Tips</h3>
             </div>
             <ul className="space-y-2">
-              {t.modules.lucidBlocksStorageAndInventory.managementTips.map((tip: string, i: number) => (
+              {t.modules.biteByNightMapBreakdown.managementTips.map((tip: string, i: number) => (
                 <li key={i} className="flex items-start gap-2">
                   <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0" />
                   <span className="text-muted-foreground text-sm">{tip}</span>
@@ -471,14 +475,14 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="qualia-base-building" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksQualiaAndBaseBuilding']} locale={locale}>{t.modules.lucidBlocksQualiaAndBaseBuilding.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksQualiaAndBaseBuilding.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightObjectivesGuide']} locale={locale}>{t.modules.biteByNightObjectivesGuide.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightObjectivesGuide.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksQualiaAndBaseBuilding.cards.map((card: any, index: number) => (
+            {t.modules.biteByNightObjectivesGuide.cards.map((card: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
-                  <LinkedTitle linkData={moduleLinkMap[`lucidBlocksQualiaAndBaseBuilding::cards::${index}`]} locale={locale}>
+                  <LinkedTitle linkData={moduleLinkMap[`biteByNightObjectivesGuide::cards::${index}`]} locale={locale}>
                     {card.name}
                   </LinkedTitle>
                 </h3>
@@ -487,7 +491,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             ))}
           </div>
           <div className="scroll-reveal grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.lucidBlocksQualiaAndBaseBuilding.highlights.map((h: string, i: number) => (
+            {t.modules.biteByNightObjectivesGuide.highlights.map((h: string, i: number) => (
               <div key={i} className="p-4 bg-white/5 border border-border rounded-xl text-center hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <Home className="w-6 h-6 text-[hsl(var(--nav-theme-light))] mx-auto mb-2" />
                 <p className="text-sm">{h}</p>
@@ -501,16 +505,16 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="world-regions" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksWorldRegions']} locale={locale}>{t.modules.lucidBlocksWorldRegions.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksWorldRegions.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightSkinsGallery']} locale={locale}>{t.modules.biteByNightSkinsGallery.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightSkinsGallery.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lucidBlocksWorldRegions.regions.map((region: any, index: number) => (
+            {t.modules.biteByNightSkinsGallery.regions.map((region: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-3 mb-3">
                   <Eye className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksWorldRegions::regions::${index}`]} locale={locale}>
+                    <LinkedTitle linkData={moduleLinkMap[`biteByNightSkinsGallery::regions::${index}`]} locale={locale}>
                       {region.name}
                     </LinkedTitle>
                   </h3>
@@ -527,17 +531,17 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="creatures-enemies" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksCreaturesAndEnemies']} locale={locale}>{t.modules.lucidBlocksCreaturesAndEnemies.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksCreaturesAndEnemies.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightActiveCodes']} locale={locale}>{t.modules.biteByNightActiveCodes.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightActiveCodes.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksCreaturesAndEnemies.creatures.map((c: any, index: number) => (
+            {t.modules.biteByNightActiveCodes.creatures.map((c: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="mb-3">
                   <span className={`text-xs px-2 py-1 rounded-full border ${["Hostile Enemy","Major Threat","Elite Threat"].includes(c.role) ? "bg-red-500/10 border-red-500/30 text-red-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{c.role}</span>
                 </div>
                 <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`lucidBlocksCreaturesAndEnemies::creatures::${index}`]} locale={locale}>
+                  <LinkedTitle linkData={moduleLinkMap[`biteByNightActiveCodes::creatures::${index}`]} locale={locale}>
                     {c.name}
                   </LinkedTitle>
                 </h3>
@@ -552,18 +556,18 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="mobility-gear" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksMobilityGear']} locale={locale}>{t.modules.lucidBlocksMobilityGear.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksMobilityGear.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightLoreAndStory']} locale={locale}>{t.modules.biteByNightLoreAndStory.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightLoreAndStory.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            {t.modules.lucidBlocksMobilityGear.items.map((item: any, index: number) => (
+            {t.modules.biteByNightLoreAndStory.items.map((item: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-2 mb-3">
                   <ArrowRight className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.type}</span>
                 </div>
                 <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`lucidBlocksMobilityGear::items::${index}`]} locale={locale}>
+                  <LinkedTitle linkData={moduleLinkMap[`biteByNightLoreAndStory::items::${index}`]} locale={locale}>
                     {item.name}
                   </LinkedTitle>
                 </h3>
@@ -572,7 +576,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             ))}
           </div>
           <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.lucidBlocksMobilityGear.unlockMilestones.map((m: string, i: number) => (
+            {t.modules.biteByNightLoreAndStory.unlockMilestones.map((m: string, i: number) => (
               <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
                 <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{m}
               </span>
@@ -588,16 +592,16 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="farming-growth" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksFarmingAndGrowth']} locale={locale}>{t.modules.lucidBlocksFarmingAndGrowth.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksFarmingAndGrowth.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightKillerCounters']} locale={locale}>{t.modules.biteByNightKillerCounters.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightKillerCounters.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksFarmingAndGrowth.sections.map((s: any, index: number) => (
+            {t.modules.biteByNightKillerCounters.sections.map((s: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-2 mb-3">
                   <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksFarmingAndGrowth::sections::${index}`]} locale={locale}>
+                    <LinkedTitle linkData={moduleLinkMap[`biteByNightKillerCounters::sections::${index}`]} locale={locale}>
                       {s.name}
                     </LinkedTitle>
                   </h3>
@@ -607,7 +611,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             ))}
           </div>
           <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.lucidBlocksFarmingAndGrowth.growthMilestones.map((m: string, i: number) => (
+            {t.modules.biteByNightKillerCounters.growthMilestones.map((m: string, i: number) => (
               <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
                 <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{m}
               </span>
@@ -620,18 +624,18 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="best-early-unlocks" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksBestEarlyUnlocks']} locale={locale}>{t.modules.lucidBlocksBestEarlyUnlocks.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksBestEarlyUnlocks.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightBestStrategies']} locale={locale}>{t.modules.biteByNightBestStrategies.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightBestStrategies.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksBestEarlyUnlocks.priorities.map((p: any, index: number) => (
+            {t.modules.biteByNightBestStrategies.priorities.map((p: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-2 mb-3">
                   <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   <span className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-red-500/10 border-red-500/30 text-red-400" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{p.priority}</span>
                 </div>
                 <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`lucidBlocksBestEarlyUnlocks::priorities::${index}`]} locale={locale}>
+                  <LinkedTitle linkData={moduleLinkMap[`biteByNightBestStrategies::priorities::${index}`]} locale={locale}>
                     {p.name}
                   </LinkedTitle>
                 </h3>
@@ -646,16 +650,16 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="achievement-tracker" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksAchievementTracker']} locale={locale}>{t.modules.lucidBlocksAchievementTracker.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksAchievementTracker.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightSurvivalTips']} locale={locale}>{t.modules.biteByNightSurvivalTips.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightSurvivalTips.intro}</p>
           </div>
           <div className="scroll-reveal space-y-6">
-            {t.modules.lucidBlocksAchievementTracker.groups.map((group: any, gi: number) => (
+            {t.modules.biteByNightSurvivalTips.groups.map((group: any, gi: number) => (
               <div key={gi} className="p-6 bg-white/5 border border-border rounded-xl">
                 <div className="flex items-center gap-2 mb-4">
                   <ClipboardCheck className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   <h3 className="font-bold text-lg">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksAchievementTracker::groups::${gi}`]} locale={locale}>
+                    <LinkedTitle linkData={moduleLinkMap[`biteByNightSurvivalTips::groups::${gi}`]} locale={locale}>
                       {group.name}
                     </LinkedTitle>
                   </h3>
@@ -678,11 +682,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="singleplayer-faq" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSingleplayerAndPlatformFAQ']} locale={locale}>{t.modules.lucidBlocksSingleplayerAndPlatformFAQ.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSingleplayerAndPlatformFAQ.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightClassAbilities']} locale={locale}>{t.modules.biteByNightClassAbilities.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightClassAbilities.intro}</p>
           </div>
           <div className="scroll-reveal space-y-2">
-            {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.faqs.map((faq: any, index: number) => (
+            {t.modules.biteByNightClassAbilities.faqs.map((faq: any, index: number) => (
               <div key={index} className="border border-border rounded-xl overflow-hidden">
                 <button
                   onClick={() => setFaqExpanded(faqExpanded === index ? null : index)}
@@ -706,12 +710,12 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           <div className="text-center mb-12 scroll-reveal">
             <div className="flex items-center justify-center gap-3 mb-4">
               <Gamepad2 className="w-8 h-8 text-[hsl(var(--nav-theme-light))]" />
-              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSteamDeckAndController']} locale={locale}>{t.modules.lucidBlocksSteamDeckAndController.title}</LinkedTitle></h2>
+              <h2 className="text-4xl md:text-5xl font-bold"><LinkedTitle linkData={moduleLinkMap['biteByNightKillerAbilities']} locale={locale}>{t.modules.biteByNightKillerAbilities.title}</LinkedTitle></h2>
             </div>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSteamDeckAndController.intro}</p>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightKillerAbilities.intro}</p>
           </div>
           <div className="scroll-reveal space-y-2">
-            {t.modules.lucidBlocksSteamDeckAndController.faqs.map((faq: any, index: number) => (
+            {t.modules.biteByNightKillerAbilities.faqs.map((faq: any, index: number) => (
               <div key={index} className="border border-border rounded-xl overflow-hidden">
                 <button
                   onClick={() => setDeckExpanded(deckExpanded === index ? null : index)}
@@ -733,16 +737,16 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="settings-accessibility" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksSettingsAndAccessibility']} locale={locale}>{t.modules.lucidBlocksSettingsAndAccessibility.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksSettingsAndAccessibility.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightLatestNews']} locale={locale}>{t.modules.biteByNightLatestNews.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightLatestNews.intro}</p>
           </div>
           <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.lucidBlocksSettingsAndAccessibility.settings.map((s: any, index: number) => (
+            {t.modules.biteByNightLatestNews.settings.map((s: any, index: number) => (
               <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex items-center gap-3 mb-3">
                   <Settings className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                   <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksSettingsAndAccessibility::settings::${index}`]} locale={locale}>
+                    <LinkedTitle linkData={moduleLinkMap[`biteByNightLatestNews::settings::${index}`]} locale={locale}>
                       {s.name}
                     </LinkedTitle>
                   </h3>
@@ -759,11 +763,11 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="updates-patch-notes" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksUpdatesAndPatchNotes']} locale={locale}>{t.modules.lucidBlocksUpdatesAndPatchNotes.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksUpdatesAndPatchNotes.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightReleaseTimeline']} locale={locale}>{t.modules.biteByNightReleaseTimeline.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightReleaseTimeline.intro}</p>
           </div>
           <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-8">
-            {t.modules.lucidBlocksUpdatesAndPatchNotes.entries.map((entry: any, index: number) => (
+            {t.modules.biteByNightReleaseTimeline.entries.map((entry: any, index: number) => (
               <div key={index} className="relative">
                 <div className="absolute -left-[1.4rem] w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background" />
                 <div className="p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
@@ -772,7 +776,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                     <Clock className="w-4 h-4 text-muted-foreground" />
                   </div>
                   <h3 className="font-bold mb-1">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksUpdatesAndPatchNotes::entries::${index}`]} locale={locale}>
+                    <LinkedTitle linkData={moduleLinkMap[`biteByNightReleaseTimeline::entries::${index}`]} locale={locale}>
                       {entry.title}
                     </LinkedTitle>
                   </h3>
@@ -788,18 +792,18 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="crash-fix" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['lucidBlocksCrashFixAndTroubleshooting']} locale={locale}>{t.modules.lucidBlocksCrashFixAndTroubleshooting.title}</LinkedTitle></h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.lucidBlocksCrashFixAndTroubleshooting.intro}</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightCommunityFAQ']} locale={locale}>{t.modules.biteByNightCommunityFAQ.title}</LinkedTitle></h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightCommunityFAQ.intro}</p>
           </div>
           <div className="scroll-reveal space-y-4 mb-8">
-            {t.modules.lucidBlocksCrashFixAndTroubleshooting.steps.map((step: any, index: number) => (
+            {t.modules.biteByNightCommunityFAQ.steps.map((step: any, index: number) => (
               <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
                 <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
                   <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{index + 1}</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">
-                    <LinkedTitle linkData={moduleLinkMap[`lucidBlocksCrashFixAndTroubleshooting::steps::${index}`]} locale={locale}>
+                    <LinkedTitle linkData={moduleLinkMap[`biteByNightCommunityFAQ::steps::${index}`]} locale={locale}>
                       {step.title}
                     </LinkedTitle>
                   </h3>
@@ -815,13 +819,13 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 <h3 className="font-bold text-yellow-400 mb-2">Still having issues?</h3>
                 <p className="text-sm text-muted-foreground mb-3">Report bugs with your logs through the official channels:</p>
                 <div className="flex flex-wrap gap-3">
-                  <a href="https://discord.com/invite/lucidblocks" target="_blank" rel="noopener noreferrer"
+                  <a href="https://discord.gg/Nj4ZJVcZ5d" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
                     <MessageCircle className="w-4 h-4" /> Discord <ExternalLink className="w-3 h-3" />
                   </a>
-                  <a href="https://store.steampowered.com/app/3495730/Lucid_Blocks/" target="_blank" rel="noopener noreferrer"
+                  <a href="https://www.reddit.com/r/BiteByNight/" target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Reddit <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -871,7 +875,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.gg/Nj4ZJVcZ5d"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -881,7 +885,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://x.com/bitebynightdev"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -891,22 +895,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://www.reddit.com/r/BiteByNight/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.steamCommunity}
+                    {t.footer.reddit}
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://www.roblox.com/games/70845479499574/Bite-by-Night"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
                   >
-                    {t.footer.steamStore}
+                    {t.footer.roblox}
                   </a>
                 </li>
               </ul>

@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing, type Locale } from '@/i18n/routing'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.bitebynight.wiki'
 
 // 静态页面配置
 const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'monthly' | 'yearly' }> = {
@@ -14,26 +14,26 @@ const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'mo
 
 // 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
+	'classes': 0.9,
+	'killers': 0.9,
+	'maps': 0.8,
+	'objectives': 0.8,
+	'skins': 0.8,
+	'codes': 0.9,
 	'lore': 0.7,
-	'support': 0.6,
+	'news': 0.8,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
+	'classes': 'weekly',
+	'killers': 'weekly',
+	'maps': 'weekly',
+	'objectives': 'weekly',
+	'skins': 'weekly',
+	'codes': 'daily',
 	'lore': 'monthly',
-	'support': 'monthly',
+	'news': 'daily',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

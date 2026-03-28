@@ -1,27 +1,29 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Bite By Night Wiki - Classes, Killers & Codes",
+      "description": "Bite By Night Wiki for classes, killers, maps, release date, and code tracking. Follow the latest Roblox horror survival guides, news, and roster updates.",
+      "keywords": "Bite By Night, Roblox, classes, killers, codes, maps, release date",
+      "ogTitle": "Bite By Night Wiki - Classes, Killers & Codes",
+      "ogDescription": "Bite By Night Wiki for classes, killers, maps, release date, and code tracking. Follow the latest Roblox horror survival guides, news, and roster updates.",
+      "twitterTitle": "Bite By Night Wiki - Classes, Killers & Codes",
+      "twitterDescription": "Bite By Night Wiki for classes, killers, maps, release date, and code tracking. Follow the latest Roblox horror survival guides and roster updates."
     }
   },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
+    "classes": "Classes",
+    "killers": "Killers",
+    "maps": "Maps",
+    "objectives": "Objectives",
+    "skins": "Skins",
+    "codes": "Codes",
+    "lore": "Lore",
+    "news": "News"
   },
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -33,721 +35,615 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Roblox FNAF-Inspired Asym Horror",
+    "title": "Bite By Night Wiki",
+    "description": "Track classes, killers, maps, release timing, and codes for this Roblox asymmetrical horror game inspired by FNAF and Dead by Daylight.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "March 28, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "4",
+        "label": "Launch Classes"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "3",
+        "label": "Launch Killers"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "0",
+        "label": "Active Codes"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Bite By Night Gameplay",
+    "description": "Survive as a team against deadly killers in this Roblox asymmetrical horror game inspired by FNAF and Dead by Daylight."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Bite By Night",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to survive, play, and master Bite By Night",
     "cards": [
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First steps, class selection, and survival basics"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Swords",
+        "title": "Class Tier List",
+        "description": "Rankings for solo, team, and competitive play"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Skull",
+        "title": "Killer Guide",
+        "description": "All killers, abilities, and counter strategies"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Map",
+        "title": "Map Breakdown",
+        "description": "Key locations, escape routes, and danger zones"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Target",
+        "title": "Objectives Guide",
+        "description": "Tasks, generators, barricades, and exit mechanics"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Shirt",
+        "title": "Skins Gallery",
+        "description": "All skins, rarity, and how to unlock them"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Gift",
+        "title": "Active Codes",
+        "description": "Current codes, rewards, and redemption steps"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "icon": "ScrollText",
+        "title": "Lore and Story",
+        "description": "Character origins, FNAF connections, and world lore"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "icon": "Crosshair",
+        "title": "Killer Counters",
+        "description": "How to survive each killer's unique abilities"
       },
       {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "Trophy",
+        "title": "Best Strategies",
+        "description": "Winning team compositions and advanced tactics"
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Survival Tips",
+        "description": "Stealth, teamwork, and escape route planning"
+      },
+      {
+        "icon": "Zap",
+        "title": "Class Abilities",
+        "description": "Detailed breakdown of each class's unique skills"
+      },
+      {
+        "icon": "Flame",
+        "title": "Killer Abilities",
+        "description": "Deep dive into killer powers and pressure tactics"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Latest News",
+        "description": "Updates, patches, reveals, and release info"
+      },
+      {
+        "icon": "Clock",
+        "title": "Release Timeline",
+        "description": "Key dates, trailers, and development updates"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Community FAQ",
+        "description": "Platform, gameplay, and common questions answered"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "biteByNightBeginnerGuide": {
+      "title": "Bite By Night Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Start by understanding the core loop: survivors complete objectives while killers hunt them down. Choose your class wisely, stick with your team, and learn the maps to maximize your survival chances.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Choose Your Class",
+          "description": "Each class has unique abilities. Start with a well-rounded class to learn the basics before specializing in support, stealth, or utility roles."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Learn the Objectives",
+          "description": "Survivors must complete generators, repair systems, or activate exits. Knowing the objective layout on each map is critical for efficient play."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Stay Aware of the Killer",
+          "description": "Killers have unique powers and movement patterns. Listen for audio cues, watch for visual indicators, and always have an escape route planned."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Coordinate with Your Team",
+          "description": "Communication and teamwork are essential. Split objectives, callout killer positions, and rescue downed teammates when safe."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Always have an escape route planned before starting an objective.",
+        "Use barricades strategically to slow down killers, not just block paths.",
+        "Learn the map layouts early — knowing shortcuts can save your life.",
+        "Stick with at least one teammate when possible for safety."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+    "biteByNightClassTierList": {
+      "title": "Bite By Night Class Tier List",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "Classes in Bite By Night fill different roles in the survivor team. Some excel at solo play, others shine in coordinated groups. Here is how they stack up based on current community knowledge.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Team-Oriented Classes",
+          "description": "Classes that provide buffs, healing, or utility to nearby teammates. These are strongest in coordinated groups."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Solo-Viable Classes",
+          "description": "Classes with stealth or escape abilities that can operate independently. Good for solo queue or split-objective strategies."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Utility Classes",
+          "description": "Classes focused on objective speed, barricade efficiency, or information gathering. They accelerate the team's win condition."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "name": "Balanced Classes",
+          "description": "Well-rounded classes suitable for beginners. They offer a mix of survival tools without excelling in any single area."
         }
       ],
       "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+        "Master one class per role",
+        "Learn all class abilities",
+        "Adapt class picks to killer matchup",
+        "Build team compositions"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
+    "biteByNightKillerGuide": {
+      "title": "Bite By Night Killer Guide",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "Killers in Bite By Night each have unique abilities and playstyles. Understanding their strengths helps both killer and survivor players make better decisions in every match.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Animatronic Killers",
+          "type": "FNAF-Inspired",
+          "description": "Killers inspired by Five Nights at Freddy's lore. They tend to have ambush and stealth-based abilities."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Pursuit Killers",
+          "type": "Chase-Focused",
+          "description": "Killers designed for aggressive chasing. They have mobility or speed advantages during active pursuits."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Control Killers",
+          "type": "Zone Control",
+          "description": "Killers that dominate specific areas of the map. They excel at guarding objectives and cutting off escape routes."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
+    "biteByNightMapBreakdown": {
+      "title": "Bite By Night Map Breakdown",
       "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+      "intro": "Maps in Bite By Night feature distinct layouts with unique hazards, objective placements, and escape routes. Knowing each map gives survivors a significant advantage.",
       "solutions": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "name": "Forest Map",
+          "role": "Outdoor",
+          "description": "Open sightlines but limited cover. Multiple generator locations spread across a wide area. Watch for ambush points near trees and structures."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "name": "Industrial Map",
+          "role": "Indoor/Outdoor",
+          "description": "Tight corridors mixed with open yards. Barricades are especially effective here. Multiple floors create vertical escape options."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "name": "Facility Map",
+          "role": "Indoor",
+          "description": "Close-quarters with limited visibility. Killers have the advantage in tight spaces, but survivors can use doors and vents for escape."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "name": "Mixed Maps",
+          "role": "Hybrid",
+          "description": "Combined indoor and outdoor areas with transitions between open space and enclosed rooms. Adaptable strategies work best here."
         }
       ],
       "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+        "Learn generator spawn points for each map.",
+        "Identify the strongest barricade positions before the match starts.",
+        "Know the exit locations and the fastest paths to reach them.",
+        "Use environmental features like doors and vents to break line of sight."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+    "biteByNightObjectivesGuide": {
+      "title": "Bite By Night Objectives Guide",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "Survivors must complete a series of objectives to escape. Understanding the task flow and prioritizing efficiently is the difference between winning and losing.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Power Generators",
+          "description": "Locate and activate generators scattered across the map. Each generator completed brings you closer to unlocking the exit."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Barricading System",
+          "description": "Use barricades to block paths and slow down killers. Place them at choke points and near objectives for maximum value."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "name": "Exit Activation",
+          "description": "Once enough objectives are complete, activate the exit. This usually requires teamwork and creates a high-tension final phase."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "name": "Time Pressure",
+          "description": "Matches have time limits. Survivors must balance speed with safety — rushing objectives increases risk but delaying means running out of time."
         }
       ],
       "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+        "Complete generators",
+        "Place barricades strategically",
+        "Activate the exit",
+        "Manage time pressure"
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
+    "biteByNightSkinsGallery": {
+      "title": "Bite By Night Skins Gallery",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "Skins in Bite By Night range from common cosmetics to rare event-exclusive looks. Here is what we know about the cosmetic system so far.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Common Skins",
+          "type": "Basic",
+          "description": "Basic cosmetic options available to all players. These are typically unlocked through normal gameplay."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Rare Skins",
+          "type": "Uncommon",
+          "description": "Less common cosmetics that may require specific challenges, playtime milestones, or in-game currency."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Event Skins",
+          "type": "Limited",
+          "description": "Limited-time skins tied to seasonal events or special promotions. These become unavailable after the event ends."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "name": "Killer Skins",
+          "type": "Killer",
+          "description": "Cosmetic options for killer characters. These change the visual appearance of killer models and effects."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
+    "biteByNightActiveCodes": {
+      "title": "Bite By Night Active Codes",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "Codes in Bite By Night grant free rewards like skins, currency, and other items. Check back regularly as new codes are released with updates and events.",
       "creatures": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "Current Status",
+          "role": "Code Tracker",
+          "description": "There are currently no confirmed active codes for Bite By Night. The game just launched — codes are expected to drop with events and milestones."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "name": "How to Redeem",
+          "role": "Redemption Guide",
+          "description": "Open the game on Roblox, look for the codes button in the main menu, enter the code exactly as shown, and claim your reward."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "name": "Where to Find Codes",
+          "role": "Source Guide",
+          "description": "Official codes are typically announced on Discord, X (Twitter), and the Roblox game description. Community sources like Reddit also track them."
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "name": "Expired Codes",
+          "role": "Archive",
+          "description": "No expired codes yet. As codes are released and expire, they will be tracked here for reference."
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
+    "biteByNightLoreAndStory": {
+      "title": "Bite By Night Lore and Story",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Bite By Night draws heavy inspiration from Five Nights at Freddy's and Dead by Daylight, creating its own horror universe within Roblox. Here is what we know about the game's lore so far.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "name": "FNAF Connections",
+          "type": "Inspiration",
+          "description": "The game features animatronic-style killers clearly inspired by the FNAF franchise. Character designs reference classic animatronics with a Roblox twist."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "name": "Game Setting",
+          "type": "World",
+          "description": "Matches take place in various horror-themed locations. The environments suggest an abandoned facility, forest, and industrial zones."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "name": "Character Origins",
+          "type": "Backstory",
+          "description": "Each killer has a backstory that connects to the game's world. Community discussion frequently explores possible FNAF character parallels."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "name": "World Building",
+          "type": "Ongoing",
+          "description": "The game's lore is still being revealed through trailers, teasers, and in-game details. The community is actively piecing together the full story."
         }
       ],
       "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
+        "Discover all killer backstories",
+        "Find in-game lore items",
+        "Connect FNAF references",
+        "Track developer reveals"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
+    "biteByNightKillerCounters": {
+      "title": "Bite By Night Killer Counters",
       "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+      "intro": "Each killer in Bite By Night has specific weaknesses that survivors can exploit. Learning these counter strategies dramatically improves your survival rate.",
       "sections": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "name": "Audio Awareness",
+          "description": "Most killers produce audio cues before attacking. Learning to recognize these sounds gives you extra reaction time."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "name": "Line of Sight Breaks",
+          "description": "Breaking the killer's line of sight around corners and through doorways is the most reliable escape technique."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "name": "Barricade Timing",
+          "description": "Well-timed barricade placement during a chase can create enough distance to escape or regroup with teammates."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
+          "name": "Team Distraction",
+          "description": "Coordinated distractions where one player draws killer attention while others complete objectives is a high-level strategy."
         }
       ],
       "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
+        "React to audio cues consistently",
+        "Break line of sight in chases",
+        "Time barricades perfectly",
+        "Coordinate team distractions"
       ]
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
+    "biteByNightBestStrategies": {
+      "title": "Bite By Night Best Strategies",
       "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
+      "intro": "Winning in Bite By Night requires a mix of individual skill and team coordination. These are the most effective strategies based on community experience.",
       "priorities": [
         {
-          "name": "Personal Qualia",
+          "name": "Split Objectives",
           "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "description": "Splitting into pairs to work on multiple objectives simultaneously is the fastest path to escape. Never group all survivors on one generator."
         },
         {
-          "name": "Frost Pick",
+          "name": "Map Knowledge",
           "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "description": "Knowing the map layout — escape routes, barricade spots, generator locations — gives you a massive advantage over players who are still learning."
         },
         {
-          "name": "Cache Cube",
+          "name": "Class Synergy",
           "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
+          "description": "Picking classes that complement each other creates stronger teams. Balance stealth, support, and utility roles."
         },
         {
-          "name": "Hookshot",
+          "name": "Killer Adaptation",
           "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
+          "description": "Adapting your strategy based on which killer you are facing. Aggressive killers require different tactics than stealth killers."
         },
         {
-          "name": "Glider Glove",
+          "name": "Exit Coordination",
           "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
+          "description": "The exit phase is the most dangerous. Coordinate your final push — one player activates while others distract or guard."
         },
         {
-          "name": "Projectile Wand or Bombs",
+          "name": "Resource Management",
           "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "description": "Use barricades, abilities, and items efficiently. Wasting resources early can leave you vulnerable in the critical final moments."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
+    "biteByNightSurvivalTips": {
+      "title": "Bite By Night Survival Tips",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+      "intro": "Surviving in Bite By Night requires awareness, teamwork, and smart decision-making. These tips cover the fundamentals every player should know.",
       "groups": [
         {
-          "name": "Exploration",
+          "name": "Awareness",
           "achievements": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "title": "Always Have an Exit Plan",
+              "description": "Before starting any objective, identify your nearest escape route."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "title": "Use Audio Cues",
+              "description": "Listen for killer footsteps, music changes, and ambient sounds."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
+          "name": "Chase Survival",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "title": "Don't Panic",
+              "description": "Use turns, obstacles, and barricades to break line of sight."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "title": "Barricade During Chase",
+              "description": "Drop barricades at key moments to create distance from the killer."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
+          "name": "Teamwork",
           "achievements": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "title": "Help Your Team",
+              "description": "Rescue downed teammates and share killer location info."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "title": "Split Objectives",
+              "description": "Work on separate generators to complete tasks faster."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
+          "name": "Improvement",
           "achievements": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
+              "title": "Learn from Deaths",
+              "description": "Analyze what the killer did and what you could do differently."
             },
             {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "title": "Watch Good Players",
+              "description": "Observe experienced players to learn advanced techniques."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+    "biteByNightClassAbilities": {
+      "title": "Bite By Night Class Abilities",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "Each survivor class in Bite By Night has unique abilities that define their role. Understanding these abilities helps you choose the right class for your playstyle.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "What are Passive Abilities?",
+          "answer": "Background bonuses that are always in effect. These define the class's base strengths without any input from the player."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "question": "What are Active Abilities?",
+          "answer": "Abilities that must be activated and have cooldowns. Timing these correctly in clutch moments is what separates good players."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "question": "What are Team Abilities?",
+          "answer": "Abilities that benefit nearby teammates. These create strong synergies when classes are paired correctly."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "question": "What are Utility Abilities?",
+          "answer": "Abilities that speed up objectives, improve barricades, or provide information about the map and killer position."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "question": "How do I choose the right class?",
+          "answer": "Consider your playstyle. If you like teamwork, pick support classes. If you prefer independence, pick stealth classes. Utility classes work best for objective-focused play."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
+    "biteByNightKillerAbilities": {
+      "title": "Bite By Night Killer Abilities",
       "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
+      "intro": "Killers in Bite By Night have powerful abilities that define how they hunt survivors. Understanding these powers is essential for both playing as and against each killer.",
       "faqs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "question": "What are Chase Abilities?",
+          "answer": "Powers that help killers close distance on running survivors. These include speed boosts, teleports, and gap-closing attacks."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "question": "What are Detection Abilities?",
+          "answer": "Powers that reveal survivor locations. These include aura reading, noise tracking, and area scanning."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "question": "What are Zone Control Abilities?",
+          "answer": "Powers that let killers dominate specific areas. These include traps, barriers, and area denial effects."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "question": "What are Stealth Abilities?",
+          "answer": "Powers that let killers approach unseen. These include invisibility, reduced terror radius, and silent movement."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "question": "How do I counter killer abilities?",
+          "answer": "Learn each killer's specific weaknesses. Stay aware of audio cues, use barricades strategically, and coordinate with your team to exploit their blind spots."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+    "biteByNightLatestNews": {
+      "title": "Bite By Night Latest News",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "Bite By Night is actively in development with regular reveals and updates. Here are the most important announcements and milestones.",
       "settings": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "name": "Official Launch",
+          "type": "Release",
+          "description": "Bite By Night officially launched on Roblox on March 28, 2026, after months of community anticipation and trailer reveals."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "name": "Official Trailer",
+          "type": "Reveal",
+          "description": "The official trailer was released on the OzelBlox YouTube channel, showcasing gameplay, killers, and map environments."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "name": "Discord Growth",
+          "type": "Milestone",
+          "description": "The official Discord server has grown to over 231,000 members, making it one of the largest Roblox horror communities."
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "name": "Future Updates",
+          "type": "Roadmap",
+          "description": "New killers, classes, maps, and seasonal events are expected in post-launch content updates."
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+    "biteByNightReleaseTimeline": {
+      "title": "Bite By Night Release Timeline",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "Track the key dates and milestones in Bite By Night's development journey from announcement to launch.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "title": "Game Announcement",
+          "type": "Announcement",
+          "description": "Bite By Night was first announced by OzelBlox, generating immediate interest from the FNAF and Roblox horror communities."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "title": "Trailer Drop",
+          "type": "Reveal",
+          "description": "The official trailer showcased the game's asymmetrical horror gameplay, animatronic killers, and multiple map environments."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "title": "Official Launch - March 28, 2026",
+          "type": "Release",
+          "description": "Bite By Night launched on Roblox with 4 survivor classes, 3 killers, and multiple maps on March 28, 2026."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "biteByNightCommunityFAQ": {
+      "title": "Bite By Night Community FAQ",
+      "displayType": "accordion",
+      "intro": "Answers to the most common questions players have about Bite By Night.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "What platform is Bite By Night on?",
+          "description": "Bite By Night is a Roblox game. You can play it for free through the Roblox platform."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Is Bite By Night free to play?",
+          "description": "Yes. Bite By Night is free to play on Roblox. There may be optional cosmetic purchases."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "How many players per match?",
+          "description": "Bite By Night features asymmetrical gameplay with multiple survivors versus one killer per match."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Is Bite By Night related to FNAF?",
+          "description": "Bite By Night is inspired by Five Nights at Freddy's and Dead by Daylight but is an original Roblox game, not an official FNAF product."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Are there active codes for Bite By Night?",
+          "description": "Currently there are no confirmed active codes. Codes are expected to be released with future updates and events."
+        },
+        {
+          "title": "When was Bite By Night released?",
+          "description": "Bite By Night officially launched on Roblox on March 28, 2026."
+        },
+        {
+          "title": "Who made Bite By Night?",
+          "description": "Bite By Night was developed by OzelBlox and the Totally Not Secret Games team on Roblox."
+        },
+        {
+          "title": "How do I report bugs?",
+          "description": "Join the official Discord server to report bugs in the dedicated bug-reports channel."
         }
       ]
     }
@@ -755,177 +651,217 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Bite By Night",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Bite By Night?",
+        "answer": "Bite By Night is a Roblox asymmetrical horror game inspired by FNAF and Dead by Daylight. Survivors work together to complete objectives while a killer hunts them down."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is Bite By Night free?",
+        "answer": "Yes. Bite By Night is free to play on the Roblox platform."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How many classes are there?",
+        "answer": "Bite By Night launched with 4 survivor classes, each with unique abilities and roles."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How many killers are in the game?",
+        "answer": "The game launched with 3 killers, each featuring distinct abilities and playstyles."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Are there codes for Bite By Night?",
+        "answer": "Currently there are no active codes. Codes are expected to arrive with future updates and events."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I find the official community?",
+        "answer": "The official Discord server has over 231,000 members. You can also follow @bitebynightdev on X and Instagram."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play Bite By Night?",
+    "description": "Join the Bite By Night community on Discord for guides, updates, codes, and discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Bite By Night Wiki",
+    "description": "Your complete resource hub for Bite By Night classes, killers, maps, codes, and survival guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "reddit": "Reddit",
+    "roblox": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "\u00a9 2026 Bite By Night Wiki. Not affiliated with Roblox Corporation or the developers of Bite By Night.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "classes": {
+      "title": "Bite By Night Classes",
+      "description": "Complete class guides covering abilities, roles, tier rankings, and team composition strategies for Bite By Night.",
+      "metaTitle": "Bite By Night Classes - Abilities, Roles & Tier List",
+      "metaDescription": "Complete Bite By Night class guides covering abilities, roles, tier rankings, and team composition strategies for the Roblox horror game.",
+      "categoryLabel": "SURVIVOR CLASSES",
+      "whatIs": "What are Classes?",
+      "whatIsDescription": "Comprehensive guides covering survivor class abilities, roles, and strategies. Learn the strengths and weaknesses of each class to maximize your team's survival.",
+      "why": "Why learn classes?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Choose the Right Role",
+        "step1Description": "Understand which class fits your playstyle and team needs",
+        "step2Title": "Master Abilities",
+        "step2Description": "Learn when and how to use each class's unique powers effectively",
+        "step3Title": "Build Better Teams",
+        "step3Description": "Create balanced team compositions with complementary class picks"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Class Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "killers": {
+      "title": "Bite By Night Killers",
+      "description": "All killer guides covering abilities, playstyles, counter strategies, and tier rankings.",
+      "metaTitle": "Bite By Night Killers - Abilities, Counters & Tier List",
+      "metaDescription": "Complete Bite By Night killer guides covering abilities, playstyles, counter strategies, and tier rankings for the Roblox horror game.",
+      "categoryLabel": "KILLER ROSTER",
+      "whatIs": "What are Killers?",
+      "whatIsDescription": "Detailed guides on every killer in Bite By Night. Learn their abilities, strengths, weaknesses, and how to counter each one as a survivor.",
+      "why": "Why study killers?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Know Your Enemy",
+        "step1Description": "Understand killer abilities to anticipate their moves",
+        "step2Title": "Learn Counters",
+        "step2Description": "Develop specific strategies to survive against each killer",
+        "step3Title": "Play Killer Better",
+        "step3Description": "Master killer mechanics for when you play the hunter role"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Killer Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "maps": {
+      "title": "Bite By Night Maps",
+      "description": "Map guides covering layouts, objective locations, escape routes, and strategic positions.",
+      "metaTitle": "Bite By Night Maps - Layouts, Routes & Strategy Guide",
+      "metaDescription": "Complete Bite By Night map guides with layouts, objective locations, escape routes, and strategic positions for every map.",
+      "categoryLabel": "MAP GUIDES",
+      "whatIs": "What are Maps?",
+      "whatIsDescription": "Detailed guides for every map in Bite By Night. Learn objective placements, escape routes, danger zones, and the best positions for survivors and killers.",
+      "why": "Why learn maps?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Find Objectives Fast",
+        "step1Description": "Know where generators and key locations spawn on each map",
+        "step2Title": "Plan Escape Routes",
+        "step2Description": "Identify the safest paths and shortcuts to avoid the killer",
+        "step3Title": "Control the Map",
+        "step3Description": "Use map knowledge to set up barricades and team strategies"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Map Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "objectives": {
+      "title": "Bite By Night Objectives",
+      "description": "Objective guides covering generators, barricades, exits, and task mechanics.",
+      "metaTitle": "Bite By Night Objectives - Tasks, Generators & Exit Guide",
+      "metaDescription": "Complete Bite By Night objectives guide covering generators, barricades, exit mechanics, and task strategies for survivor gameplay.",
+      "categoryLabel": "GAME OBJECTIVES",
+      "whatIs": "What are Objectives?",
+      "whatIsDescription": "Guides to all objective mechanics in Bite By Night including generators, barricades, exits, and time pressure systems.",
+      "why": "Why learn objectives?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Complete Tasks Faster",
+        "step1Description": "Understand generator mechanics and optimal task order",
+        "step2Title": "Use Barricades Effectively",
+        "step2Description": "Learn placement strategies to slow down killers at key points",
+        "step3Title": "Coordinate Exits",
+        "step3Description": "Plan the final escape with your team for maximum survival"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Objective Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "skins": {
+      "title": "Bite By Night Skins",
+      "description": "Complete skin gallery with unlock methods, rarity tiers, and event-exclusive cosmetics.",
+      "metaTitle": "Bite By Night Skins - Gallery, Rarity & Unlock Guide",
+      "metaDescription": "Browse all Bite By Night skins including common, rare, and event-exclusive cosmetics. Learn how to unlock every skin in the game.",
+      "categoryLabel": "COSMETICS",
+      "whatIs": "What are Skins?",
+      "whatIsDescription": "Browse all cosmetic options in Bite By Night. Find rarity tiers, unlock requirements, and event-exclusive skins for both survivors and killers.",
+      "why": "Why collect skins?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Customize Your Look",
+        "step1Description": "Stand out from other players with unique character appearances",
+        "step2Title": "Track Event Skins",
+        "step2Description": "Never miss limited-time cosmetics from seasonal events",
+        "step3Title": "Complete Collections",
+        "step3Description": "Work toward unlocking all available skins in the game"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Skins"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "codes": {
+      "title": "Bite By Night Codes",
+      "description": "All active and expired codes with rewards and redemption instructions.",
+      "metaTitle": "Bite By Night Codes - Free Rewards & Redemption Guide",
+      "metaDescription": "All active and expired Bite By Night codes with free rewards and step-by-step redemption instructions. Updated regularly.",
+      "categoryLabel": "CODES & REWARDS",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Redeem codes in Bite By Night for free rewards including skins, currency, and items. Check this page regularly for the latest active codes.",
+      "why": "Why check codes?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Free Rewards",
+        "step1Description": "Get skins, currency, and items without spending anything",
+        "step2Title": "Limited Time",
+        "step2Description": "Codes expire — redeem them before they are gone",
+        "step3Title": "Stay Updated",
+        "step3Description": "New codes drop with updates, events, and milestones"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Codes"
+    },
+    "lore": {
+      "title": "Bite By Night Lore",
+      "description": "Story lore, character origins, FNAF connections, and world-building details.",
+      "metaTitle": "Bite By Night Lore - Story, Characters & FNAF Connections",
+      "metaDescription": "Explore Bite By Night lore including character origins, FNAF connections, and world-building details for the Roblox horror game.",
+      "categoryLabel": "LORE & STORY",
+      "whatIs": "What is Lore?",
+      "whatIsDescription": "Deep dives into Bite By Night's story, character backgrounds, FNAF inspirations, and the game's expanding universe.",
+      "why": "Why explore lore?",
+      "whySteps": {
+        "step1Title": "Understand the Story",
+        "step1Description": "Piece together the narrative behind the game's horror setting",
+        "step2Title": "FNAF Connections",
+        "step2Description": "Discover how Bite By Night references and reimagines FNAF elements",
+        "step3Title": "Character Depth",
+        "step3Description": "Learn the backstories behind each killer and the game world"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Lore Articles"
+    },
+    "news": {
+      "title": "Bite By Night News",
+      "description": "Latest updates, patch notes, reveals, and development announcements.",
+      "metaTitle": "Bite By Night News - Updates, Patches & Announcements",
+      "metaDescription": "Latest Bite By Night news including updates, patch notes, character reveals, and development announcements for the Roblox horror game.",
+      "categoryLabel": "NEWS & UPDATES",
+      "whatIs": "What is News?",
+      "whatIsDescription": "Stay up to date with the latest Bite By Night announcements, patch notes, new content reveals, and developer updates.",
+      "why": "Why follow news?",
+      "whySteps": {
+        "step1Title": "New Content",
+        "step1Description": "Be first to know about new killers, classes, maps, and features",
+        "step2Title": "Balance Changes",
+        "step2Description": "Track patches that affect class and killer balance",
+        "step3Title": "Events & Codes",
+        "step3Description": "Never miss limited-time events and new code releases"
+      },
+      "featured": "Featured & Essential",
+      "all": "All News"
     }
   }
 }

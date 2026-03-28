@@ -1,4 +1,4 @@
-import { BookOpen, Sparkles, Package, Eye, Home, MessageCircle } from 'lucide-react'
+import { BookOpen, Skull, Map, Target, Shirt, Gift, ScrollText, Newspaper } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
@@ -9,12 +9,14 @@ export interface NavigationItem {
 }
 
 export const NAVIGATION_CONFIG: NavigationItem[] = [
-	{ key: 'guides', path: '/guides', icon: BookOpen, isContentType: true },
-	{ key: 'crafting', path: '/crafting', icon: Sparkles, isContentType: true },
-	{ key: 'items', path: '/items', icon: Package, isContentType: true },
-	{ key: 'biomes', path: '/biomes', icon: Eye, isContentType: true },
-	{ key: 'building', path: '/building', icon: Home, isContentType: true },
-	{ key: 'support', path: '/support', icon: MessageCircle, isContentType: true },
+	{ key: 'classes', path: '/classes', icon: BookOpen, isContentType: true },
+	{ key: 'killers', path: '/killers', icon: Skull, isContentType: true },
+	{ key: 'maps', path: '/maps', icon: Map, isContentType: true },
+	{ key: 'objectives', path: '/objectives', icon: Target, isContentType: true },
+	{ key: 'skins', path: '/skins', icon: Shirt, isContentType: true },
+	{ key: 'codes', path: '/codes', icon: Gift, isContentType: true },
+	{ key: 'lore', path: '/lore', icon: ScrollText, isContentType: true },
+	{ key: 'news', path: '/news', icon: Newspaper, isContentType: true },
 ]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
