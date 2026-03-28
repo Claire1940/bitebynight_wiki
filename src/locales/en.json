@@ -266,113 +266,152 @@
     },
     "biteByNightClassTierList": {
       "title": "Bite By Night Class Tier List",
-      "displayType": "cards",
-      "intro": "Classes in Bite By Night fill different roles in the survivor team. Here is how they rank based on solo value, team utility, and ease of use at launch.",
-      "cards": [
+      "displayType": "tierGrid",
+      "intro": "Bite By Night currently has four known Survivor classes: Customer, Fighter, Healer, and Security Guard. Security Guard stands out as the most complete all-around pick thanks to cameras and stun utility, while Healer is the best pure support choice. Fighter is strongest in coordinated lobbies, and Customer remains the easiest free entry class for self-sustain and escape-focused play.",
+      "tiers": [
         {
-          "name": "S-Tier: Security Guard",
-          "description": "Highest team impact with camera reveals and taser utility. The best class for coordinated teams who want map control and objective efficiency."
+          "tier": "S",
+          "class": "Security Guard",
+          "price": "900 Scraps",
+          "soloValue": "A",
+          "teamUtility": "A",
+          "easeOfUse": "Medium",
+          "coreTools": ["Taser", "Cams"],
+          "summary": "The most balanced class in the current roster. It can scout the killer and objectives with cameras while also creating space with a charged taser stun."
         },
         {
-          "name": "A-Tier: Fighter",
-          "description": "Strong stun and parry makes Fighter the go-to for aggressive peeling and saving teammates. High skill ceiling with fire axe combos."
+          "tier": "A",
+          "class": "Healer",
+          "price": "400 Scraps",
+          "soloValue": "A",
+          "teamUtility": "S",
+          "easeOfUse": "High",
+          "coreTools": ["Heal", "Self Heal"],
+          "summary": "The strongest dedicated support class. It keeps teammates alive, extends generator pressure, and is especially valuable when a team wants steady rounds instead of risky duels."
         },
         {
-          "name": "B-Tier: Healer",
-          "description": "Reliable team sustain with teammate and self healing. Essential for longer rounds but depends on team coordination to shine."
+          "tier": "B",
+          "class": "Fighter",
+          "price": "600 Scraps",
+          "soloValue": "B",
+          "teamUtility": "A",
+          "easeOfUse": "Medium",
+          "coreTools": ["Swing", "Parry"],
+          "summary": "A stun-focused class with real team value, but it needs timing and coordination. Fighter is much better in groups that can capitalize on parries and axe stuns."
         },
         {
-          "name": "C-Tier: Customer",
-          "description": "Free and beginner-friendly with pizza healing and speed boosts. Great for learning but outclassed by paid classes in team play."
+          "tier": "C",
+          "class": "Customer",
+          "price": "Free",
+          "soloValue": "S",
+          "teamUtility": "B",
+          "easeOfUse": "High",
+          "coreTools": ["Pizza", "Drink"],
+          "summary": "The default beginner class. It offers strong self-heal and escape tools for solo survival, but it contributes less team pressure than the more specialized classes."
         }
-      ],
-      "highlights": [
-        "Solo queue: Fighter",
-        "Team play: Security Guard",
-        "Beginners: Customer",
-        "Sustain: Healer"
       ]
     },
     "biteByNightKillersGuide": {
       "title": "Bite By Night Killers Guide",
-      "displayType": "regionCards",
-      "intro": "The killer roster in Bite By Night features iconic animatronic-inspired hunters, each with unique abilities and playstyles. Understanding what each killer can do is essential for both killer mains and survivors.",
-      "regions": [
+      "displayType": "killerCards",
+      "intro": "The current known killer pool is split between the confirmed release roster and killers already listed as upcoming. Springtrap, The Mimic, and Ennard make up the confirmed launch lineup, while Marionette and Mangle are already marked for future addition. This module gives players a quick roster read before they dive into matchup-specific guides and tier lists.",
+      "killers": [
         {
           "name": "Springtrap",
-          "type": "Launch Killer",
-          "description": "A classic FNAF-inspired animatronic killer with ambush and pursuit tools. High pressure in tight spaces and indoor maps."
+          "status": "Confirmed Release",
+          "role": "Balanced pressure and chase killer",
+          "highlights": ["Skillshot finisher", "Trap control in chokepoints", "Tracking utility", "Charge mobility"],
+          "summary": "Springtrap is the most rounded killer in the current pool, combining offense, crowd control, and reliable chase pressure."
         },
         {
           "name": "The Mimic",
-          "type": "Launch Killer",
-          "description": "A deception-focused killer that can disguise or mimic to confuse survivors. Punishes teams that lack communication."
+          "status": "Confirmed Release",
+          "role": "Flexible stance-based killer",
+          "highlights": ["Speed mode finisher", "Strength burst damage", "Stealth approach option"],
+          "summary": "The Mimic trades raw consistency for flexibility. It can swap between different modes to adapt to the situation, but it needs cleaner decision-making than the other killers."
         },
         {
           "name": "Ennard",
-          "type": "Launch Killer",
-          "description": "A mobile and aggressive killer with fast traversal abilities. Strong in open areas and chase-heavy rounds."
+          "status": "Confirmed Release",
+          "role": "Ambush and disguise killer",
+          "highlights": ["Disguise mindgames", "Muted presence", "Wirethings scouting", "Pull mobility"],
+          "summary": "Ennard is built around deception and surprise. It rewards players who can use disguise pressure and catch grouped Survivors before they react."
         },
         {
-          "name": "Upcoming Killers",
-          "type": "Future Content",
-          "description": "New killers including Marionette are teased for post-launch updates. The roster is expected to grow with each major content patch."
+          "name": "Marionette",
+          "status": "Upcoming",
+          "role": "TBA",
+          "highlights": ["Confirmed for a future update"],
+          "summary": "Marionette is already listed as an upcoming killer, making it one of the next major roster expansions to watch."
+        },
+        {
+          "name": "Mangle",
+          "status": "Upcoming",
+          "role": "TBA",
+          "highlights": ["Confirmed for a future update"],
+          "summary": "Mangle is also listed in the upcoming section, giving the game another confirmed killer planned beyond the release pool."
         }
       ]
     },
     "biteByNightKillerTierList": {
       "title": "Bite By Night Killer Tier List",
-      "displayType": "creatureCards",
-      "intro": "Each killer in Bite By Night brings different strengths to the hunt. This tier list compares killers by chase pressure, zone control, consistency, and ease of use at launch.",
-      "creatures": [
+      "displayType": "tierGrid",
+      "intro": "Among the currently ranked killers, Springtrap has the strongest overall toolkit thanks to its combination of tracking, traps, mobility, and finishing power. Ennard follows closely with strong disguise-based ambush play, while The Mimic offers creative flexibility but needs more setup and cleaner execution to match the others. Upcoming killers are excluded until their kits are more fully established.",
+      "tiers": [
         {
-          "name": "Springtrap",
-          "role": "S-Tier",
-          "description": "Dominant in indoor maps with strong ambush potential and reliable chase tools. The most consistent killer across all skill levels."
+          "tier": "S",
+          "killer": "Springtrap",
+          "pressure": "High",
+          "chaseTools": "High",
+          "consistency": "High",
+          "playstyle": "Control and pursuit",
+          "summary": "The best all-around killer right now. Springtrap brings trap denial, long-range finishing pressure, tracking utility, and strong mobility in one package."
         },
         {
-          "name": "The Mimic",
-          "role": "A-Tier",
-          "description": "Extremely strong against uncoordinated teams. Deception abilities punish players who do not communicate killer position."
+          "tier": "A",
+          "killer": "Ennard",
+          "pressure": "High",
+          "chaseTools": "Medium",
+          "consistency": "Medium-High",
+          "playstyle": "Disguise and ambush",
+          "summary": "Ennard is excellent when disguise play lands. It can punish grouped Survivors and create sudden momentum swings, but it is slightly less reliable than Springtrap once experienced players start reading it."
         },
         {
-          "name": "Ennard",
-          "role": "A-Tier",
-          "description": "Fast and aggressive with great map mobility. Strong in open layouts but requires precise timing to land key abilities."
+          "tier": "B",
+          "killer": "The Mimic",
+          "pressure": "Medium",
+          "chaseTools": "Medium",
+          "consistency": "Medium-Low",
+          "playstyle": "Mode swapping and adaptation",
+          "summary": "The Mimic has useful flexibility through Speed, Strength, and Stealth modes, but none of those options are as naturally reliable as Springtrap or Ennard when lobbies get stronger."
         }
       ]
     },
     "biteByNightSurvivorGuide": {
       "title": "Bite By Night Survivor Guide",
-      "displayType": "itemCards",
-      "intro": "Surviving in Bite By Night requires teamwork, map knowledge, and smart class choices. This guide covers the core strategies that help survivors escape consistently across all maps and killer matchups.",
-      "items": [
+      "displayType": "steps",
+      "intro": "As a Survivor, your job is to work with the team, complete puzzles and minigames, power the generators, and open the exit before the killer wipes the lobby. Class choice changes how you contribute: Customer survives on self-sustain, Fighter creates stun windows, Healer keeps the team alive, and Security Guard scouts danger and sets up safer routes. Good Survivor play is less about panic running and more about timing, positioning, and using each class for the right moment.",
+      "steps": [
         {
-          "name": "Split Objectives Efficiently",
-          "type": "Strategy",
-          "description": "Work on multiple generators in pairs instead of stacking on one. This forces the killer to choose between targets and speeds up the escape."
+          "title": "Choose a class with a clear job",
+          "description": "Customer is the free starter class for self-heal and escape. Fighter is your stun specialist, Healer is your sustain support, and Security Guard is the vision-and-control pick with cameras and a taser."
         },
         {
-          "name": "Use Classes to Their Strengths",
-          "type": "Team Play",
-          "description": "Fighter protects, Healer sustains, Security Guard reveals, and Customer survives solo. Pick roles that complement your team composition."
+          "title": "Prioritize generators and map tasks early",
+          "description": "Survivors win by completing puzzles and minigames that power generators and open the exit. Early match time is best spent pushing objectives before the killer builds too much pressure."
         },
         {
-          "name": "Control Doors and Barricades",
-          "type": "Defense",
-          "description": "Holding doors and placing barricades at choke points buys critical time. Learn which doors the killer cannot easily break through."
+          "title": "Use your abilities for space, not panic",
+          "description": "Customer should save Pizza and Drink for clutch survival, Fighter should look for deliberate stun windows, Healer should keep teammates active, and Security Guard should feed information with cams before committing the taser."
         },
         {
-          "name": "Coordinate the Final Escape",
-          "type": "Endgame",
-          "description": "The exit phase is the most dangerous. One player activates while others distract or guard. Never rush the exit alone."
+          "title": "Play around teammates instead of splitting without purpose",
+          "description": "The role is built around teamwork. Healer and Fighter become much stronger together, and Security Guard gets more value when the team actually uses the information from cameras and follow-up stuns."
+        },
+        {
+          "title": "Turn the last objective into a clean escape",
+          "description": "Once generators are powered, stop taking unnecessary fights. Let utility classes create a safe window, keep healing if possible, and rotate straight toward the exit instead of giving the killer a second chase."
         }
-      ],
-      "unlockMilestones": [
-        "Learn generator locations on each map",
-        "Master one class per role type",
-        "Coordinate exit timing with teammates",
-        "Adapt strategy based on killer identity"
       ]
     },
     "biteByNightSpringtrapGuide": {

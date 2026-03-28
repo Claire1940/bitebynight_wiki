@@ -5,13 +5,22 @@ import {
   AlertTriangle,
   ArrowRight,
   BookOpen,
+  Cable,
+  Camera,
   Calendar,
   Check,
   ChevronDown,
+  Coffee,
+  Cpu,
+  DoorOpen,
   Eye,
   ExternalLink,
+  Fingerprint,
+  Flame,
   Ghost,
   Gift,
+  Heart,
+  Lightbulb,
   Map,
   MessageCircle,
   ScrollText,
@@ -20,8 +29,11 @@ import {
   Skull,
   Sparkles,
   Swords,
+  Target,
   Trophy,
+  UserCheck,
   Users,
+  Wrench,
   Zap,
 } from 'lucide-react'
 import Link from 'next/link'
@@ -480,31 +492,58 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="class-tier-list" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightClassTierList']} locale={locale}>{t.modules.biteByNightClassTierList.title}</LinkedTitle></h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['biteByNightClassTierList']} locale={locale}>
+                {t.modules.biteByNightClassTierList.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightClassTierList.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.biteByNightClassTierList.cards.map((card: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <Trophy className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.biteByNightClassTierList.tiers.map((item: any, index: number) => {
+              const tierIcons = [Camera, Heart, Swords, Coffee]
+              const TierIcon = tierIcons[index] || Trophy
+              return (
+                <div key={index} className={`p-6 bg-white/5 border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors ${item.tier === 'S' ? 'border-[hsl(var(--nav-theme)/0.5)] ring-1 ring-[hsl(var(--nav-theme)/0.2)]' : 'border-border'}`}>
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center gap-3">
+                      <div className={`w-10 h-10 rounded-lg flex items-center justify-center font-bold text-lg ${item.tier === 'S' ? 'bg-[hsl(var(--nav-theme)/0.2)] text-[hsl(var(--nav-theme-light))]' : 'bg-white/10 text-muted-foreground'}`}>
+                        {item.tier}
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-lg">
+                          <LinkedTitle linkData={moduleLinkMap[`biteByNightClassTierList::tiers::${index}`]} locale={locale}>
+                            {item.class}
+                          </LinkedTitle>
+                        </h3>
+                        <span className="text-xs text-muted-foreground">{item.price}</span>
+                      </div>
+                    </div>
+                    <TierIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div className="grid grid-cols-3 gap-2 mb-3">
+                    <div className="text-center p-2 bg-white/5 rounded-lg">
+                      <p className="text-xs text-muted-foreground">Solo</p>
+                      <p className="font-bold text-sm text-[hsl(var(--nav-theme-light))]">{item.soloValue}</p>
+                    </div>
+                    <div className="text-center p-2 bg-white/5 rounded-lg">
+                      <p className="text-xs text-muted-foreground">Team</p>
+                      <p className="font-bold text-sm text-[hsl(var(--nav-theme-light))]">{item.teamUtility}</p>
+                    </div>
+                    <div className="text-center p-2 bg-white/5 rounded-lg">
+                      <p className="text-xs text-muted-foreground">Ease</p>
+                      <p className="font-bold text-sm">{item.easeOfUse}</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap gap-2 mb-3">
+                    {item.coreTools.map((tool: string, ti: number) => (
+                      <span key={ti} className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{tool}</span>
+                    ))}
+                  </div>
+                  <p className="text-muted-foreground text-sm">{item.summary}</p>
                 </div>
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
-                  <LinkedTitle linkData={moduleLinkMap[`biteByNightClassTierList::cards::${index}`]} locale={locale}>
-                    {card.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{card.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="scroll-reveal grid grid-cols-2 md:grid-cols-4 gap-4">
-            {t.modules.biteByNightClassTierList.highlights.map((h: string, i: number) => (
-              <div key={i} className="p-4 bg-white/5 border border-border rounded-xl text-center hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <Trophy className="w-6 h-6 text-[hsl(var(--nav-theme-light))] mx-auto mb-2" />
-                <p className="text-sm">{h}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -513,24 +552,43 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="killers-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightKillersGuide']} locale={locale}>{t.modules.biteByNightKillersGuide.title}</LinkedTitle></h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['biteByNightKillersGuide']} locale={locale}>
+                {t.modules.biteByNightKillersGuide.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightKillersGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
-            {t.modules.biteByNightKillersGuide.regions.map((region: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-3 mb-3">
-                  <Skull className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <h3 className="font-bold">
-                    <LinkedTitle linkData={moduleLinkMap[`biteByNightKillersGuide::regions::${index}`]} locale={locale}>
-                      {region.name}
-                    </LinkedTitle>
-                  </h3>
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{region.type}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.biteByNightKillersGuide.killers.map((killer: any, index: number) => {
+              const killerIcons = [Target, Fingerprint, Cable, Ghost, Wrench]
+              const KillerIcon = killerIcons[index] || Skull
+              return (
+                <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex items-center gap-3 mb-3">
+                    <KillerIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    <h3 className="font-bold">
+                      <LinkedTitle linkData={moduleLinkMap[`biteByNightKillersGuide::killers::${index}`]} locale={locale}>
+                        {killer.name}
+                      </LinkedTitle>
+                    </h3>
+                    <span className={`text-xs px-2 py-1 rounded-full border ${killer.status === 'Upcoming' ? 'bg-white/5 border-border text-muted-foreground' : 'bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]'}`}>
+                      {killer.status}
+                    </span>
+                  </div>
+                  <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-3">{killer.role}</p>
+                  <ul className="space-y-1 mb-3">
+                    {killer.highlights.map((h: string, hi: number) => (
+                      <li key={hi} className="flex items-center gap-2 text-sm text-muted-foreground">
+                        <Check className="w-3 h-3 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                        {h}
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-muted-foreground text-sm">{killer.summary}</p>
                 </div>
-                <p className="text-muted-foreground text-sm">{region.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -539,23 +597,49 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="killer-tier-list" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightKillerTierList']} locale={locale}>{t.modules.biteByNightKillerTierList.title}</LinkedTitle></h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['biteByNightKillerTierList']} locale={locale}>
+                {t.modules.biteByNightKillerTierList.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightKillerTierList.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.biteByNightKillerTierList.creatures.map((c: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="mb-3">
-                  <span className={`text-xs px-2 py-1 rounded-full border ${c.role === "S-Tier" ? "bg-red-500/10 border-red-500/30 text-red-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}>{c.role}</span>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-3 gap-4">
+            {t.modules.biteByNightKillerTierList.tiers.map((item: any, index: number) => {
+              const tierIcons = [Flame, Zap, Eye]
+              const TierIcon = tierIcons[index] || Skull
+              return (
+                <div key={index} className={`p-6 bg-white/5 border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors ${item.tier === 'S' ? 'border-[hsl(var(--nav-theme)/0.5)] ring-1 ring-[hsl(var(--nav-theme)/0.2)]' : 'border-border'}`}>
+                  <div className="flex items-center justify-between mb-4">
+                    <div className={`w-10 h-10 rounded-lg flex items-center justify-center font-bold text-lg ${item.tier === 'S' ? 'bg-[hsl(var(--nav-theme)/0.2)] text-[hsl(var(--nav-theme-light))]' : 'bg-white/10 text-muted-foreground'}`}>
+                      {item.tier}
+                    </div>
+                    <TierIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="font-bold text-lg mb-1">
+                    <LinkedTitle linkData={moduleLinkMap[`biteByNightKillerTierList::tiers::${index}`]} locale={locale}>
+                      {item.killer}
+                    </LinkedTitle>
+                  </h3>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] inline-block mb-3">{item.playstyle}</span>
+                  <div className="grid grid-cols-3 gap-2 mb-3">
+                    <div className="text-center p-2 bg-white/5 rounded-lg">
+                      <p className="text-xs text-muted-foreground">Pressure</p>
+                      <p className="font-bold text-sm text-[hsl(var(--nav-theme-light))]">{item.pressure}</p>
+                    </div>
+                    <div className="text-center p-2 bg-white/5 rounded-lg">
+                      <p className="text-xs text-muted-foreground">Chase</p>
+                      <p className="font-bold text-sm text-[hsl(var(--nav-theme-light))]">{item.chaseTools}</p>
+                    </div>
+                    <div className="text-center p-2 bg-white/5 rounded-lg">
+                      <p className="text-xs text-muted-foreground">Consistency</p>
+                      <p className="font-bold text-sm">{item.consistency}</p>
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground text-sm">{item.summary}</p>
                 </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`biteByNightKillerTierList::creatures::${index}`]} locale={locale}>
-                    {c.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{c.description}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -564,31 +648,33 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="survivor-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4"><LinkedTitle linkData={moduleLinkMap['biteByNightSurvivorGuide']} locale={locale}>{t.modules.biteByNightSurvivorGuide.title}</LinkedTitle></h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['biteByNightSurvivorGuide']} locale={locale}>
+                {t.modules.biteByNightSurvivorGuide.title}
+              </LinkedTitle>
+            </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.biteByNightSurvivorGuide.intro}</p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            {t.modules.biteByNightSurvivorGuide.items.map((item: any, index: number) => (
-              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
-                <div className="flex items-center gap-2 mb-3">
-                  <Shield className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)]">{item.type}</span>
+          <div className="scroll-reveal space-y-4">
+            {t.modules.biteByNightSurvivorGuide.steps.map((step: any, index: number) => {
+              const stepIcons = [UserCheck, Cpu, Lightbulb, Users, DoorOpen]
+              const StepIcon = stepIcons[index] || Shield
+              return (
+                <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                    <StepIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">
+                      <LinkedTitle linkData={moduleLinkMap[`biteByNightSurvivorGuide::steps::${index}`]} locale={locale}>
+                        {step.title}
+                      </LinkedTitle>
+                    </h3>
+                    <p className="text-muted-foreground">{step.description}</p>
+                  </div>
                 </div>
-                <h3 className="font-bold mb-2">
-                  <LinkedTitle linkData={moduleLinkMap[`biteByNightSurvivorGuide::items::${index}`]} locale={locale}>
-                    {item.name}
-                  </LinkedTitle>
-                </h3>
-                <p className="text-muted-foreground text-sm">{item.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.biteByNightSurvivorGuide.unlockMilestones.map((m: string, i: number) => (
-              <span key={i} className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm">
-                <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />{m}
-              </span>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>

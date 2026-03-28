@@ -14,25 +14,25 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  biteByNightBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  biteByNightReleaseDate: { field: 'cards', nameKey: 'name' },
+  biteByNightCodes: { field: 'items', nameKey: 'name' },
+  biteByNightClassesGuide: { field: 'solutions', nameKey: 'name' },
+  biteByNightClassTierList: { field: 'tiers', nameKey: 'class' },
+  biteByNightKillersGuide: { field: 'killers', nameKey: 'name' },
+  biteByNightKillerTierList: { field: 'tiers', nameKey: 'killer' },
+  biteByNightSurvivorGuide: { field: 'steps', nameKey: 'title' },
+  biteByNightSpringtrapGuide: { field: 'sections', nameKey: 'name' },
+  biteByNightTheMimicGuide: { field: 'priorities', nameKey: 'name' },
+  biteByNightEnnardGuide: { field: 'groups', nameKey: 'name' },
+  biteByNightMapsGuide: { field: 'faqs', nameKey: 'question' },
+  biteByNightSkinsGuide: { field: 'faqs', nameKey: 'question' },
+  biteByNightMarionetteGuide: { field: 'settings', nameKey: 'name' },
+  biteByNightLoreGuide: { field: 'entries', nameKey: 'title' },
+  biteByNightCommunityFAQ: { field: 'steps', nameKey: 'title' },
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'guide', 'best', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn']
+const FILLER_WORDS = ['bite', 'night', '2026', '2025', 'complete', 'guide', 'best', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn']
 
 function normalize(text: string): string {
   return text
