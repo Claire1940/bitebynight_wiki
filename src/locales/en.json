@@ -10,16 +10,7 @@
       "twitterDescription": "Bite By Night Wiki for classes, killers, maps, release date, and code tracking. Follow the latest Roblox horror survival guides and roster updates."
     }
   },
-  "nav": {
-    "classes": "Classes",
-    "killers": "Killers",
-    "maps": "Maps",
-    "objectives": "Objectives",
-    "skins": "Skins",
-    "codes": "Codes",
-    "lore": "Lore",
-    "news": "News"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
@@ -699,7 +690,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "\u00a9 2026 Bite By Night Wiki. Not affiliated with Roblox Corporation or the developers of Bite By Night.",
+    "copyright": "© 2026 Bite By Night Wiki. Not affiliated with Roblox Corporation or the developers of Bite By Night.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

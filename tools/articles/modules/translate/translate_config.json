@@ -9,29 +9,23 @@
   "retry_attempts": 2,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["es", "pt", "ru", "ja"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Bite By Night",
+    "es": "Bite By Night",
+    "pt": "Bite By Night",
+    "ru": "Bite By Night",
+    "ja": "Bite By Night"
   },
 
   "lang_names": {
-    "ru": "Russian",
-    "pt": "Portuguese (Brazil)",
-    "de": "German",
     "es": "Spanish (Latin America)",
-    "ja": "Japanese",
-    "ko": "Korean",
-    "fr": "French"
+    "pt": "Portuguese (Brazil)",
+    "ru": "Russian",
+    "ja": "Japanese"
   },
 
   "batch_size": 20,
