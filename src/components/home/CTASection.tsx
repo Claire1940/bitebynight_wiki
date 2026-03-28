@@ -31,7 +31,7 @@ export default function CTASection({ title, description, joinCommunity, joinGame
               </a>
             </Button>
             <a
-              href="https://www.roblox.com/games/70845479499574/Bite-by-Night"
+              href="https://www.roblox.com/games/71008479572236/Bite-By-Night"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium border border-border hover:bg-white/10 px-8 py-6 text-lg transition-colors"

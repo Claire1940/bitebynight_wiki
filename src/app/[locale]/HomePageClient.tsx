@@ -137,7 +137,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           caption: "Bite By Night Wiki - Roblox Asymmetrical Horror Game",
         },
         sameAs: [
-          'https://www.roblox.com/games/70845479499574/Bite-by-Night',
+          'https://www.roblox.com/games/71008479572236/Bite-By-Night',
           'https://discord.gg/Nj4ZJVcZ5d',
           'https://www.reddit.com/r/BiteByNight/',
           'https://www.youtube.com/@OzelBlox/videos',
@@ -161,7 +161,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
           priceCurrency: 'USD',
           price: '0',
           availability: 'https://schema.org/InStock',
-          url: 'https://www.roblox.com/games/70845479499574/Bite-by-Night',
+          url: 'https://www.roblox.com/games/71008479572236/Bite-By-Night',
         },
       },
     ],
@@ -238,7 +238,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://www.roblox.com/games/70845479499574/Bite-by-Night"
+                href="https://www.roblox.com/games/71008479572236/Bite-By-Night"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4
@@ -1002,7 +1002,7 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </li>
                 <li>
                   <a
-                    href="https://www.roblox.com/games/70845479499574/Bite-by-Night"
+                    href="https://www.roblox.com/games/71008479572236/Bite-By-Night"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
