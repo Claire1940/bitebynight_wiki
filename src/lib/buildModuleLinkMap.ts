@@ -25,14 +25,34 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
   biteByNightSpringtrapGuide: { field: 'sections', nameKey: 'name' },
   biteByNightTheMimicGuide: { field: 'priorities', nameKey: 'name' },
   biteByNightEnnardGuide: { field: 'groups', nameKey: 'name' },
-  biteByNightMapsGuide: { field: 'faqs', nameKey: 'question' },
-  biteByNightSkinsGuide: { field: 'faqs', nameKey: 'question' },
-  biteByNightMarionetteGuide: { field: 'settings', nameKey: 'name' },
-  biteByNightLoreGuide: { field: 'entries', nameKey: 'title' },
-  biteByNightCommunityFAQ: { field: 'steps', nameKey: 'title' },
+  biteByNightMapsGuide: { field: 'maps', nameKey: 'name' },
+  biteByNightSkinsGuide: { field: 'items', nameKey: 'name' },
+  biteByNightMarionetteGuide: { field: 'items', nameKey: 'title' },
+  biteByNightLoreGuide: { field: 'items', nameKey: 'title' },
+  biteByNightWiki: { field: 'items', nameKey: 'title' },
 }
 
-const FILLER_WORDS = ['bite', 'night', '2026', '2025', 'complete', 'guide', 'best', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn']
+// Extra keywords per module to boost semantic matching beyond title/sub-item text
+const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
+  biteByNightBeginnerGuide: ['beginner', 'start', 'new player', 'tutorial', 'basics'],
+  biteByNightReleaseDate: ['release', 'launch', 'date', 'early access', 'when'],
+  biteByNightCodes: ['code', 'redeem', 'promo', 'free', 'reward'],
+  biteByNightClassesGuide: ['class', 'customer', 'fighter', 'healer', 'security guard', 'survivor'],
+  biteByNightClassTierList: ['tier', 'rank', 'best class', 'meta'],
+  biteByNightKillersGuide: ['killer', 'springtrap', 'mimic', 'ennard', 'marionette', 'mangle'],
+  biteByNightKillerTierList: ['killer tier', 'best killer', 'rank'],
+  biteByNightSurvivorGuide: ['survivor', 'escape', 'objective', 'generator'],
+  biteByNightSpringtrapGuide: ['springtrap', 'trap', 'axe', 'cleaver', 'scream'],
+  biteByNightTheMimicGuide: ['mimic', 'mode', 'speed', 'strength', 'stealth', 'stance'],
+  biteByNightEnnardGuide: ['ennard', 'disguise', 'hijack', 'wire', 'pull'],
+  biteByNightMapsGuide: ['map', 'forest', 'warehouse', 'location'],
+  biteByNightSkinsGuide: ['skin', 'cosmetic', 'variant', 'appearance'],
+  biteByNightMarionetteGuide: ['marionette', 'puppet', 'charlie', 'upcoming'],
+  biteByNightLoreGuide: ['lore', 'story', 'fnaf', 'narrative'],
+  biteByNightWiki: ['wiki', 'hub', 'database', 'navigation', 'browse'],
+}
+
+const FILLER_WORDS = ['bite', 'night', 'by', '2026', '2025', 'complete', 'guide', 'best', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn']
 
 function normalize(text: string): string {
   return text
@@ -48,7 +68,7 @@ function getSignificantTokens(text: string): string[] {
     .filter(w => w.length > 2 && !FILLER_WORDS.includes(w))
 }
 
-function matchScore(queryText: string, article: ArticleWithType): number {
+function matchScore(queryText: string, article: ArticleWithType, extraKeywords?: string[]): number {
   const normalizedQuery = normalize(queryText)
   const normalizedTitle = normalize(article.frontmatter.title)
   const normalizedDesc = normalize(article.frontmatter.description || '')
@@ -69,15 +89,25 @@ function matchScore(queryText: string, article: ArticleWithType): number {
     if (normalizedSlug.includes(token)) score += 15
   }
 
+  // Extra keyword boost
+  if (extraKeywords) {
+    for (const kw of extraKeywords) {
+      const nkw = normalize(kw)
+      if (normalizedTitle.includes(nkw)) score += 10
+      if (normalizedSlug.includes(nkw)) score += 8
+      if (normalizedDesc.includes(nkw)) score += 3
+    }
+  }
+
   return score
 }
 
-function findBestMatch(queryText: string, articles: ArticleWithType[]): ArticleLink | null {
+function findBestMatch(queryText: string, articles: ArticleWithType[], extraKeywords?: string[]): ArticleLink | null {
   let bestScore = 0
   let bestArticle: ArticleWithType | null = null
 
   for (const article of articles) {
-    const score = matchScore(queryText, article)
+    const score = matchScore(queryText, article, extraKeywords)
     if (score > bestScore) {
       bestScore = score
       bestArticle = article
@@ -114,10 +144,12 @@ export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMa
     const moduleData = enMessages.modules?.[moduleKey]
     if (!moduleData) continue
 
+    const extraKw = MODULE_EXTRA_KEYWORDS[moduleKey]
+
     // Match module h2 title
     const moduleTitle = moduleData.title as string
     if (moduleTitle) {
-      linkMap[moduleKey] = findBestMatch(moduleTitle, allArticles)
+      linkMap[moduleKey] = findBestMatch(moduleTitle, allArticles, extraKw)
     }
 
     // Match sub-items
@@ -127,7 +159,7 @@ export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMa
         const itemName = subItems[i]?.[fieldConfig.nameKey] as string
         if (itemName) {
           const key = `${moduleKey}::${fieldConfig.field}::${i}`
-          linkMap[key] = findBestMatch(itemName, allArticles)
+          linkMap[key] = findBestMatch(itemName, allArticles, extraKw)
         }
       }
     }
