@@ -62,32 +62,12 @@
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, class selection, and survival basics"
+        "description": "How a match works, roles, and first-match priorities"
       },
       {
-        "icon": "Swords",
-        "title": "Class Tier List",
-        "description": "Rankings for solo, team, and competitive play"
-      },
-      {
-        "icon": "Skull",
-        "title": "Killer Guide",
-        "description": "All killers, abilities, and counter strategies"
-      },
-      {
-        "icon": "Map",
-        "title": "Map Breakdown",
-        "description": "Key locations, escape routes, and danger zones"
-      },
-      {
-        "icon": "Target",
-        "title": "Objectives Guide",
-        "description": "Tasks, generators, barricades, and exit mechanics"
-      },
-      {
-        "icon": "Shirt",
-        "title": "Skins Gallery",
-        "description": "All skins, rarity, and how to unlock them"
+        "icon": "Calendar",
+        "title": "Release Date",
+        "description": "Launch timing, early access status, and update tracking"
       },
       {
         "icon": "Gift",
@@ -95,49 +75,69 @@
         "description": "Current codes, rewards, and redemption steps"
       },
       {
-        "icon": "ScrollText",
-        "title": "Lore and Story",
-        "description": "Character origins, FNAF connections, and world lore"
-      },
-      {
-        "icon": "Crosshair",
-        "title": "Killer Counters",
-        "description": "How to survive each killer's unique abilities"
+        "icon": "Users",
+        "title": "Classes Guide",
+        "description": "All survivor classes, abilities, costs, and roles"
       },
       {
         "icon": "Trophy",
-        "title": "Best Strategies",
-        "description": "Winning team compositions and advanced tactics"
+        "title": "Class Tier List",
+        "description": "Rankings for solo, team, and competitive play"
+      },
+      {
+        "icon": "Skull",
+        "title": "Killers Guide",
+        "description": "Full killer roster, abilities, and playstyles"
+      },
+      {
+        "icon": "Crown",
+        "title": "Killer Tier List",
+        "description": "Killer rankings by pressure, chase, and control"
       },
       {
         "icon": "Shield",
-        "title": "Survival Tips",
-        "description": "Stealth, teamwork, and escape route planning"
+        "title": "Survivor Guide",
+        "description": "How to win as a team, escape strategies, and class roles"
+      },
+      {
+        "icon": "Swords",
+        "title": "Springtrap Guide",
+        "description": "Springtrap abilities, strengths, and counter strategies"
+      },
+      {
+        "icon": "Eye",
+        "title": "The Mimic Guide",
+        "description": "The Mimic mechanics, deception, and counterplay"
       },
       {
         "icon": "Zap",
-        "title": "Class Abilities",
-        "description": "Detailed breakdown of each class's unique skills"
+        "title": "Ennard Guide",
+        "description": "Ennard kit, gameplay style, and matchup tips"
       },
       {
-        "icon": "Flame",
-        "title": "Killer Abilities",
-        "description": "Deep dive into killer powers and pressure tactics"
+        "icon": "Map",
+        "title": "Maps Guide",
+        "description": "Map layouts, hazards, and positioning strategies"
       },
       {
-        "icon": "Newspaper",
-        "title": "Latest News",
-        "description": "Updates, patches, reveals, and release info"
+        "icon": "Shirt",
+        "title": "Skins Guide",
+        "description": "All skins, rarity tiers, and unlock methods"
       },
       {
-        "icon": "Clock",
-        "title": "Release Timeline",
-        "description": "Key dates, trailers, and development updates"
+        "icon": "Ghost",
+        "title": "Marionette Guide",
+        "description": "Upcoming killer status, lore ties, and known info"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Community FAQ",
-        "description": "Platform, gameplay, and common questions answered"
+        "icon": "ScrollText",
+        "title": "Lore Guide",
+        "description": "Game story, FNAF connections, and character origins"
+      },
+      {
+        "icon": "Database",
+        "title": "Bite By Night Wiki",
+        "description": "Browse all wiki categories, guides, and content"
       }
     ]
   },
@@ -145,475 +145,484 @@
     "biteByNightBeginnerGuide": {
       "title": "Bite By Night Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by understanding the core loop: survivors complete objectives while killers hunt them down. Choose your class wisely, stick with your team, and learn the maps to maximize your survival chances.",
+      "intro": "Bite By Night is an asymmetrical Roblox horror game where one player becomes the Killer and the rest play as Survivors. Survivors choose a class, work through map objectives, power generators, and try to escape, while the Killer hunts them down before the round reaches 6 AM. In your first few matches, the biggest goal is not perfect play — it is learning how objectives, doors, and class abilities interact under pressure.",
       "steps": [
         {
-          "title": "Choose Your Class",
-          "description": "Each class has unique abilities. Start with a well-rounded class to learn the basics before specializing in support, stealth, or utility roles."
+          "title": "Match Start and Role Assignment",
+          "description": "At the start of a round, one player is chosen as the Killer and everyone else becomes a Survivor. If you are the Killer, your job is to eliminate every survivor before the timer reaches 6 AM."
         },
         {
-          "title": "Learn the Objectives",
-          "description": "Survivors must complete generators, repair systems, or activate exits. Knowing the objective layout on each map is critical for efficient play."
+          "title": "Pick a Survivor Class",
+          "description": "Survivors choose a class before the round begins. The launch class lineup includes Customer, Fighter, Healer, and Security Guard, and each one changes how you help the team survive."
         },
         {
-          "title": "Stay Aware of the Killer",
-          "description": "Killers have unique powers and movement patterns. Listen for audio cues, watch for visual indicators, and always have an escape route planned."
+          "title": "Work Objectives and Generators",
+          "description": "Survivors must complete map objectives and power generators to open the exit. A teased objective called Electric Wiring has players hold the interaction key while fixing wires, and only one player can work an objective at a time."
         },
         {
-          "title": "Coordinate with Your Team",
-          "description": "Communication and teamwork are essential. Split objectives, callout killer positions, and rescue downed teammates when safe."
+          "title": "Buy Time with Doors, Terrain, and Utility",
+          "description": "You can slow the Killer by holding doors shut, barricading chokepoints, and using terrain smartly. Fighter can stun, Healer can recover health, Security Guard can reveal threats and generators, and Customer can self-sustain during chases."
+        },
+        {
+          "title": "Understand the Win Condition",
+          "description": "Survivors win by finishing objectives, opening the exit, and escaping the map. Killers win by hunting down the full survivor team before they finish the escape route."
         }
       ],
       "quickTips": [
         "Always have an escape route planned before starting an objective.",
-        "Use barricades strategically to slow down killers, not just block paths.",
-        "Learn the map layouts early — knowing shortcuts can save your life.",
-        "Stick with at least one teammate when possible for safety."
+        "Use barricades at choke points to slow the Killer during chases.",
+        "Learn the map layouts early — knowing shortcuts saves your life.",
+        "Stick with at least one teammate for safety during objectives."
+      ]
+    },
+    "biteByNightReleaseDate": {
+      "title": "Bite By Night Release Date",
+      "displayType": "cards",
+      "intro": "Release-date intent is one of the biggest search patterns for a new Roblox horror game, especially when early access footage, trailer drops, and Discord updates start appearing at the same time. Here is everything confirmed about the Bite By Night launch timeline.",
+      "cards": [
+        {
+          "name": "Official Public Release Date",
+          "description": "Multiple current Bite By Night launch references point to March 28, 2026 as the target public release date."
+        },
+        {
+          "name": "Current Roblox Status",
+          "description": "The official Roblox experience page is currently tagged as EARLY ACCESS, signaling that launch rollout and access status are active topics for players to watch."
+        },
+        {
+          "name": "Best Places to Track Updates",
+          "description": "The official Discord invite, trailer page, and Roblox listing are the fastest places to monitor release timing, access changes, and launch announcements."
+        },
+        {
+          "name": "Launch Gameplay Snapshot",
+          "description": "Players enter rounds as either a Killer or a Survivor, then race objectives and escape routes against the Killer before the night timer ends."
+        }
+      ],
+      "milestones": [
+        "March 28, 2026 public release",
+        "Early Access on Roblox",
+        "4 launch classes available",
+        "3 launch killers playable"
+      ]
+    },
+    "biteByNightCodes": {
+      "title": "Bite By Night Codes",
+      "displayType": "itemCards",
+      "intro": "Code demand is extremely high around a Roblox game launch. For Bite By Night, the public code situation right now is straightforward: there are no active codes listed, no expired codes archived yet, and no confirmed public redemption flow shown in current guide coverage.",
+      "items": [
+        {
+          "name": "Current Status",
+          "type": "Code Tracker",
+          "description": "Current code trackers list zero active Bite By Night codes. Codes are expected to drop with events and milestones after launch."
+        },
+        {
+          "name": "How to Redeem",
+          "type": "Redemption Guide",
+          "description": "Open the game on Roblox, look for the codes button in the main menu, enter the code exactly as shown, and claim your reward."
+        },
+        {
+          "name": "Where to Find Codes",
+          "type": "Source Guide",
+          "description": "Official codes are typically announced on Discord, X (Twitter), and the Roblox game description. Community sources like Reddit also track them."
+        },
+        {
+          "name": "Expired Codes",
+          "type": "Archive",
+          "description": "No expired codes yet. As codes are released and expire, they will be tracked here for reference."
+        }
+      ]
+    },
+    "biteByNightClassesGuide": {
+      "title": "Bite By Night Classes Guide",
+      "displayType": "solutionCards",
+      "intro": "Bite By Night gives survivors a class choice before each round, and those class kits decide whether you play for self-preservation, peel, healing, or map control. The current launch class pool is Customer, Fighter, Healer, and Security Guard.",
+      "solutions": [
+        {
+          "name": "Customer",
+          "role": "Survivalist — Free",
+          "description": "Pizza heals 20 percent of current HP. Drink grants a temporary speed boost and applies a slowness debuff after it ends. Best for solo survival and learning chase routes."
+        },
+        {
+          "name": "Fighter",
+          "role": "Stunner — 600 Scraps",
+          "description": "Swing lunges with a fire axe and stuns the Killer. Parry blocks close attacks and adds charge for stronger follow-up pressure. Best for saving teammates and aggressive peel."
+        },
+        {
+          "name": "Healer",
+          "role": "Healer — 400 Scraps",
+          "description": "Heal restores teammate HP over time. Self Heal restores your own HP and helps stabilize between chases. Best for team-oriented groups and longer rounds."
+        },
+        {
+          "name": "Security Guard",
+          "role": "Support — 900 Scraps",
+          "description": "Taser charges into a stronger stun or slowdown. Cams lets you watch map cameras and reveal animatronics or generators to teammates. Best for coordinated teams and objective support."
+        }
+      ],
+      "managementTips": [
+        "Customer is free and great for learning the game basics.",
+        "Fighter is the go-to for aggressive plays and rescues.",
+        "Healer keeps the team healthy during extended rounds.",
+        "Security Guard provides the best map awareness and callouts."
       ]
     },
     "biteByNightClassTierList": {
       "title": "Bite By Night Class Tier List",
       "displayType": "cards",
-      "intro": "Classes in Bite By Night fill different roles in the survivor team. Some excel at solo play, others shine in coordinated groups. Here is how they stack up based on current community knowledge.",
+      "intro": "Classes in Bite By Night fill different roles in the survivor team. Here is how they rank based on solo value, team utility, and ease of use at launch.",
       "cards": [
         {
-          "name": "Team-Oriented Classes",
-          "description": "Classes that provide buffs, healing, or utility to nearby teammates. These are strongest in coordinated groups."
+          "name": "S-Tier: Security Guard",
+          "description": "Highest team impact with camera reveals and taser utility. The best class for coordinated teams who want map control and objective efficiency."
         },
         {
-          "name": "Solo-Viable Classes",
-          "description": "Classes with stealth or escape abilities that can operate independently. Good for solo queue or split-objective strategies."
+          "name": "A-Tier: Fighter",
+          "description": "Strong stun and parry makes Fighter the go-to for aggressive peeling and saving teammates. High skill ceiling with fire axe combos."
         },
         {
-          "name": "Utility Classes",
-          "description": "Classes focused on objective speed, barricade efficiency, or information gathering. They accelerate the team's win condition."
+          "name": "B-Tier: Healer",
+          "description": "Reliable team sustain with teammate and self healing. Essential for longer rounds but depends on team coordination to shine."
         },
         {
-          "name": "Balanced Classes",
-          "description": "Well-rounded classes suitable for beginners. They offer a mix of survival tools without excelling in any single area."
-        }
-      ],
-      "milestones": [
-        "Master one class per role",
-        "Learn all class abilities",
-        "Adapt class picks to killer matchup",
-        "Build team compositions"
-      ]
-    },
-    "biteByNightKillerGuide": {
-      "title": "Bite By Night Killer Guide",
-      "displayType": "itemCards",
-      "intro": "Killers in Bite By Night each have unique abilities and playstyles. Understanding their strengths helps both killer and survivor players make better decisions in every match.",
-      "items": [
-        {
-          "name": "Animatronic Killers",
-          "type": "FNAF-Inspired",
-          "description": "Killers inspired by Five Nights at Freddy's lore. They tend to have ambush and stealth-based abilities."
-        },
-        {
-          "name": "Pursuit Killers",
-          "type": "Chase-Focused",
-          "description": "Killers designed for aggressive chasing. They have mobility or speed advantages during active pursuits."
-        },
-        {
-          "name": "Control Killers",
-          "type": "Zone Control",
-          "description": "Killers that dominate specific areas of the map. They excel at guarding objectives and cutting off escape routes."
-        }
-      ]
-    },
-    "biteByNightMapBreakdown": {
-      "title": "Bite By Night Map Breakdown",
-      "displayType": "solutionCards",
-      "intro": "Maps in Bite By Night feature distinct layouts with unique hazards, objective placements, and escape routes. Knowing each map gives survivors a significant advantage.",
-      "solutions": [
-        {
-          "name": "Forest Map",
-          "role": "Outdoor",
-          "description": "Open sightlines but limited cover. Multiple generator locations spread across a wide area. Watch for ambush points near trees and structures."
-        },
-        {
-          "name": "Industrial Map",
-          "role": "Indoor/Outdoor",
-          "description": "Tight corridors mixed with open yards. Barricades are especially effective here. Multiple floors create vertical escape options."
-        },
-        {
-          "name": "Facility Map",
-          "role": "Indoor",
-          "description": "Close-quarters with limited visibility. Killers have the advantage in tight spaces, but survivors can use doors and vents for escape."
-        },
-        {
-          "name": "Mixed Maps",
-          "role": "Hybrid",
-          "description": "Combined indoor and outdoor areas with transitions between open space and enclosed rooms. Adaptable strategies work best here."
-        }
-      ],
-      "managementTips": [
-        "Learn generator spawn points for each map.",
-        "Identify the strongest barricade positions before the match starts.",
-        "Know the exit locations and the fastest paths to reach them.",
-        "Use environmental features like doors and vents to break line of sight."
-      ]
-    },
-    "biteByNightObjectivesGuide": {
-      "title": "Bite By Night Objectives Guide",
-      "displayType": "cards",
-      "intro": "Survivors must complete a series of objectives to escape. Understanding the task flow and prioritizing efficiently is the difference between winning and losing.",
-      "cards": [
-        {
-          "name": "Power Generators",
-          "description": "Locate and activate generators scattered across the map. Each generator completed brings you closer to unlocking the exit."
-        },
-        {
-          "name": "Barricading System",
-          "description": "Use barricades to block paths and slow down killers. Place them at choke points and near objectives for maximum value."
-        },
-        {
-          "name": "Exit Activation",
-          "description": "Once enough objectives are complete, activate the exit. This usually requires teamwork and creates a high-tension final phase."
-        },
-        {
-          "name": "Time Pressure",
-          "description": "Matches have time limits. Survivors must balance speed with safety — rushing objectives increases risk but delaying means running out of time."
+          "name": "C-Tier: Customer",
+          "description": "Free and beginner-friendly with pizza healing and speed boosts. Great for learning but outclassed by paid classes in team play."
         }
       ],
       "highlights": [
-        "Complete generators",
-        "Place barricades strategically",
-        "Activate the exit",
-        "Manage time pressure"
+        "Solo queue: Fighter",
+        "Team play: Security Guard",
+        "Beginners: Customer",
+        "Sustain: Healer"
       ]
     },
-    "biteByNightSkinsGallery": {
-      "title": "Bite By Night Skins Gallery",
+    "biteByNightKillersGuide": {
+      "title": "Bite By Night Killers Guide",
       "displayType": "regionCards",
-      "intro": "Skins in Bite By Night range from common cosmetics to rare event-exclusive looks. Here is what we know about the cosmetic system so far.",
+      "intro": "The killer roster in Bite By Night features iconic animatronic-inspired hunters, each with unique abilities and playstyles. Understanding what each killer can do is essential for both killer mains and survivors.",
       "regions": [
         {
-          "name": "Common Skins",
-          "type": "Basic",
-          "description": "Basic cosmetic options available to all players. These are typically unlocked through normal gameplay."
+          "name": "Springtrap",
+          "type": "Launch Killer",
+          "description": "A classic FNAF-inspired animatronic killer with ambush and pursuit tools. High pressure in tight spaces and indoor maps."
         },
         {
-          "name": "Rare Skins",
-          "type": "Uncommon",
-          "description": "Less common cosmetics that may require specific challenges, playtime milestones, or in-game currency."
+          "name": "The Mimic",
+          "type": "Launch Killer",
+          "description": "A deception-focused killer that can disguise or mimic to confuse survivors. Punishes teams that lack communication."
         },
         {
-          "name": "Event Skins",
-          "type": "Limited",
-          "description": "Limited-time skins tied to seasonal events or special promotions. These become unavailable after the event ends."
+          "name": "Ennard",
+          "type": "Launch Killer",
+          "description": "A mobile and aggressive killer with fast traversal abilities. Strong in open areas and chase-heavy rounds."
         },
         {
-          "name": "Killer Skins",
-          "type": "Killer",
-          "description": "Cosmetic options for killer characters. These change the visual appearance of killer models and effects."
+          "name": "Upcoming Killers",
+          "type": "Future Content",
+          "description": "New killers including Marionette are teased for post-launch updates. The roster is expected to grow with each major content patch."
         }
       ]
     },
-    "biteByNightActiveCodes": {
-      "title": "Bite By Night Active Codes",
+    "biteByNightKillerTierList": {
+      "title": "Bite By Night Killer Tier List",
       "displayType": "creatureCards",
-      "intro": "Codes in Bite By Night grant free rewards like skins, currency, and other items. Check back regularly as new codes are released with updates and events.",
+      "intro": "Each killer in Bite By Night brings different strengths to the hunt. This tier list compares killers by chase pressure, zone control, consistency, and ease of use at launch.",
       "creatures": [
         {
-          "name": "Current Status",
-          "role": "Code Tracker",
-          "description": "There are currently no confirmed active codes for Bite By Night. The game just launched — codes are expected to drop with events and milestones."
+          "name": "Springtrap",
+          "role": "S-Tier",
+          "description": "Dominant in indoor maps with strong ambush potential and reliable chase tools. The most consistent killer across all skill levels."
         },
         {
-          "name": "How to Redeem",
-          "role": "Redemption Guide",
-          "description": "Open the game on Roblox, look for the codes button in the main menu, enter the code exactly as shown, and claim your reward."
+          "name": "The Mimic",
+          "role": "A-Tier",
+          "description": "Extremely strong against uncoordinated teams. Deception abilities punish players who do not communicate killer position."
         },
         {
-          "name": "Where to Find Codes",
-          "role": "Source Guide",
-          "description": "Official codes are typically announced on Discord, X (Twitter), and the Roblox game description. Community sources like Reddit also track them."
-        },
-        {
-          "name": "Expired Codes",
-          "role": "Archive",
-          "description": "No expired codes yet. As codes are released and expire, they will be tracked here for reference."
+          "name": "Ennard",
+          "role": "A-Tier",
+          "description": "Fast and aggressive with great map mobility. Strong in open layouts but requires precise timing to land key abilities."
         }
       ]
     },
-    "biteByNightLoreAndStory": {
-      "title": "Bite By Night Lore and Story",
+    "biteByNightSurvivorGuide": {
+      "title": "Bite By Night Survivor Guide",
       "displayType": "itemCards",
-      "intro": "Bite By Night draws heavy inspiration from Five Nights at Freddy's and Dead by Daylight, creating its own horror universe within Roblox. Here is what we know about the game's lore so far.",
+      "intro": "Surviving in Bite By Night requires teamwork, map knowledge, and smart class choices. This guide covers the core strategies that help survivors escape consistently across all maps and killer matchups.",
       "items": [
         {
-          "name": "FNAF Connections",
-          "type": "Inspiration",
-          "description": "The game features animatronic-style killers clearly inspired by the FNAF franchise. Character designs reference classic animatronics with a Roblox twist."
+          "name": "Split Objectives Efficiently",
+          "type": "Strategy",
+          "description": "Work on multiple generators in pairs instead of stacking on one. This forces the killer to choose between targets and speeds up the escape."
         },
         {
-          "name": "Game Setting",
-          "type": "World",
-          "description": "Matches take place in various horror-themed locations. The environments suggest an abandoned facility, forest, and industrial zones."
+          "name": "Use Classes to Their Strengths",
+          "type": "Team Play",
+          "description": "Fighter protects, Healer sustains, Security Guard reveals, and Customer survives solo. Pick roles that complement your team composition."
         },
         {
-          "name": "Character Origins",
-          "type": "Backstory",
-          "description": "Each killer has a backstory that connects to the game's world. Community discussion frequently explores possible FNAF character parallels."
+          "name": "Control Doors and Barricades",
+          "type": "Defense",
+          "description": "Holding doors and placing barricades at choke points buys critical time. Learn which doors the killer cannot easily break through."
         },
         {
-          "name": "World Building",
-          "type": "Ongoing",
-          "description": "The game's lore is still being revealed through trailers, teasers, and in-game details. The community is actively piecing together the full story."
+          "name": "Coordinate the Final Escape",
+          "type": "Endgame",
+          "description": "The exit phase is the most dangerous. One player activates while others distract or guard. Never rush the exit alone."
         }
       ],
       "unlockMilestones": [
-        "Discover all killer backstories",
-        "Find in-game lore items",
-        "Connect FNAF references",
-        "Track developer reveals"
+        "Learn generator locations on each map",
+        "Master one class per role type",
+        "Coordinate exit timing with teammates",
+        "Adapt strategy based on killer identity"
       ]
     },
-    "biteByNightKillerCounters": {
-      "title": "Bite By Night Killer Counters",
+    "biteByNightSpringtrapGuide": {
+      "title": "Bite By Night Springtrap Guide",
       "displayType": "mixedCards",
-      "intro": "Each killer in Bite By Night has specific weaknesses that survivors can exploit. Learning these counter strategies dramatically improves your survival rate.",
+      "intro": "Springtrap is one of the launch killers in Bite By Night, inspired by the iconic FNAF animatronic. Known for ambush pressure and indoor dominance, Springtrap punishes survivors who do not watch their surroundings.",
       "sections": [
         {
-          "name": "Audio Awareness",
-          "description": "Most killers produce audio cues before attacking. Learning to recognize these sounds gives you extra reaction time."
+          "name": "Ambush Abilities",
+          "description": "Springtrap excels at setting up ambushes near objectives and tight corridors. Survivors should avoid lingering in closed rooms without an exit plan."
         },
         {
-          "name": "Line of Sight Breaks",
-          "description": "Breaking the killer's line of sight around corners and through doorways is the most reliable escape technique."
+          "name": "Indoor Pressure",
+          "description": "On facility and indoor maps, Springtrap has a significant advantage. Use doors and terrain to break line of sight and create distance."
         },
         {
-          "name": "Barricade Timing",
-          "description": "Well-timed barricade placement during a chase can create enough distance to escape or regroup with teammates."
+          "name": "Chase Patterns",
+          "description": "Springtrap's chase tools make him deadly in straight corridors. Survivors should use turns, obstacles, and barricades to create separation."
         },
         {
-          "name": "Team Distraction",
-          "description": "Coordinated distractions where one player draws killer attention while others complete objectives is a high-level strategy."
+          "name": "Counter Strategies",
+          "description": "Fighter's stun and Security Guard's cams are the strongest counters. Keep barricades ready and avoid isolated areas of the map."
         }
       ],
       "growthMilestones": [
-        "React to audio cues consistently",
-        "Break line of sight in chases",
-        "Time barricades perfectly",
-        "Coordinate team distractions"
+        "Recognize Springtrap's audio cues",
+        "Use terrain to break ambush setups",
+        "Time barricades during Springtrap chases",
+        "Coordinate team response to pressure"
       ]
     },
-    "biteByNightBestStrategies": {
-      "title": "Bite By Night Best Strategies",
+    "biteByNightTheMimicGuide": {
+      "title": "Bite By Night The Mimic Guide",
       "displayType": "priorityCards",
-      "intro": "Winning in Bite By Night requires a mix of individual skill and team coordination. These are the most effective strategies based on community experience.",
+      "intro": "The Mimic is a deception-focused killer that thrives against uncoordinated teams. Understanding The Mimic's tricks and tells is the key to surviving encounters in Bite By Night.",
       "priorities": [
         {
-          "name": "Split Objectives",
+          "name": "Disguise Mechanics",
           "priority": "Essential",
-          "description": "Splitting into pairs to work on multiple objectives simultaneously is the fastest path to escape. Never group all survivors on one generator."
+          "description": "The Mimic can disguise itself to confuse survivors. Always verify teammate identity through communication and behavior patterns."
         },
         {
-          "name": "Map Knowledge",
+          "name": "Team Communication",
+          "priority": "Essential",
+          "description": "Callout positions and confirm teammate locations frequently. The Mimic punishes silent teams harder than any other killer."
+        },
+        {
+          "name": "Detection Methods",
           "priority": "Very High",
-          "description": "Knowing the map layout — escape routes, barricade spots, generator locations — gives you a massive advantage over players who are still learning."
+          "description": "Security Guard's cams can reveal The Mimic's true position. Audio cues and movement patterns also give away the disguise."
         },
         {
-          "name": "Class Synergy",
-          "priority": "Very High",
-          "description": "Picking classes that complement each other creates stronger teams. Balance stealth, support, and utility roles."
-        },
-        {
-          "name": "Killer Adaptation",
+          "name": "Chase Behavior",
           "priority": "High",
-          "description": "Adapting your strategy based on which killer you are facing. Aggressive killers require different tactics than stealth killers."
+          "description": "When revealed, The Mimic relies on closing distance quickly. Use barricades and doors to create space after breaking the disguise."
         },
         {
-          "name": "Exit Coordination",
+          "name": "Map Awareness",
           "priority": "High",
-          "description": "The exit phase is the most dangerous. Coordinate your final push — one player activates while others distract or guard."
+          "description": "The Mimic is strongest in areas with multiple entry points. Avoid locations where the killer can approach from unexpected angles."
         },
         {
-          "name": "Resource Management",
+          "name": "Counterplay Summary",
           "priority": "High",
-          "description": "Use barricades, abilities, and items efficiently. Wasting resources early can leave you vulnerable in the critical final moments."
+          "description": "Stay grouped, communicate constantly, use Security Guard cams, and verify every teammate interaction before trusting it."
         }
       ]
     },
-    "biteByNightSurvivalTips": {
-      "title": "Bite By Night Survival Tips",
+    "biteByNightEnnardGuide": {
+      "title": "Bite By Night Ennard Guide",
       "displayType": "achievementGrid",
-      "intro": "Surviving in Bite By Night requires awareness, teamwork, and smart decision-making. These tips cover the fundamentals every player should know.",
+      "intro": "Ennard is a fast, aggressive killer with high mobility and chase pressure. Learning Ennard's movement patterns and timing is essential for both playing as and against this killer in Bite By Night.",
       "groups": [
         {
-          "name": "Awareness",
+          "name": "Abilities",
           "achievements": [
             {
-              "title": "Always Have an Exit Plan",
-              "description": "Before starting any objective, identify your nearest escape route."
+              "title": "High Mobility",
+              "description": "Ennard moves faster than other killers, making open areas dangerous for survivors."
             },
             {
-              "title": "Use Audio Cues",
-              "description": "Listen for killer footsteps, music changes, and ambient sounds."
+              "title": "Traversal Tools",
+              "description": "Ennard can cover ground quickly between objectives, putting constant pressure on the team."
             }
           ]
         },
         {
-          "name": "Chase Survival",
+          "name": "Counters",
           "achievements": [
             {
-              "title": "Don't Panic",
-              "description": "Use turns, obstacles, and barricades to break line of sight."
+              "title": "Use Tight Spaces",
+              "description": "Ennard's speed advantage is reduced in narrow corridors and around obstacles."
             },
             {
-              "title": "Barricade During Chase",
-              "description": "Drop barricades at key moments to create distance from the killer."
+              "title": "Barricade Timing",
+              "description": "Well-timed barricades at choke points can shut down Ennard's chase momentum."
             }
           ]
         },
         {
-          "name": "Teamwork",
+          "name": "Strategy",
           "achievements": [
             {
-              "title": "Help Your Team",
-              "description": "Rescue downed teammates and share killer location info."
+              "title": "Stay Near Cover",
+              "description": "Open areas favor Ennard. Always position near doors, walls, and obstacles."
             },
             {
-              "title": "Split Objectives",
-              "description": "Work on separate generators to complete tasks faster."
+              "title": "Split Focus",
+              "description": "Force Ennard to choose between multiple survivors working separate objectives."
             }
           ]
         },
         {
-          "name": "Improvement",
+          "name": "Matchup Tips",
           "achievements": [
             {
-              "title": "Learn from Deaths",
-              "description": "Analyze what the killer did and what you could do differently."
+              "title": "Fighter vs Ennard",
+              "description": "Fighter's stun is crucial for stopping Ennard's aggressive chases."
             },
             {
-              "title": "Watch Good Players",
-              "description": "Observe experienced players to learn advanced techniques."
+              "title": "Healer vs Ennard",
+              "description": "Healer sustain helps recover from Ennard's frequent hit-and-run attacks."
             }
           ]
         }
       ]
     },
-    "biteByNightClassAbilities": {
-      "title": "Bite By Night Class Abilities",
+    "biteByNightMapsGuide": {
+      "title": "Bite By Night Maps Guide",
       "displayType": "accordion",
-      "intro": "Each survivor class in Bite By Night has unique abilities that define their role. Understanding these abilities helps you choose the right class for your playstyle.",
+      "intro": "Maps in Bite By Night feature distinct layouts with unique hazards, objective placements, and escape routes. Knowing each map gives survivors a significant advantage and helps killers plan their patrol routes.",
       "faqs": [
         {
-          "question": "What are Passive Abilities?",
-          "answer": "Background bonuses that are always in effect. These define the class's base strengths without any input from the player."
+          "question": "What maps are available at launch in Bite By Night?",
+          "answer": "Bite By Night launches with multiple maps including forest, industrial, and facility environments. Each map has unique generator placements, door layouts, and escape routes."
         },
         {
-          "question": "What are Active Abilities?",
-          "answer": "Abilities that must be activated and have cooldowns. Timing these correctly in clutch moments is what separates good players."
+          "question": "How do objectives spawn on Bite By Night maps?",
+          "answer": "Generator and objective locations can vary between rounds on the same map. Learning all possible spawn points helps you find objectives faster and complete them efficiently."
         },
         {
-          "question": "What are Team Abilities?",
-          "answer": "Abilities that benefit nearby teammates. These create strong synergies when classes are paired correctly."
+          "question": "What are the best barricade positions?",
+          "answer": "Choke points near objectives and single-entry rooms are the strongest barricade spots. On forest maps, use narrow paths between structures. On facility maps, use doorways and corridors."
         },
         {
-          "question": "What are Utility Abilities?",
-          "answer": "Abilities that speed up objectives, improve barricades, or provide information about the map and killer position."
+          "question": "Which Bite By Night maps favor killers vs survivors?",
+          "answer": "Indoor facility maps tend to favor ambush killers like Springtrap, while open forest maps give mobile killers like Ennard more room to chase. Mixed maps reward adaptable strategies."
         },
         {
-          "question": "How do I choose the right class?",
-          "answer": "Consider your playstyle. If you like teamwork, pick support classes. If you prefer independence, pick stealth classes. Utility classes work best for objective-focused play."
+          "question": "How do I learn Bite By Night map layouts quickly?",
+          "answer": "Play custom matches or explore maps during rounds. Focus on generator locations, exit paths, and strong barricade positions first. Watch experienced players for route optimization."
         }
       ]
     },
-    "biteByNightKillerAbilities": {
-      "title": "Bite By Night Killer Abilities",
+    "biteByNightSkinsGuide": {
+      "title": "Bite By Night Skins Guide",
       "displayType": "accordion",
-      "intro": "Killers in Bite By Night have powerful abilities that define how they hunt survivors. Understanding these powers is essential for both playing as and against each killer.",
+      "intro": "Skins in Bite By Night range from common cosmetics to rare event-exclusive looks. The cosmetic system covers both survivor and killer appearances with various unlock methods.",
       "faqs": [
         {
-          "question": "What are Chase Abilities?",
-          "answer": "Powers that help killers close distance on running survivors. These include speed boosts, teleports, and gap-closing attacks."
+          "question": "How do skins work in Bite By Night?",
+          "answer": "Skins change the visual appearance of your character without affecting gameplay. They are available for both survivors and killers, offering unique character designs."
         },
         {
-          "question": "What are Detection Abilities?",
-          "answer": "Powers that reveal survivor locations. These include aura reading, noise tracking, and area scanning."
+          "question": "How do I unlock Bite By Night skins?",
+          "answer": "Skins can be earned through gameplay progression, in-game currency, special events, and code redemptions. Different skins have different unlock requirements."
         },
         {
-          "question": "What are Zone Control Abilities?",
-          "answer": "Powers that let killers dominate specific areas. These include traps, barriers, and area denial effects."
+          "question": "Are there limited-time skins in Bite By Night?",
+          "answer": "Yes. Seasonal events and special promotions offer exclusive skins that become unavailable after the event period ends. Check the official channels for upcoming events."
         },
         {
-          "question": "What are Stealth Abilities?",
-          "answer": "Powers that let killers approach unseen. These include invisibility, reduced terror radius, and silent movement."
+          "question": "What rarity tiers exist for Bite By Night skins?",
+          "answer": "Skins are organized by rarity from common to legendary. Higher rarity skins have more detailed designs and unique visual effects that stand out in matches."
         },
         {
-          "question": "How do I counter killer abilities?",
-          "answer": "Learn each killer's specific weaknesses. Stay aware of audio cues, use barricades strategically, and coordinate with your team to exploit their blind spots."
+          "question": "Can I preview Bite By Night skins before unlocking?",
+          "answer": "The in-game store and collection menu allow you to preview skins before spending currency or completing unlock requirements."
         }
       ]
     },
-    "biteByNightLatestNews": {
-      "title": "Bite By Night Latest News",
+    "biteByNightMarionetteGuide": {
+      "title": "Bite By Night Marionette Guide",
       "displayType": "settingCards",
-      "intro": "Bite By Night is actively in development with regular reveals and updates. Here are the most important announcements and milestones.",
+      "intro": "Marionette is an upcoming killer teased for post-launch content in Bite By Night. Drawing from deep FNAF lore, Marionette is one of the most anticipated roster additions in the community.",
       "settings": [
         {
-          "name": "Official Launch",
-          "type": "Release",
-          "description": "Bite By Night officially launched on Roblox on March 28, 2026, after months of community anticipation and trailer reveals."
+          "name": "Current Status",
+          "type": "Upcoming",
+          "description": "Marionette has been teased through developer hints and community discussion but is not yet playable. Watch official channels for reveal dates."
         },
         {
-          "name": "Official Trailer",
-          "type": "Reveal",
-          "description": "The official trailer was released on the OzelBlox YouTube channel, showcasing gameplay, killers, and map environments."
+          "name": "FNAF Lore Connection",
+          "type": "Background",
+          "description": "The Marionette is one of the most iconic FNAF characters. Its Bite By Night version is expected to reimagine the character for asymmetrical gameplay."
         },
         {
-          "name": "Discord Growth",
-          "type": "Milestone",
-          "description": "The official Discord server has grown to over 231,000 members, making it one of the largest Roblox horror communities."
+          "name": "Expected Playstyle",
+          "type": "Prediction",
+          "description": "Based on community discussion, Marionette may feature puppet-like movement mechanics and unique zone control abilities that differ from launch killers."
         },
         {
-          "name": "Future Updates",
-          "type": "Roadmap",
-          "description": "New killers, classes, maps, and seasonal events are expected in post-launch content updates."
+          "name": "Community Anticipation",
+          "type": "Community",
+          "description": "Marionette is among the most requested killers in the Bite By Night community Discord and Reddit. Post-launch roster reveals are highly anticipated."
         }
       ]
     },
-    "biteByNightReleaseTimeline": {
-      "title": "Bite By Night Release Timeline",
+    "biteByNightLoreGuide": {
+      "title": "Bite By Night Lore Guide",
       "displayType": "timeline",
-      "intro": "Track the key dates and milestones in Bite By Night's development journey from announcement to launch.",
+      "intro": "Bite By Night builds its own horror universe within Roblox, drawing heavy inspiration from Five Nights at Freddy's while creating original narrative elements. The lore is being revealed through trailers, teasers, and in-game details.",
       "entries": [
         {
-          "title": "Game Announcement",
-          "type": "Announcement",
-          "description": "Bite By Night was first announced by OzelBlox, generating immediate interest from the FNAF and Roblox horror communities."
+          "title": "FNAF Inspiration and Original Lore",
+          "type": "Foundation",
+          "description": "Bite By Night features animatronic killers inspired by FNAF but tells its own story. Character designs reference classic animatronics with unique Roblox interpretations."
         },
         {
-          "title": "Trailer Drop",
-          "type": "Reveal",
-          "description": "The official trailer showcased the game's asymmetrical horror gameplay, animatronic killers, and multiple map environments."
+          "title": "Killer Backstories",
+          "type": "Characters",
+          "description": "Each killer has a backstory that connects to the game world. Springtrap, The Mimic, and Ennard all carry lore elements that players can discover through gameplay."
         },
         {
-          "title": "Official Launch - March 28, 2026",
-          "type": "Release",
-          "description": "Bite By Night launched on Roblox with 4 survivor classes, 3 killers, and multiple maps on March 28, 2026."
+          "title": "Map Lore and Environmental Storytelling",
+          "type": "World",
+          "description": "Maps contain environmental details that hint at the game's larger narrative. Facility rooms, forest structures, and industrial areas all carry story significance."
+        },
+        {
+          "title": "Community Theories and Developer Reveals",
+          "type": "Ongoing",
+          "description": "The community actively pieces together lore through trailer analysis, in-game clues, and developer Q&A sessions. New reveals are expected with each content update."
         }
       ]
     },
     "biteByNightCommunityFAQ": {
       "title": "Bite By Night Community FAQ",
-      "displayType": "accordion",
-      "intro": "Answers to the most common questions players have about Bite By Night.",
+      "displayType": "steps",
+      "intro": "Answers to the most common questions players have about Bite By Night, from platform availability to gameplay mechanics and community resources.",
       "steps": [
         {
           "title": "What platform is Bite By Night on?",
-          "description": "Bite By Night is a Roblox game. You can play it for free through the Roblox platform."
+          "description": "Bite By Night is a Roblox game available on all platforms that support Roblox, including PC, mobile, and console."
         },
         {
           "title": "Is Bite By Night free to play?",
-          "description": "Yes. Bite By Night is free to play on Roblox. There may be optional cosmetic purchases."
+          "description": "Yes. Bite By Night is free to play on Roblox. Some cosmetic items and class unlocks may require in-game currency."
         },
         {
-          "title": "How many players per match?",
+          "title": "How many players per match in Bite By Night?",
           "description": "Bite By Night features asymmetrical gameplay with multiple survivors versus one killer per match."
         },
         {
@@ -626,14 +635,14 @@
         },
         {
           "title": "When was Bite By Night released?",
-          "description": "Bite By Night officially launched on Roblox on March 28, 2026."
+          "description": "Bite By Night launched on Roblox on March 28, 2026."
         },
         {
           "title": "Who made Bite By Night?",
           "description": "Bite By Night was developed by OzelBlox and the Totally Not Secret Games team on Roblox."
         },
         {
-          "title": "How do I report bugs?",
+          "title": "How do I report bugs in Bite By Night?",
           "description": "Join the official Discord server to report bugs in the dedicated bug-reports channel."
         }
       ]
@@ -653,20 +662,20 @@
         "answer": "Yes. Bite By Night is free to play on the Roblox platform."
       },
       {
-        "question": "How many classes are there?",
-        "answer": "Bite By Night launched with 4 survivor classes, each with unique abilities and roles."
+        "question": "How many classes are in Bite By Night?",
+        "answer": "Bite By Night launched with 4 survivor classes: Customer, Fighter, Healer, and Security Guard, each with unique abilities and roles."
       },
       {
-        "question": "How many killers are in the game?",
-        "answer": "The game launched with 3 killers, each featuring distinct abilities and playstyles."
+        "question": "How many killers are in Bite By Night?",
+        "answer": "Bite By Night launched with 3 killers: Springtrap, The Mimic, and Ennard, each featuring distinct abilities and playstyles."
       },
       {
         "question": "Are there codes for Bite By Night?",
-        "answer": "Currently there are no active codes. Codes are expected to arrive with future updates and events."
+        "answer": "Currently there are no active codes for Bite By Night. Codes are expected to arrive with future updates and events."
       },
       {
-        "question": "Where can I find the official community?",
-        "answer": "The official Discord server has over 231,000 members. You can also follow @bitebynightdev on X and Instagram."
+        "question": "Where can I find the Bite By Night community?",
+        "answer": "The official Discord server has over 231,000 members. You can also follow @bitebynightdev on X and Instagram for the latest updates."
       }
     ]
   },

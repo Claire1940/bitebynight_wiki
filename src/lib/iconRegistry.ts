@@ -41,6 +41,10 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Trophy: LucideIcons.Trophy,
   Zap: LucideIcons.Zap,
   Flame: LucideIcons.Flame,
+  Calendar: LucideIcons.Calendar,
+  Crown: LucideIcons.Crown,
+  Ghost: LucideIcons.Ghost,
+  Database: LucideIcons.Database,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
