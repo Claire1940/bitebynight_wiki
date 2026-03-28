@@ -1,0 +1,89 @@
+{
+  "tools": {
+    "title": "Bite By Night",
+    "titleHighlight": "リソース",
+    "subtitle": "Bite By Nightを生き残り、プレイし、極めるために必要なすべて",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "初心者ガイド",
+        "description": "マッチの仕組み、役割、初戦の優先事項"
+      },
+      {
+        "icon": "Calendar",
+        "title": "リリース日",
+        "description": "リリースのタイミング、早期アクセスの状況、アップデート情報"
+      },
+      {
+        "icon": "Gift",
+        "title": "有効なコード",
+        "description": "現在有効なコード、報酬、引き換え手順"
+      },
+      {
+        "icon": "Users",
+        "title": "クラスガイド",
+        "description": "全サバイバークラス、アビリティ、コスト、役割"
+      },
+      {
+        "icon": "Trophy",
+        "title": "クラス・ティアリスト",
+        "description": "ソロ、チーム、競技プレイのランキング"
+      },
+      {
+        "icon": "Skull",
+        "title": "キラーガイド",
+        "description": "全キラーのリスト、アビリティ、プレイスタイル"
+      },
+      {
+        "icon": "Crown",
+        "title": "キラー・ティアリスト",
+        "description": "プレッシャー、チェイス、コントロール別のキラーランキング"
+      },
+      {
+        "icon": "Shield",
+        "title": "サバイバーガイド",
+        "description": "チームで勝つ方法、脱出戦略、クラスの役割"
+      },
+      {
+        "icon": "Swords",
+        "title": "Springtrap ガイド",
+        "description": "Springtrapのアビリティ、強み、対策戦略"
+      },
+      {
+        "icon": "Eye",
+        "title": "ミミックガイド",
+        "description": "ミミックのメカニクス、欺瞞、対策"
+      },
+      {
+        "icon": "Zap",
+        "title": "Ennard ガイド",
+        "description": "Ennardのキット、プレイスタイル、対戦のヒント"
+      },
+      {
+        "icon": "Map",
+        "title": "マップガイド",
+        "description": "マップのレイアウト、ギミック、ポジショニング戦略"
+      },
+      {
+        "icon": "Shirt",
+        "title": "スキンガイド",
+        "description": "全スキン、レアリティ、解放方法"
+      },
+      {
+        "icon": "Ghost",
+        "title": "マリオネットガイド",
+        "description": "次期キラーの状況、ストーリーとの繋がり、既知の情報"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "ストーリーガイド",
+        "description": "ゲームのストーリー、FNAFとの繋がり、キャラクターの出自"
+      },
+      {
+        "icon": "Database",
+        "title": "Bite By Night Wikiハブ",
+        "description": "すべてのWikiカテゴリ、データベースページ、コンテンツハブを閲覧する"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre Bite By Night",
+    "questions": [
+      {
+        "question": "O que é Bite By Night?",
+        "answer": "Bite By Night é um jogo de terror assimétrico no Roblox inspirado em FNAF e __PROTECTED_6a24272f__. Os sobreviventes trabalham juntos para completar objetivos enquanto um assassino os caça."
+      },
+      {
+        "question": "O Bite By Night é gratuito?",
+        "answer": "Sim. Bite By Night é gratuito para jogar na plataforma Roblox."
+      },
+      {
+        "question": "Quantas classes existem no Bite By Night?",
+        "answer": "O Bite By Night foi lançado com 4 classes de sobreviventes: Cliente, Lutador, Curandeiro e Guarda de Segurança, cada um com habilidades e funções únicas."
+      },
+      {
+        "question": "Quantos assassinos existem no Bite By Night?",
+        "answer": "O Bite By Night foi lançado com 3 assassinos: Springtrap, O Mímico e Ennard, cada um com habilidades e estilos de jogo distintos."
+      },
+      {
+        "question": "Existem códigos para o Bite By Night?",
+        "answer": "Atualmente não há códigos ativos para o Bite By Night. Espera-se que os códigos cheguem com futuras atualizações e eventos."
+      },
+      {
+        "question": "Onde posso encontrar a comunidade de Bite By Night?",
+        "answer": "O servidor oficial do __PROTECTED_8f5cc643__ tem mais de 231.000 membros. Você também pode seguir @bitebynightdev no X e no Instagram para as atualizações mais recentes."
+      }
+    ]
+  }
+}

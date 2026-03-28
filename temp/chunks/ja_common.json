@@ -1,0 +1,16 @@
+{
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Roblox でプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む"
+  }
+}

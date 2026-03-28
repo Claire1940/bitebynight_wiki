@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "badge": "Terror Assimétrico de Roblox Inspirado em FNAF",
+    "title": "Wiki de Bite By Night",
+    "description": "Acompanhe classes, assassinos, mapas, cronograma de lançamento e códigos para este jogo de terror assimétrico de Roblox inspirado em FNAF e __PROTECTED_6a24272f__.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogue no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "28 de março de 2026",
+        "label": "Data de Lançamento"
+      },
+      "stat2": {
+        "value": "4",
+        "label": "Classes de Lançamento"
+      },
+      "stat3": {
+        "value": "3",
+        "label": "Assassinos de Lançamento"
+      },
+      "stat4": {
+        "value": "0",
+        "label": "Códigos Ativos"
+      }
+    }
+  }
+}

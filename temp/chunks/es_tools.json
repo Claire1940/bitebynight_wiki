@@ -1,0 +1,89 @@
+{
+  "tools": {
+    "title": "Bite By Night",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para sobrevivir, jugar y dominar Bite By Night",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Cómo funciona una partida, roles y prioridades de la primera partida"
+      },
+      {
+        "icon": "Calendar",
+        "title": "Fecha de lanzamiento",
+        "description": "Horarios de lanzamiento, estado del acceso anticipado y seguimiento de actualizaciones"
+      },
+      {
+        "icon": "Gift",
+        "title": "Códigos activos",
+        "description": "Códigos actuales, recompensas y pasos para canjearlos"
+      },
+      {
+        "icon": "Users",
+        "title": "Guía de clases",
+        "description": "Todas las clases de sobrevivientes, habilidades, costos y roles"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Tier List de clases",
+        "description": "Clasificaciones para juego en solitario, en equipo y competitivo"
+      },
+      {
+        "icon": "Skull",
+        "title": "Guía de asesinos",
+        "description": "Lista completa de asesinos, habilidades y estilos de juego"
+      },
+      {
+        "icon": "Crown",
+        "title": "Tier List de asesinos",
+        "description": "Clasificación de asesinos por presión, persecución y control"
+      },
+      {
+        "icon": "Shield",
+        "title": "Guía de sobrevivientes",
+        "description": "Cómo ganar en equipo, estrategias de escape y roles de clase"
+      },
+      {
+        "icon": "Swords",
+        "title": "Guía de Springtrap",
+        "description": "Habilidades, fortalezas y estrategias de contraataque de Springtrap"
+      },
+      {
+        "icon": "Eye",
+        "title": "Guía de El Mímico",
+        "description": "Mecánicas de El Mímico, engaño y tácticas de contraataque"
+      },
+      {
+        "icon": "Zap",
+        "title": "Guía de Ennard",
+        "description": "Kit de Ennard, estilo de juego y consejos de enfrentamiento"
+      },
+      {
+        "icon": "Map",
+        "title": "Guía de mapas",
+        "description": "Diseño de mapas, peligros y estrategias de posicionamiento"
+      },
+      {
+        "icon": "Shirt",
+        "title": "Guía de skins",
+        "description": "Todas las skins, niveles de rareza y métodos de desbloqueo"
+      },
+      {
+        "icon": "Ghost",
+        "title": "Guía de Marionette",
+        "description": "Estado del próximo asesino, vínculos con la historia e información conocida"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Guía de historia",
+        "description": "Historia del juego, conexiones con FNAF y orígenes de los personajes"
+      },
+      {
+        "icon": "Database",
+        "title": "Centro Wiki de Bite By Night",
+        "description": "Explora todas las categorías de la wiki, páginas de la base de datos y centros de contenido"
+      }
+    ]
+  }
+}

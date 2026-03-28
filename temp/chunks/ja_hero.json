@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "badge": "RobloxのFNAFにインスパイアされた非対称ホラー",
+    "title": "Bite By Night Wiki",
+    "description": "FNAFや__PROTECTED_6a24272f__にインスパイアされた、このRoblox非対称ホラーゲームのクラス、キラー、マップ、リリース時期、コードを確認しましょう。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnRobloxCTA": "Robloxでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "2026年3月28日",
+        "label": "リリース日"
+      },
+      "stat2": {
+        "value": "4",
+        "label": "ローンチ時のクラス"
+      },
+      "stat3": {
+        "value": "3",
+        "label": "ローンチ時のキラー"
+      },
+      "stat4": {
+        "value": "0",
+        "label": "有効なコード"
+      }
+    }
+  }
+}

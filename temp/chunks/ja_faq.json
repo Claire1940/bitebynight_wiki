@@ -1,0 +1,33 @@
+{
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "Bite By Night について知っておくべきことのすべて",
+    "questions": [
+      {
+        "question": "Bite By Night とは何ですか？",
+        "answer": "Bite By Night は、FNAF や __PROTECTED_6a24272f__ に着想を得た Roblox の非対称型ホラーゲームです。サバイバーは協力して目標を達成し、キラーは彼らを追い詰めます。"
+      },
+      {
+        "question": "Bite By Night は無料ですか？",
+        "answer": "はい。Bite By Night は Roblox プラットフォームで無料でプレイできます。"
+      },
+      {
+        "question": "Bite By Night にはクラスがいくつありますか？",
+        "answer": "Bite By Night は、カスタマー、ファイター、ヒーラー、セキュリティガードの4つのサバイバークラスでリリースされました。それぞれが独自の能力と役割を持っています。"
+      },
+      {
+        "question": "Bite By Night にはキラーが何体いますか？",
+        "answer": "Bite By Night は、Springtrap、ミミック、Ennard の3体のキラーでリリースされました。それぞれが異なる能力とプレイスタイルを持っています。"
+      },
+      {
+        "question": "Bite By Night のコードはありますか？",
+        "answer": "現在、Bite By Night で利用可能な有効なコードはありません。コードは今後のアップデートやイベントで追加される予定です。"
+      },
+      {
+        "question": "Bite By Night のコミュニティはどこにありますか？",
+        "answer": "公式の __PROTECTED_8f5cc643__ サーバーには231,000人以上のメンバーがいます。また、最新情報については X や Instagram で @bitebynightdev をフォローしてください。"
+      }
+    ]
+  }
+}

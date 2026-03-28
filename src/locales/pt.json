@@ -1,754 +1,793 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "Bite By Night Wiki - Classes, Assassinos e Códigos",
+      "description": "Bite By Night Wiki para classes, assassinos, mapas, data de lançamento e rastreamento de códigos. Acompanhe os guias de sobrevivência de terror, notícias e atualizações de elenco mais recentes do Roblox.",
+      "keywords": "Bite By Night, Roblox, classes, assassinos, códigos, mapas, data de lançamento",
+      "ogTitle": "Bite By Night Wiki - Classes, Assassinos e Códigos",
+      "ogDescription": "Bite By Night Wiki para classes, assassinos, mapas, data de lançamento e rastreamento de códigos. Acompanhe os guias de sobrevivência de terror, notícias e atualizações de elenco mais recentes do Roblox.",
+      "twitterTitle": "Bite By Night Wiki - Classes, Assassinos e Códigos",
+      "twitterDescription": "Bite By Night Wiki para classes, assassinos, mapas, data de lançamento e rastreamento de códigos. Acompanhe os guias de sobrevivência de terror e atualizações de elenco mais recentes do Roblox."
     }
   },
   "nav": {
     "release-and-access": "Lançamento e Acesso",
-    "guide": "Guias",
+    "guide": "Guia",
     "codes": "Códigos",
     "roster": "Elenco",
-    "character": "Personagens",
+    "character": "Personagem",
     "media": "Mídia",
     "rumors-and-issues": "Rumores e Problemas"
   },
   "common": {
     "home": "Início",
     "more": "Mais",
-    "playNow": "Jogue no Steam",
-    "switchLanguage": "Alterar Idioma",
-    "switchTheme": "Alterar Tema",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
     "lightMode": "Modo Claro",
     "darkMode": "Modo Escuro",
     "notFound": "Página Não Encontrada",
     "notFoundDescription": "A página que você está procurando não existe.",
-    "backToHome": "Voltar ao Início",
+    "backToHome": "Voltar para o Início",
     "relatedArticles": "Artigos Relacionados",
     "readMore": "Leia Mais"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
+    "badge": "Horror Assimétrico no Roblox Inspirado em FNAF",
+    "title": "Wiki de Bite By Night",
+    "description": "Acompanhe classes, assassinos, mapas, cronograma de lançamento e códigos para este jogo de horror assimétrico no Roblox inspirado em FNAF e Dead by Daylight.",
+    "getFreeCodesCTA": "Obter Códigos Gratuitos",
+    "playOnRobloxCTA": "Jogar no Roblox",
     "stats": {
       "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
+        "value": "28 de março de 2026",
+        "label": "Data de Lançamento"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "4",
+        "label": "Classes de Lançamento"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "3",
+        "label": "Assassinos de Lançamento"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "0",
+        "label": "Códigos Ativos"
       }
     }
   },
   "gameFeature": {
-    "title": "Jogabilidade de Lucid Blocks",
-    "description": "Explore biomas surreais, funda itens com Apotheosis e sobreviva a criaturas estranhas neste sandbox de voxel onírico no Steam."
+    "title": "Gameplay de Bite By Night",
+    "description": "Sobreviva em equipe contra assassinos mortais neste jogo de terror assimétrico do Roblox inspirado em FNAF e Dead by Daylight."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Bite By Night",
     "titleHighlight": "Recursos",
-    "subtitle": "Tudo o que você precisa para explorar, criar e sobreviver em Lucid Blocks",
+    "subtitle": "Tudo o que você precisa para sobreviver, jogar e dominar Bite By Night",
     "cards": [
       {
         "icon": "BookOpen",
         "title": "Guia para Iniciantes",
-        "description": "Primeiros passos, exploração e progressão inicial"
+        "description": "Como funciona uma partida, funções e prioridades da primeira partida"
       },
       {
-        "icon": "Sparkles",
-        "title": "Criação de Apotheosis",
-        "description": "Sistema de fusão livre e receitas iniciais"
+        "icon": "Calendar",
+        "title": "Data de Lançamento",
+        "description": "Cronograma de lançamento, status de acesso antecipado e rastreamento de atualizações"
       },
       {
-        "icon": "Hammer",
-        "title": "Ferramentas e Armas",
-        "description": "Frost Pick, Azrael, __PROTECTED_6a765cb2__ e mais"
+        "icon": "Gift",
+        "title": "Códigos Ativos",
+        "description": "Códigos atuais, recompensas e etapas de resgate"
       },
       {
-        "icon": "Package",
-        "title": "Armazenamento e Inventário",
-        "description": "Cache Cubes, Armários e armazenamento de Qualia"
+        "icon": "Users",
+        "title": "Guia de Classes",
+        "description": "Todas as classes de sobreviventes, habilidades, custos e funções"
       },
       {
-        "icon": "Home",
-        "title": "Qualia e Construção de Base",
-        "description": "Qualia Pessoal e configuração da base principal"
+        "icon": "Trophy",
+        "title": "Tier List de Classes",
+        "description": "Rankings para jogo solo, em equipe e competitivo"
       },
       {
-        "icon": "Eye",
-        "title": "Regiões do Mundo",
-        "description": "Fog Meadow, Essence Morass e mais"
+        "icon": "Skull",
+        "title": "Guia de Assassinos",
+        "description": "Lista completa de assassinos, habilidades e estilos de jogo"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Criaturas e Inimigos",
-        "description": "Manikins, aranhas e como sobreviver"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipamento de Mobilidade",
-        "description": "__PROTECTED_6a765cb2__, Glider Glove, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo e Crescimento",
-        "description": "Progressão de sementes e coleta de materiais"
-      },
-      {
-        "icon": "Star",
-        "title": "Melhores Desbloqueios Iniciais",
-        "description": "Melhorias prioritárias para a primeira hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Rastreador de Conquistas",
-        "description": "Todas as 19 conquistas e condições de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "FAQ Singleplayer",
-        "description": "Dúvidas sobre plataforma, preço, cooperativo e idioma"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck e Controle",
-        "description": "Configuração do Proton 9.0.4 e dicas de controle"
-      },
-      {
-        "icon": "Settings",
-        "title": "Configurações e Acessibilidade",
-        "description": "Ocultar mãos, __PROTECTED_38625270__ e opções de exibição"
-      },
-      {
-        "icon": "Clock",
-        "title": "Atualizações e Notas de Patch",
-        "description": "Correções recentes e notas do roadmap"
+        "icon": "Crown",
+        "title": "Tier List de Assassinos",
+        "description": "Rankings de assassinos por pressão, perseguição e controle"
       },
       {
         "icon": "Shield",
-        "title": "Correção de Travamentos",
-        "description": "Verificação de __PROTECTED_38625270__, caminho dos logs e relato de bugs"
+        "title": "Guia de Sobrevivente",
+        "description": "Como vencer em equipe, estratégias de fuga e funções de classe"
+      },
+      {
+        "icon": "Swords",
+        "title": "Guia do Springtrap",
+        "description": "Habilidades, pontos fortes e estratégias de contra-ataque do Springtrap"
+      },
+      {
+        "icon": "Eye",
+        "title": "Guia do The Mimic",
+        "description": "Mecânicas, enganação e contra-ataque do The Mimic"
+      },
+      {
+        "icon": "Zap",
+        "title": "Guia do Ennard",
+        "description": "Kit, estilo de jogo e dicas de confronto do Ennard"
+      },
+      {
+        "icon": "Map",
+        "title": "Guia de Mapas",
+        "description": "Layouts de mapas, perigos e estratégias de posicionamento"
+      },
+      {
+        "icon": "Shirt",
+        "title": "Guia de Skins",
+        "description": "Todas as skins, níveis de raridade e métodos de desbloqueio"
+      },
+      {
+        "icon": "Ghost",
+        "title": "Guia da Marionette",
+        "description": "Status do próximo assassino, conexões com a lore e informações conhecidas"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Guia da Lore",
+        "description": "História do jogo, conexões com FNAF e origens dos personagens"
+      },
+      {
+        "icon": "Database",
+        "title": "Bite By Night Wiki Hub",
+        "description": "Navegue por todas as categorias da wiki, páginas do banco de dados e hubs de conteúdo"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guia para Iniciantes de Lucid Blocks",
+    "biteByNightBeginnerGuide": {
+      "title": "Guia de Iniciante do Bite By Night",
       "displayType": "steps",
-      "intro": "Comece aprendendo como a exploração, a fusão e a progressão se conectam. Lucid Blocks recompensa a experimentação, portanto, o progresso inicial vem da coleta de materiais incomuns, do teste de combinações e do desbloqueio de sua Qualia pessoal.",
+      "intro": "Bite By Night é um jogo de terror assimétrico no Roblox onde um jogador se torna o Assassino e os demais jogam como Sobreviventes. Os Sobreviventes escolhem uma classe, trabalham nos objetivos do mapa, ligam geradores e tentam escapar, enquanto o Assassino os caça antes que a rodada chegue às 6 AM. Em suas primeiras partidas, o maior objetivo não é a jogada perfeita — é aprender como os objetivos, portas e habilidades de classe interagem sob pressão.",
       "steps": [
         {
-          "title": "Explore Antes de se Comprometer",
-          "description": "Caminhe para fora, mine blocos comuns e guarde quaisquer itens estranhos que encontrar. O progresso inicial foca menos em missões fixas e mais em descobrir no que os materiais podem se tornar."
+          "title": "Início da Partida e Atribuição de Funções",
+          "description": "No início de uma rodada, um jogador é escolhido como o Assassino e todos os outros se tornam Sobreviventes. Se você for o Assassino, seu trabalho é eliminar todos os sobreviventes antes que o cronômetro chegue às 6 AM."
         },
         {
-          "title": "Desbloqueie sua Qualia Pessoal Cedo",
-          "description": "Sua Qualia pessoal é um dos marcos iniciais mais importantes. Ela oferece um lugar confiável para se reagrupar e construir ao redor."
+          "title": "Escolha uma Classe de Sobrevivente",
+          "description": "Os Sobreviventes escolhem uma classe antes da rodada começar. A linha de classes de lançamento inclui Cliente, Lutador, Curandeiro e Guarda de Segurança, e cada uma muda como você ajuda a equipe a sobreviver."
         },
         {
-          "title": "Use Ósmio para um Progresso Inicial Rápido",
-          "description": "O Ósmio é um dos materiais iniciais mais úteis. Uma rota inicial popular é combinar Ósmio com gravetos para criar uma Picareta de Gelo para mineração rápida."
+          "title": "Trabalhe nos Objetivos e Geradores",
+          "description": "Os Sobreviventes devem completar os objetivos do mapa e ligar os geradores para abrir a saída. Um objetivo revelado chamado Fiação Elétrica faz com que os jogadores segurem a tecla de interação enquanto consertam os fios, e apenas um jogador pode trabalhar em um objetivo por vez."
         },
         {
-          "title": "Registre Boas Fusões",
-          "description": "Mantenha um registro das combinações bem-sucedidas em seu diário. Lucid Blocks possui muitos caminhos de fusão possíveis, então anotar resultados úteis economiza muito tempo."
+          "title": "Ganhe Tempo com Portas, Terreno e Utilitários",
+          "description": "Você pode atrasar o Assassino segurando portas fechadas, barricando pontos de afunilamento e usando o terreno de forma inteligente. O Lutador pode atordoar, o Curandeiro pode recuperar vida, o Guarda de Segurança pode revelar ameaças e geradores, e o Cliente pode se sustentar durante perseguições."
+        },
+        {
+          "title": "Entenda a Condição de Vitória",
+          "description": "Os Sobreviventes vencem ao terminar os objetivos, abrir a saída e escapar do mapa. Os Assassinos vencem ao caçar toda a equipe de sobreviventes antes que eles terminem a rota de fuga."
         }
       ],
       "quickTips": [
-        "Apotheosis não requer uma lista de receitas fixa.",
-        "A geração de mundo infinita significa que mover-se para lugares mais altos ou mais profundos pode revelar materiais completamente diferentes.",
-        "Ferramentas de movimento e equipamentos utilitários tornam-se um grande reforço na qualidade de vida assim que você começa a desbloqueá-los.",
-        "Perder-se no início é normal, mas ferramentas úteis, armazenamento e opções de movimento crescem rapidamente assim que suas primeiras boas fusões começam a funcionar."
+        "Sempre tenha uma rota de fuga planejada antes de iniciar um objetivo.",
+        "Use barricadas em pontos de afunilamento para atrasar o Assassino durante as perseguições.",
+        "Aprenda os layouts dos mapas cedo — conhecer atalhos salva sua vida.",
+        "Fique com pelo menos um colega de equipe para segurança durante os objetivos."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Criação de Apotheosis em Lucid Blocks",
+    "biteByNightReleaseDate": {
+      "title": "Data de Lançamento de Bite By Night",
       "displayType": "cards",
-      "intro": "Apotheosis é o sistema de fusão irrestrito do jogo. Em vez de memorizar um livro de receitas tradicional, você combina materiais, observa o resultado e constrói seu próprio conhecimento de criação ao longo do tempo.",
+      "intro": "A intenção de busca pela data de lançamento é um dos maiores padrões de pesquisa para um novo jogo de terror no Roblox, especialmente quando imagens de acesso antecipado, lançamentos de trailers e atualizações no Discord começam a aparecer ao mesmo tempo. Aqui está tudo o que foi confirmado sobre o cronograma de lançamento de Bite By Night.",
       "cards": [
         {
-          "name": "Fusão de Forma Livre",
-          "description": "Apotheosis permite fundir diferentes itens sem a necessidade de seguir uma lista de receitas fixa."
+          "name": "Data de Lançamento Público Oficial",
+          "description": "Múltiplas referências atuais de lançamento de Bite By Night apontam para 28 de março de 2026 como a data prevista para o lançamento público."
         },
         {
-          "name": "Múltiplos Resultados Úteis",
-          "description": "Materiais diferentes costumam levar a certos resultados. Descobertas da comunidade mostram que insumos semelhantes ainda podem resultar em ferramentas práticas, armazenamento ou melhorias de combate."
+          "name": "Status Atual no Roblox",
+          "description": "A página oficial da experiência no Roblox está atualmente marcada como ACESSO ANTECIPADO, sinalizando que o cronograma de lançamento e o status de acesso são tópicos ativos para os jogadores acompanharem."
         },
         {
-          "name": "Criação Focada no Diário",
-          "description": "A melhor maneira de aprender Apotheosis é rastrear suas combinações bem-sucedidas. Seu diário rapidamente se torna sua própria referência de criação."
+          "name": "Melhores Lugares para Acompanhar Atualizações",
+          "description": "O convite oficial do Discord, a página do trailer e a listagem no Roblox são os locais mais rápidos para monitorar o cronograma de lançamento, mudanças de acesso e anúncios de lançamento."
         },
         {
-          "name": "Fusões Iniciais Testadas pela Comunidade",
-          "description": "Exemplos iniciais populares incluem Ósmio mais Graveto para uma Picareta de Gelo, Graveto mais Apêndice de Tungstênio para Azrael, e Azrael mais Magnetita para a Rapieira de Gavinhas."
+          "name": "Resumo da Jogabilidade de Lançamento",
+          "description": "Os jogadores entram nas rodadas como Assassino ou Sobrevivente, então correm para completar objetivos e rotas de fuga contra o Assassino antes que o cronômetro da noite termine."
         }
       ],
       "milestones": [
-        "Fundir um item",
-        "Fundir um verme",
-        "Fundir um artefato divino"
+        "Lançamento público em 28 de março de 2026",
+        "Acesso Antecipado no Roblox",
+        "4 classes de lançamento disponíveis",
+        "3 assassinos de lançamento jogáveis"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Ferramentas e Armas de Lucid Blocks",
+    "biteByNightCodes": {
+      "title": "Códigos de Bite By Night",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mistura equipamentos utilitários oficiais com armas iniciais descobertas pela comunidade. A melhor configuração geralmente é uma mistura de mineração rápida, travessia segura e uma opção de combate confiável.",
+      "intro": "A demanda por códigos é extremamente alta durante o lançamento de um jogo no Roblox. Para o Bite By Night, a situação atual dos códigos públicos é simples: não há códigos ativos listados, nenhum código expirado arquivado ainda e nenhum fluxo de resgate público confirmado mostrado na cobertura atual do guia.",
       "items": [
         {
-          "name": "Picareta de Gelo",
-          "type": "Ferramenta de Mineração",
-          "description": "Uma picareta inicial rápida e acessível feita de Ósmio e Graveto. Os jogadores a utilizam para acelerar a coleta inicial de materiais."
+          "name": "Status Atual",
+          "type": "Rastreador de Códigos",
+          "description": "Os rastreadores de códigos atuais listam zero códigos ativos de Bite By Night. Espera-se que os códigos sejam lançados com eventos e marcos após o lançamento."
         },
         {
-          "name": "Azrael",
-          "type": "Arma Inicial",
-          "description": "Uma rota prática de arma inicial criada a partir de Graveto e Apêndice de Tungstênio."
+          "name": "Como Resgatar",
+          "type": "Guia de Resgate",
+          "description": "Abra o jogo no Roblox, procure pelo botão de códigos no menu principal, insira o código exatamente como mostrado e resgate sua recompensa."
         },
         {
-          "name": "Rapieira de Gavinhas",
-          "type": "Arma Melhorada",
-          "description": "Uma sequência mais forte feita ao combinar Azrael com Magnetita. É um dos caminhos de combate inicial-médio mais úteis compartilhados pelos jogadores."
+          "name": "Onde Encontrar Códigos",
+          "type": "Guia de Fontes",
+          "description": "Os códigos oficiais são normalmente anunciados no Discord, X (Twitter) e na descrição do jogo no Roblox. Fontes da comunidade como o Reddit também os rastreiam."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Ferramenta de Mobilidade",
-          "description": "Um item de travessia oficial que melhora muito o movimento e a exploração vertical."
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Ferramenta de Mobilidade",
-          "description": "Um item de movimento oficial que ajuda a percorrer espaços de forma mais segura e eficiente."
-        },
-        {
-          "name": "Varinha de Bola",
-          "type": "Arma Utilitária",
-          "description": "Um item utilitário oficial de longo alcance que expande suas opções de combate e quebra-cabeças."
-        },
-        {
-          "name": "Equipamento de Mergulho",
-          "type": "Equipamento de Travessia",
-          "description": "Um item utilitário oficial para alcançar áreas que, de outra forma, retardariam a exploração."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Dano Utilitário",
-          "description": "Oficialmente destacados como parte do conjunto principal de ferramentas e úteis para romper ameaças ou obstáculos."
+          "name": "Códigos Expirados",
+          "type": "Arquivo",
+          "description": "Nenhum código expirado ainda. À medida que os códigos forem lançados e expirarem, eles serão rastreados aqui para referência."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Armazenamento e Inventário de Lucid Blocks",
+    "biteByNightClassesGuide": {
+      "title": "Guia de Classes do Bite By Night",
       "displayType": "solutionCards",
-      "intro": "A pressão no inventário começa cedo em Lucid Blocks, então construir armazenamento deve ser um de seus primeiros objetivos. Várias soluções testadas por jogadores reais já se destacam.",
+      "intro": "Bite By Night oferece aos sobreviventes uma escolha de classe antes de cada rodada, e esses kits de classe decidem se você joga para autopreservação, proteção (peel), cura ou controle de mapa. O conjunto de classes de lançamento atual é Cliente, Lutador, Curandeiro e Guarda de Segurança.",
       "solutions": [
         {
-          "name": "Cubo de Cache",
-          "role": "Armazenamento Estilo Baú",
-          "description": "Os Cubos de Cache são uma das primeiras respostas práticas de armazenamento e são tratados pelos jogadores como o principal recipiente estilo baú do jogo."
+          "name": "Cliente",
+          "role": "Sobrevivente — Grátis",
+          "description": "A Pizza cura 20 por cento do HP atual. A Bebida concede um aumento temporário de velocidade e aplica um efeito de lentidão após o término. Melhor para sobrevivência solo e para aprender rotas de perseguição."
         },
         {
-          "name": "Armário",
-          "role": "Armazenamento Simples de Base",
-          "description": "Armários são outra opção de armazenamento confirmada. Uma receita inicial compartilhada usa 1 Madeira Cortada e 1 Corda."
+          "name": "Lutador",
+          "role": "Atordoador — 600 Sucatas",
+          "description": "O Golpe avança com um machado de incêndio e atordoa o Assassino. O Aparar bloqueia ataques próximos e adiciona carga para uma pressão de acompanhamento mais forte. Melhor para salvar companheiros de equipe e proteção agressiva (peel)."
         },
         {
-          "name": "Qualia Pessoal",
-          "role": "Central de Armazenamento de Longo Prazo",
-          "description": "Uma vez desbloqueada, sua Qualia pessoal torna-se um lugar natural para organizar materiais, criar em paz e expandir sua base."
+          "name": "Curandeiro",
+          "role": "Curandeiro — 400 Sucatas",
+          "description": "A Cura restaura o HP dos companheiros de equipe ao longo do tempo. A Autocura restaura seu próprio HP e ajuda a estabilizar entre as perseguições. Melhor para grupos focados em equipe e rodadas mais longas."
         },
         {
-          "name": "Rastreamento pelo Diário",
-          "role": "Eficiência de Inventário",
-          "description": "Registrar combinações úteis em seu diário reduz o desperdício de materiais e facilita muito o gerenciamento do inventário."
+          "name": "Guarda de Segurança",
+          "role": "Suporte — 900 Sucatas",
+          "description": "O Taser carrega para um atordoamento ou lentidão mais forte. As Câmeras permitem que você observe as câmeras do mapa e revele animatrônicos ou geradores para os companheiros de equipe. Melhor para equipes coordenadas e suporte de objetivos."
         }
       ],
       "managementTips": [
-        "Priorize uma opção de armazenamento confiável antes de acumular itens raros.",
-        "Construa ao redor de sua Qualia pessoal assim que ela estiver disponível.",
-        "Mantenha materiais de criação, ferramentas de combate e equipamentos de movimento separados para que as melhorias sejam mais fáceis de planejar.",
-        "Use seu diário como parte do gerenciamento de inventário, não apenas para descobertas de criação."
+        "O Cliente é gratuito e ótimo para aprender o básico do jogo.",
+        "O Lutador é a escolha ideal para jogadas agressivas e resgates.",
+        "O Curandeiro mantém a equipe saudável durante rodadas prolongadas.",
+        "O Guarda de Segurança oferece a melhor percepção de mapa e avisos (callouts)."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia e Construção de Base em Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Qualia é um dos marcos de progressão mais importantes em Lucid Blocks. Ela oferece um espaço pessoal para se reagrupar, armazenar materiais e gradualmente transformar o progresso da exploração em uma base real.",
-      "cards": [
+    "biteByNightClassTierList": {
+      "title": "Tier List de Classes do Bite By Night",
+      "displayType": "tierGrid",
+      "intro": "Bite By Night tem atualmente quatro classes de Sobrevivente conhecidas: Cliente, Lutador, Curandeiro e Segurança. O Segurança se destaca como a escolha mais completa e versátil graças às câmeras e utilitário de atordoamento, enquanto o Curandeiro é a melhor escolha de suporte puro. O Lutador é mais forte em lobbies coordenados, e o Cliente continua sendo a classe gratuita de entrada mais fácil para autossustento e jogabilidade focada em fuga.",
+      "tiers": [
         {
-          "name": "Qualia Pessoal",
-          "description": "Desbloquear uma Qualia é um marco inicial que oferece um lugar mais confiável para retornar enquanto explora o mundo mais amplo."
+          "tier": "S",
+          "class": "Segurança",
+          "price": "900 Sucatas",
+          "soloValue": "A",
+          "teamUtility": "A",
+          "easeOfUse": "Média",
+          "coreTools": [
+            "Taser",
+            "Câmeras"
+          ],
+          "summary": "A classe mais equilibrada no elenco atual. Pode rastrear o assassino e os objetivos com câmeras, além de criar espaço com um atordoamento de taser carregado."
         },
         {
-          "name": "Construção Focada em Armazenamento",
-          "description": "Muitos jogadores começam a usar sua Qualia como um centro de armazenamento antes de transformá-la em uma base maior com espaço organizado para criação e construção."
+          "tier": "A",
+          "class": "Curandeiro",
+          "price": "400 Sucatas",
+          "soloValue": "A",
+          "teamUtility": "S",
+          "easeOfUse": "Alta",
+          "coreTools": [
+            "Cura",
+            "Autocura"
+          ],
+          "summary": "A classe de suporte dedicado mais forte. Mantém os companheiros de equipe vivos, prolonga a pressão nos geradores e é especialmente valiosa quando uma equipe deseja rodadas estáveis em vez de duelos arriscados."
         },
         {
-          "name": "Construção Criativa de Lares",
-          "description": "Lucid Blocks suporta construção criativa, e os jogadores já estão usando espaços de Qualia para criar casas e layouts personalizados."
+          "tier": "B",
+          "class": "Lutador",
+          "price": "600 Sucatas",
+          "soloValue": "B",
+          "teamUtility": "A",
+          "easeOfUse": "Média",
+          "coreTools": [
+            "Golpe",
+            "Parry"
+          ],
+          "summary": "Uma classe focada em atordoamento com real valor de equipe, mas exige tempo de reação e coordenação. O Lutador é muito melhor em grupos que podem capitalizar em parries e atordoamentos de machado."
         },
         {
-          "name": "Central de Progressão",
-          "description": "Uma base sólida ajuda a separar saques de exploração, materiais de criação, sementes, ferramentas e equipamentos de mobilidade para que seus próximos upgrades sejam mais fáceis de planejar."
-        }
-      ],
-      "highlights": [
-        "Entrar em uma qualia",
-        "Armazenar materiais com segurança",
-        "Expandir da utilidade para a decoração",
-        "Usar o espaço da base para apoiar a criação e o cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiões do Mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza geração de mundo infinita, então os jogadores continuam descobrindo novos ambientes e estruturas. Alguns lugares nomeados já estão aparecendo em conquistas e discussões da comunidade.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área Notada pela Comunidade",
-          "description": "Fog Meadow já é conhecida entre os jogadores como uma área tensa associada a ameaças ocultas e encontros perigosos."
-        },
-        {
-          "name": "Linha de Ley Tiamana",
-          "type": "Marco de Descoberta",
-          "description": "A linha de ley tiamana é importante o suficiente para ter seu próprio marco de conquista, tornando-a uma das descobertas de mundo nomeadas mais claras até agora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espaço de Construção",
-          "description": "Os jogadores já estão usando Clonaqualia como um lugar para construir casas, armazenar materiais e experimentar layouts mais permanentes."
-        },
-        {
-          "name": "Pântano de Essência",
-          "type": "Área de Cultivo",
-          "description": "O Pântano de Essência está sendo compartilhado pelos jogadores como um local de cultivo útil, especialmente para lutar contra slimes e ganhar experiência."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas e Inimigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mistura criaturas surreais com perigo real. Descrições oficiais e postagens da comunidade apontam para um mundo cheio de vida estranha, ameaças hostis e alguns encontros marcantes que os jogadores lembram rapidamente.",
-      "creatures": [
-        {
-          "name": "Manequins",
-          "role": "Inimigo Hostil",
-          "description": "Os Manequins são um dos inimigos oficialmente nomeados no mundo e fazem parte do elenco de ameaças surreais do jogo."
-        },
-        {
-          "name": "Géis Macios",
-          "role": "Inimigo Hostil",
-          "description": "Géis macios são outro tipo de inimigo oficialmente nomeado e ajudam a definir o estilo biológico estranho do jogo."
-        },
-        {
-          "name": "Seres de Dimensões Superiores",
-          "role": "Inimigo Hostil",
-          "description": "Esses seres são apresentados como parte da linha de inimigos mais abstrata e perturbadora do mundo."
-        },
-        {
-          "name": "Aranhas Colossais",
-          "role": "Grande Ameaça",
-          "description": "As aranhas são um dos inimigos mais temidos imediatamente em discussões da comunidade e são claramente um perigo memorável."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura Nomeada",
-          "description": "__PROTECTED_26ee183b__ é notável o suficiente para ter sua própria conquista, o que o torna um dos encontros com criaturas nomeadas mais claros do jogo."
-        },
-        {
-          "name": "Vermes Fofos",
-          "role": "Criatura Interagível",
-          "description": "Os vermes não fazem apenas parte da progressão de fusão, eles também podem ser renomeados, ganhando um papel mais pessoal do que os inimigos padrão."
-        },
-        {
-          "name": "Criatura Blasfema",
-          "role": "Ameaça de Elite",
-          "description": "A criatura blasfema está ligada a uma conquista de combate dedicada, marcando-a como um encontro de inimigo significativo."
+          "tier": "C",
+          "class": "Cliente",
+          "price": "Grátis",
+          "soloValue": "S",
+          "teamUtility": "B",
+          "easeOfUse": "Alta",
+          "coreTools": [
+            "Pizza",
+            "Bebida"
+          ],
+          "summary": "A classe padrão para iniciantes. Oferece ferramentas fortes de autocura e fuga para sobrevivência solo, mas contribui com menos pressão de equipe do que as classes mais especializadas."
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipamento de Mobilidade de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Melhorias de movimento são um dos maiores saltos na qualidade de vida em Lucid Blocks. Depois de desbloquear suas primeiras ferramentas de travessia, a exploração torna-se mais rápida, segura e muito mais recompensadora.",
-      "items": [
+    "biteByNightKillersGuide": {
+      "title": "Guia de Assassinos de Bite By Night",
+      "displayType": "killerCards",
+      "intro": "O conjunto atual de assassinos conhecidos está dividido entre a lista de lançamento confirmada e os assassinos já listados como futuros. Springtrap, The Mimic e Ennard compõem a escalação de lançamento confirmada, enquanto Marionette e Mangle já estão marcados para adição futura. Este módulo oferece aos jogadores uma leitura rápida do elenco antes de mergulharem em guias específicos de confrontos e tier lists.",
+      "killers": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Ferramenta de Travessia",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e possui sua própria conquista dedicada."
+          "name": "Springtrap",
+          "status": "Lançamento Confirmado",
+          "role": "Assassino equilibrado de pressão e perseguição",
+          "highlights": [
+            "Finalizador de skillshot",
+            "Controle de armadilhas em pontos de afunilamento",
+            "Utilidade de rastreamento",
+            "Mobilidade de investida"
+          ],
+          "summary": "Springtrap é o assassino mais completo no conjunto atual, combinando ofensiva, controle de grupo e pressão de perseguição confiável."
         },
         {
-          "name": "Luva Planadora",
-          "type": "Mobilidade Aérea",
-          "description": "A luva planadora permite viagens muito mais suaves e é outro marco importante de progressão com sua própria conquista."
+          "name": "The Mimic",
+          "status": "Lançamento Confirmado",
+          "role": "Assassino flexível baseado em posturas",
+          "highlights": [
+            "Finalizador em modo de velocidade",
+            "Dano de explosão de força",
+            "Opção de aproximação furtiva"
+          ],
+          "summary": "The Mimic troca a consistência bruta por flexibilidade. Ele pode alternar entre diferentes modos para se adaptar à situação, mas exige uma tomada de decisão mais precisa do que os outros assassinos."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Ferramenta de Travessia",
-          "description": "Os planadores de abelha são oficialmente destacados como parte do kit de ferramentas de movimento do jogo para percorrer espaços de forma mais eficiente."
+          "name": "Ennard",
+          "status": "Lançamento Confirmado",
+          "role": "Assassino de emboscada e disfarce",
+          "highlights": [
+            "Jogos mentais de disfarce",
+            "Presença silenciosa",
+            "Exploração com Wirethings",
+            "Mobilidade de puxada"
+          ],
+          "summary": "Ennard é construído em torno de decepção e surpresa. Ele recompensa jogadores que conseguem usar a pressão do disfarce e pegar Sobreviventes agrupados antes que eles reajam."
         },
         {
-          "name": "Varinha de Bola",
-          "type": "Equipamento Utilitário",
-          "description": "As varinhas de bola são uma das ferramentas especiais oficialmente destacadas e expandem a forma como você se move ou interage com o mundo."
+          "name": "Marionette",
+          "status": "Em breve",
+          "role": "A ser anunciado",
+          "highlights": [
+            "Confirmado para uma atualização futura"
+          ],
+          "summary": "Marionette já está listada como uma futura assassina, tornando-a uma das próximas grandes expansões de elenco para se observar."
         },
         {
-          "name": "Equipamento de Mergulho",
-          "type": "Equipamento de Exploração",
-          "description": "O equipamento de mergulho está oficialmente listado como parte do conjunto utilitário principal para alcançar áreas que seriam mais difíceis de explorar."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Dano Utilitário",
-          "description": "Os explosivos são oficialmente destacados e vinculados a um marco de conquista, tornando-os parte da progressão utilitária principal do jogo."
+          "name": "Mangle",
+          "status": "Em breve",
+          "role": "A ser anunciado",
+          "highlights": [
+            "Confirmado para uma atualização futura"
+          ],
+          "summary": "Mangle também está listada na seção de futuros lançamentos, dando ao jogo outro assassino confirmado planejado além do conjunto de lançamento."
         }
-      ],
-      "unlockMilestones": [
-        "Comandar um gancho",
-        "Voar com a luva planadora",
-        "Empunhar uma varinha de projéteis",
-        "Empunhar um explosivo"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo e Crescimento em Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "O crescimento faz parte da progressão real em Lucid Blocks. O cultivo não se trata apenas de plantar e colher, mas também de estabelecer rotas de materiais repetíveis que mantêm suas ferramentas, armas e opções de criação fluindo.",
+    "biteByNightKillerTierList": {
+      "title": "Tier List de Assassinos do Bite By Night",
+      "displayType": "tierGrid",
+      "intro": "Entre os assassinos ranqueados atualmente, Springtrap possui o conjunto de habilidades mais forte no geral, graças à sua combinação de rastreamento, armadilhas, mobilidade e poder de finalização. Ennard segue de perto com uma forte jogabilidade de emboscada baseada em disfarce, enquanto The Mimic oferece flexibilidade criativa, mas precisa de mais preparação e execução mais limpa para se igualar aos outros. Próximos assassinos estão excluídos até que seus kits estejam mais estabelecidos.",
+      "tiers": [
+        {
+          "tier": "S",
+          "killer": "Springtrap",
+          "pressure": "Alta",
+          "chaseTools": "Alta",
+          "consistency": "Alta",
+          "playstyle": "Controle e perseguição",
+          "summary": "O melhor assassino versátil no momento. Springtrap traz negação de armadilhas, pressão de finalização de longo alcance, utilitário de rastreamento e forte mobilidade em um único pacote."
+        },
+        {
+          "tier": "A",
+          "killer": "Ennard",
+          "pressure": "Alta",
+          "chaseTools": "Média",
+          "consistency": "Média-Alta",
+          "playstyle": "Disfarce e emboscada",
+          "summary": "Ennard é excelente quando a jogada de disfarce funciona. Ele pode punir Sobreviventes agrupados e criar reviravoltas repentinas de ritmo, mas é um pouco menos confiável que Springtrap quando jogadores experientes começam a prevê-lo."
+        },
+        {
+          "tier": "B",
+          "killer": "The Mimic",
+          "pressure": "Média",
+          "chaseTools": "Média",
+          "consistency": "Média-Baixa",
+          "playstyle": "Troca de modo e adaptação",
+          "summary": "The Mimic tem uma flexibilidade útil através dos modos de Velocidade, Força e Furtividade, mas nenhuma dessas opções é tão naturalmente confiável quanto Springtrap ou Ennard quando os lobbies ficam mais fortes."
+        }
+      ]
+    },
+    "biteByNightSurvivorGuide": {
+      "title": "Guia de Sobrevivente do Bite By Night",
+      "displayType": "steps",
+      "intro": "Como um Sobrevivente, seu trabalho é trabalhar com a equipe, completar quebra-cabeças e minijogos, ligar os geradores e abrir a saída antes que o assassino elimine o lobby. A escolha da classe muda como você contribui: o Cliente sobrevive com autossustento, o Lutador cria janelas de atordoamento, o Curandeiro mantém a equipe viva e o Guarda de Segurança monitora o perigo e estabelece rotas mais seguras. Uma boa jogada de Sobrevivente é menos sobre correr em pânico e mais sobre tempo, posicionamento e uso de cada classe no momento certo.",
+      "steps": [
+        {
+          "title": "Escolha uma classe com uma função clara",
+          "description": "O Cliente é a classe inicial gratuita para autocura e fuga. O Lutador é o seu especialista em atordoamento, o Curandeiro é o seu suporte de sustentação e o Guarda de Segurança é a escolha de visão e controle com câmeras e um taser."
+        },
+        {
+          "title": "Priorize geradores e tarefas do mapa cedo",
+          "description": "Os Sobreviventes vencem ao completar quebra-cabeças e minijogos que ligam os geradores e abrem a saída. O início da partida é melhor aproveitado focando nos objetivos antes que o assassino crie muita pressão."
+        },
+        {
+          "title": "Use suas habilidades para criar espaço, não por pânico",
+          "description": "O Cliente deve guardar a Pizza e a Bebida para sobrevivência em momentos decisivos, o Lutador deve procurar janelas de atordoamento deliberadas, o Curandeiro deve manter os companheiros ativos e o Guarda de Segurança deve fornecer informações com as câmeras antes de usar o taser."
+        },
+        {
+          "title": "Jogue próximo aos companheiros de equipe em vez de se separar sem propósito",
+          "description": "A função é baseada no trabalho em equipe. Curandeiro e Lutador tornam-se muito mais fortes juntos, e o Guarda de Segurança ganha mais valor quando a equipe realmente usa as informações das câmeras e os atordoamentos subsequentes."
+        },
+        {
+          "title": "Transforme o último objetivo em uma fuga limpa",
+          "description": "Assim que os geradores estiverem ligados, pare de entrar em lutas desnecessárias. Deixe as classes de utilidade criarem uma janela segura, continue curando se possível e vá direto para a saída em vez de dar ao assassino uma segunda perseguição."
+        }
+      ]
+    },
+    "biteByNightSpringtrapGuide": {
+      "title": "Guia do Springtrap - Bite By Night",
+      "displayType": "accordion",
+      "subtitle": "Springtrap é o assassino inicial de lançamento e o personagem de lançamento mais fácil de entender à primeira vista. Seu kit mistura dano direto, negação de rota e pressão de revelação.",
+      "intro": "Springtrap está posicionado como a âncora de lançamento do Bite By Night e o primeiro assassino que se espera desbloquear. Ele pressiona os sobreviventes alternando entre golpes básicos, controle de machado, posicionamento de armadilhas e uma sequência de revelação que pode transformar informações em uma perseguição rápida.",
       "sections": [
         {
-          "name": "Progressão de Sementes",
-          "description": "Plantar e fertilizar sementes é um marco real no jogo, e colher uma noz totalmente crescida faz parte do mesmo caminho de crescimento."
+          "name": "Papel de Lançamento",
+          "description": "Springtrap é um assassino de lançamento e espera-se que seja o primeiro assassino desbloqueado pelos jogadores. Ele é apresentado como o assassino inicial do jogo."
         },
         {
-          "name": "Cultivo de Materiais",
-          "description": "Um ciclo prático de cultivo inicial é criar Cápsulas de Mercúrio, que geram pequenos slimes que soltam Gavinhas e gosma para materiais de criação repetíveis."
+          "name": "Perfil de Dano Base",
+          "description": "Swing é o ataque de LMB do Springtrap. Com o machado equipado, o ataque causa 36 de dano. Sem o machado, seu punho causa 28 de dano."
         },
         {
-          "name": "Sustentação de Ferramentas",
-          "description": "O cultivo de recursos torna-se muito mais forte quando você consegue coletar consistentemente Ósmio, fragmentos de vidro, plantas e materiais de slime para criações subsequentes."
+          "name": "Remnant Cleaver",
+          "description": "Remnant Cleaver é usado no Q. Springtrap desacelera, lança seu machado e um acerto aplica Weakness. Após o arremesso, ele deve retornar ao machado e segurar E para recuperá-lo."
         },
         {
-          "name": "Rotina da Base",
-          "description": "A melhor configuração de cultivo suporta mais do que apenas comida. Ela deve alimentar seu armazenamento, ferramentas de movimento, melhorias de armas e futuros experimentos de fusão."
+          "name": "Sequência de Trap e Reveal",
+          "description": "Com o machado em mãos, Springtrap pode colocar uma Beartrap no E. Se um sobrevivente pisar nela, ele recebe dano e fica atordoado por 10 segundos. Após usar o Remnant Cleaver, essa ação do terceiro slot muda para Scream, que destaca todos os sobreviventes, e depois para Charge para um acompanhamento de agarrão rápido."
+        },
+        {
+          "name": "Padrão de Pressão",
+          "description": "O fluxo mais forte do Springtrap é controlar uma rota com a Beartrap, forçar o movimento com a ameaça do machado e, em seguida, converter a informação do Scream em um ataque com a Charge. Ele está no seu melhor quando os sobreviventes são afunilados por portas e caminhos estreitos."
+        },
+        {
+          "name": "Melhores Janelas de Punição",
+          "description": "Springtrap é mais fácil de contestar enquanto planta uma Beartrap, durante a desaceleração antes do arremesso do machado e após uma tentativa de Charge fracassada. Se ele já tiver arremessado o machado, forçar distância antes que ele o recupere reduz sua ameaça imediata de curto alcance."
         }
       ],
       "growthMilestones": [
-        "Fertilizar uma semente",
-        "Colher uma noz totalmente crescida",
-        "Criar ciclos de materiais repetíveis",
-        "Transformar o cultivo em progressão de longo prazo"
+        "Reconhecer a desaceleração do arremesso de machado do Springtrap",
+        "Usar as janelas de posicionamento da Beartrap para criar distância",
+        "Provocar e esquivar do Remnant Cleaver",
+        "Punir investidas de Charge com barricadas"
       ]
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Melhores Desbloqueios Iniciais de Lucid Blocks",
+    "biteByNightTheMimicGuide": {
+      "title": "Guia do The Mimic em Bite By Night",
       "displayType": "priorityCards",
-      "intro": "Os desbloqueios iniciais mais fortes são aqueles que melhoram a segurança, o armazenamento e o movimento. Em Lucid Blocks, algumas melhorias práticas podem tornar todo o resto do jogo muito mais suave.",
+      "subtitle": "O The Mimic é um assassino de lançamento focado na troca de posturas. Seu sistema de modos concede diferentes velocidades de perseguição, valores de dano e ferramentas de emboscada.",
+      "intro": "O The Mimic é um dos três assassinos de lançamento confirmados e possui o kit baseado em posturas mais explícito mostrado até agora. Ele pode alternar entre Strength, Speed e Stealth para trocar dano bruto por mobilidade, pressão de emboscada ou utilidade de agarrão.",
       "priorities": [
         {
-          "name": "Qualia Pessoal",
+          "name": "Papel de Lançamento",
           "priority": "Essencial",
-          "description": "Assim que você obtém acesso à sua Qualia pessoal, sua jornada torna-se muito mais estável. Ela atua como um centro confiável para armazenamento, construção e reagrupamento."
+          "description": "O The Mimic é um assassino de lançamento confirmado. Ele começa a rodada com Strength selecionado e usa o Mode Switch no Q para acessar o restante de seu kit."
         },
         {
-          "name": "Picareta de Gelo",
+          "name": "Valores de Dano por Modo",
+          "priority": "Essencial",
+          "description": "O Swing base do The Mimic muda conforme o modo. O modo Strength causa 42 de dano, o modo Speed causa 10 de dano e o modo Stealth causa 34 de dano."
+        },
+        {
+          "name": "Modo Speed",
           "priority": "Muito Alta",
-          "description": "Uma ferramenta de mineração inicial rápida e barata feita de Ósmio e Graveto. É uma das melhorias mais úteis para acelerar a coleta inicial de recursos."
+          "description": "O modo Speed aumenta a velocidade de movimento, remove o endlag ao errar o Swing e desbloqueia o Ground Slam. O Ground Slam lança o The Mimic para frente, causa ragdoll em um sobrevivente próximo e causa dano no impacto."
         },
         {
-          "name": "Cubo de Cache",
+          "name": "Modo Stealth",
           "priority": "Muito Alta",
-          "description": "A pressão de armazenamento começa cedo, então obter seu primeiro recipiente confiável estilo baú é uma grande melhoria na qualidade de vida."
+          "description": "O modo Stealth desbloqueia o Grab e o Tunneling. Ele concede ao The Mimic o efeito de status Indetectável, silencia seus passos e reduz o dano do seu golpe básico para 34."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
+          "name": "Detalhes de Grab e Tunneling",
           "priority": "Alta",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e rapidamente torna a exploração mais rápida e segura."
+          "description": "O Grab pode segurar um sobrevivente por cerca de 7 segundos e desferir um soco de 18 de dano antes de arremessar o alvo. O Tunneling leva cerca de 3 segundos para ser ativado, concede velocidade e invisibilidade sob o solo, e pode emergir do chão para derrubar sobreviventes próximos, causando 21 de dano ao surgir."
         },
         {
-          "name": "Luva Planadora",
+          "name": "Como Reagir ao The Mimic",
           "priority": "Alta",
-          "description": "A luva planadora adiciona outro grande impulso de mobilidade e torna o movimento de longa distância muito mais eficiente."
-        },
-        {
-          "name": "Varinha de Projéteis ou Bombas",
-          "priority": "Alta",
-          "description": "Uma ferramenta de longo alcance ou opção explosiva oferece uma resposta mais segura a inimigos perigosos e encontros de estilo desafio."
+          "description": "A maneira mais segura de ler o The Mimic é monitorar seu modo atual primeiro. Strength significa alto dano de acerto, Speed significa foco em perseguição e Stealth significa pressão de emboscada. O distanciamento é importante porque um sobrevivente arremessado pode causar ragdoll em aliados, e o tunneling ainda cria um ruído alto de escavação, mesmo estando debaixo da terra."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Rastreador de Conquistas de Lucid Blocks",
+    "biteByNightEnnardGuide": {
+      "title": "Guia do Ennard - Bite By Night",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks possui atualmente 19 conquistas no Steam, e elas se dividem naturalmente em exploração, criação, mobilidade, combate e progressão de cultivo.",
+      "subtitle": "Ennard é um assassino de lançamento confirmado focado em enganação. Seu conjunto de habilidades foi criado para confundir a leitura dos sobreviventes, puxar alvos para o alcance e punir equipes que se agrupam descuidadamente ao redor de corpos.",
+      "intro": "Entre os assassinos de lançamento, Ennard é o que mais aposta na trapaça. Em vez de controle puro de rota ou troca de postura, ele ameaça os sobreviventes com disfarce de cadáver, ferramentas de puxar baseadas em fios e pressão atrasada que pode transformar um colega de equipe abatido em uma segunda armadilha.",
       "groups": [
         {
-          "name": "Exploração",
+          "name": "Identidade Principal",
           "achievements": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entre em uma qualia."
+              "title": "Papel de Lançamento",
+              "description": "Ennard é um assassino de lançamento confirmado e foi o último assassino finalizado para a lista inicial. Ele se junta a Springtrap e The Mimic como os três assassinos listados para o lançamento."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubra uma linha de ley tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Vença um desafio tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Conquista oculta."
+              "title": "Hijacking",
+              "description": "Hijacking permite que Ennard entre em um jogador falecido e o use como disfarce. Enquanto estiver disfarçado, o movimento é mais lento e os sobreviventes não conseguem ouvir o tema de perseguição do Ennard."
             }
           ]
         },
         {
-          "name": "Criação e Invocação",
+          "name": "Ferramentas de Ataque",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Funda um item."
+              "title": "Ameaça de Explosão de Disfarce",
+              "description": "Quando estiver pronto para atacar, Ennard pode explodir para fora do disfarce de cadáver, lançando pedaços de corpo pela área e causando dano a jogadores próximos ao contato. Enquanto disfarçado, ele também pode desferir um ataque de esfaqueamento com um fio exposto."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Funda um verme."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Funda um artefato divino."
-            },
-            {
-              "title": "Arcanjo β",
-              "description": "Invoque sua fé."
+              "title": "Ferramenta de Puxar",
+              "description": "Pull lança um fio estendido em linha reta. Se conectar, o sobrevivente é arrastado em direção ao Ennard até estar dentro do alcance do ataque básico."
             }
           ]
         },
         {
-          "name": "Mobilidade e Utilidade",
+          "name": "Pressão e Contra-ataque",
           "achievements": [
             {
-              "title": "Virtude α",
-              "description": "Voe com a luva planadora."
+              "title": "Pressão do Wirething",
+              "description": "Wirething libera um dispositivo de rastreamento do joelho do Ennard. Ele segue os sobreviventes e deve explodir ao contato, e os jogadores devem balançar a tela para removê-lo antes que a barra se encha."
             },
             {
-              "title": "Virtude β",
-              "description": "Comande um gancho."
-            },
-            {
-              "title": "Arcanjo α",
-              "description": "Empunhe uma varinha de projéteis."
-            },
-            {
-              "title": "Arcanjo γ",
-              "description": "Empunhe um explosivo."
-            }
-          ]
-        },
-        {
-          "name": "Combate e Criaturas",
-          "achievements": [
-            {
-              "title": "Massacre de __PROTECTED_26ee183b__",
-              "description": "Derrote bubblebears inocentes."
-            },
-            {
-              "title": "Arcanjo δ",
-              "description": "Elimine uma criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morra."
-            },
-            {
-              "title": "Domínio γ",
-              "description": "Renomeie um verme fofo."
-            }
-          ]
-        },
-        {
-          "name": "Crescimento e Cultivo",
-          "achievements": [
-            {
-              "title": "Domínio α",
-              "description": "Fertilize uma semente."
-            },
-            {
-              "title": "Domínio β",
-              "description": "Colha uma noz totalmente crescida."
-            },
-            {
-              "title": "Domínio δ",
-              "description": "Conquista oculta."
+              "title": "Como Jogar Contra o Ennard",
+              "description": "Springtrap controla o espaço e The Mimic muda o tempo conforme o modo, mas Ennard cria a maior pressão de mindgame em torno de cadáveres e verificações de disfarce. Os sobreviventes devem confirmar os corpos antes de se agruparem, evitar resgates cegos ao redor de um colega caído e respeitar qualquer corredor reto onde o Pull possa arrastá-los para o alcance de combate corpo a corpo."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "FAQ de Singleplayer e Plataformas de Lucid Blocks",
+    "biteByNightMapsGuide": {
+      "title": "Guia de Mapas do Bite By Night",
+      "displayType": "mapCards",
+      "subtitle": "A lista oficial de mapas atualmente nomeia dois mapas confirmados: The Forest e Warehouse. Os sistemas de rodada compartilhados importam tanto quanto o cenário, pois portas, objetivos e tempo definem como ambos os lados se posicionam.",
+      "intro": "A lista oficial de mapas atual do Bite By Night é compacta, então a estrutura de guia mais útil é combinar cada mapa confirmado com as mecânicas principais que moldam cada rodada. Sobreviventes trabalham em um objetivo por vez, qualquer classe pode barricar portas e os assassinos vencem ao eliminar a equipe antes das 6h.",
+      "maps": [
+        {
+          "name": "The Forest",
+          "status": "Mapa Confirmado",
+          "identity": "The Forest é um dos dois mapas listados na página oficial de Mapas e também foi descrito em um teaser como um mapa baseado na floresta de FNAF 4.",
+          "sharedSystems": "Fiação Elétrica é o único objetivo provocado até agora, e apenas um sobrevivente pode trabalhar em um objetivo por vez.",
+          "survivorTips": "Use portas como pontos de atraso, faça rotações após o progresso do objetivo e evite amontoar toda a equipe em uma única rota de aproximação.",
+          "killerTips": "Pressione jogadores em objetivos isolados, force perseguições curtas e ataque o controle das portas antes que os sobreviventes se estabeleçam em espaços seguros."
+        },
+        {
+          "name": "Warehouse",
+          "status": "Mapa Confirmado",
+          "identity": "Warehouse é o outro mapa nomeado na página oficial de Mapas e dá à lista de lançamento um segundo cenário confirmado ao lado de The Forest.",
+          "sharedSystems": "Barricar continua sendo importante aqui porque qualquer classe pode pressionar F perto de uma porta para iniciar um minijogo de barricada.",
+          "survivorTips": "Jogue em torno de salas e pontos de reinicialização, mantenha o espaçamento entre os colegas de equipe e não deixe que uma falha na contenção de uma porta derrube todo o lado do mapa.",
+          "killerTips": "Aposte na pressão de sala em sala, desafie as barricadas rapidamente e puna os sobreviventes que se comprometerem demais com uma sala ou um objetivo."
+        },
+        {
+          "name": "Regras de Rodada Compartilhadas",
+          "status": "Todos os Mapas",
+          "identity": "Os assassinos estão tentando caçar todos os sobreviventes antes que o cronômetro chegue às 6h. Um minijogo de barricada malsucedido pode terminar com o sobrevivente sendo derrubado no chão.",
+          "sharedSystems": "Portas, rodadas cronometradas e interação de objetivo de usuário único são os principais sistemas de moldagem de mapa mostrados atualmente na wiki oficial.",
+          "survivorTips": "Divida a pressão nos objetivos, mantenha pelo menos uma rota de fuga aberta e guarde ferramentas de atordoamento para investidas em portas ou janelas de recuperação após habilidades do assassino.",
+          "killerTips": "Encurte as rotações dos sobreviventes, force confrontos um-contra-um nas portas e aproveite sempre que apenas um sobrevivente estiver preso em uma animação de objetivo."
+        }
+      ]
+    },
+    "biteByNightSkinsGuide": {
+      "title": "Skins e Variantes Cosméticas de Bite By Night",
+      "displayType": "gallery",
+      "eyebrow": "Cosméticos",
+      "subtitle": "A linha visível de skins de assassinos atualmente exibida na wiki oficial, centrada em Springtrap e The Mimic, com variantes de lançamento, futuras e não confirmadas separadas por status.",
+      "intro": "Bite By Night já possui um pipeline de cosméticos significativo para assassinos, especialmente em torno de Springtrap. As páginas públicas de skins mostram atualmente quatro skins futuras de Springtrap, duas skins possíveis de Springtrap, uma skin futura de Mimic e uma skin não confirmada de Mimic, enquanto Marionette e Ennard ainda não possuem skins futuras listadas publicamente.",
+      "items": [
+        {
+          "name": "Purple Guy",
+          "character": "Springtrap",
+          "status": "Em breve",
+          "origin": "Five Night's at Freddy's 2 Hoax",
+          "unlock": "A definir",
+          "summary": "Uma variante animatrônica roxa grande com órbitas oculares pretas vazias, pequenas pupilas brancas, uma boca escura e um distintivo dourado."
+        },
+        {
+          "name": "Toon Springtrap",
+          "character": "Springtrap",
+          "status": "Em breve",
+          "origin": "5 AM at Freddy's: The Sequel",
+          "unlock": "A definir",
+          "summary": "Um Springtrap em estilo cartoon com uma paleta mais clara e um pé de cabra em vez do machado padrão."
+        },
+        {
+          "name": "RustTrap",
+          "character": "Springtrap",
+          "status": "Em breve",
+          "origin": "Linha de skins original de Bite By Night",
+          "unlock": "Enfrente Springtrap no LMS, atordoe-o 5 vezes como um Sentinela e sobreviva",
+          "summary": "Uma versão mais enferrujada e quebrada de Springtrap com um caminho de desbloqueio baseado em desafios já listado na página da skin."
+        },
+        {
+          "name": "Ghost of Slaughter",
+          "character": "Springtrap",
+          "status": "Skin de lançamento",
+          "origin": "God of War",
+          "unlock": "Disponível no lançamento",
+          "summary": "Uma variante inspirada em Kratos que muda o visual de Springtrap para um estilo de armadura e transforma o machado em um Machado Leviatã."
+        },
+        {
+          "name": "SpringMiku / Mikutrap",
+          "character": "Springtrap",
+          "status": "Não confirmado",
+          "origin": "Hatsune Miku",
+          "unlock": "A definir",
+          "summary": "Um possível conceito em estilo crossover que dá ao Springtrap roupas e cabelos inspirados em Hatsune Miku."
+        },
+        {
+          "name": "Ignited Springtrap",
+          "character": "Springtrap",
+          "status": "Não confirmado",
+          "origin": "The Joy of Creation: Halloween Edition",
+          "unlock": "A definir",
+          "summary": "Uma variante de Springtrap mais escura e desgastada, com a mandíbula faltando e olhos laranja brilhantes."
+        },
+        {
+          "name": "Ruined",
+          "character": "The Mimic",
+          "status": "Em breve",
+          "origin": "Five Nights at Freddy's: Security Breach - Ruin",
+          "unlock": "Desconhecido",
+          "summary": "Um modelo de Mimic mais antigo e enferrujado, com cabeça e torso mais quadrados, dentes em formato humanoide e partes mistas de endoesqueleto."
+        },
+        {
+          "name": "Aftermath",
+          "character": "The Mimic",
+          "status": "Não confirmado",
+          "origin": "Conceito de skin original de Bite By Night",
+          "unlock": "Desconhecido",
+          "summary": "Uma aparência de Mimic inspirada em uma equipe de resgate, com uma luva amarela, um sapato preto, roupas rasgadas e uma jaqueta verde."
+        }
+      ]
+    },
+    "biteByNightMarionetteGuide": {
+      "title": "Guia da Marionette de Bite By Night",
+      "displayType": "cardList",
+      "eyebrow": "Próximo Assassino",
+      "subtitle": "A Marionette já está listada como um próximo assassino no roadmap oficial de assassinos. A página pública também estabelece os vínculos de identidade da personagem com Puppet e Charlie, o design visual e o estado atual de desenvolvimento.",
+      "intro": "Este módulo oferece aos jogadores um resumo claro de tudo o que é público sobre a Marionette no momento. Ele abrange quem é o assassino, de onde a personagem vem, como é o modelo e quais partes do perfil de jogabilidade ainda aguardam números finais e detalhes de função.",
+      "items": [
+        {
+          "title": "Status",
+          "meta": "Próximo assassino",
+          "description": "A Marionette está listada na seção de próximos assassinos e não faz parte da lista de lançamento inicial."
+        },
+        {
+          "title": "Identidade",
+          "meta": "Puppet / Charlotte / Charlie",
+          "description": "A página identifica a Marionette como Puppet e vincula a personagem a Charlie, com pronomes exibidos separadamente para o animatrônico e para Charlie."
+        },
+        {
+          "title": "Origem",
+          "meta": "Five Nights at Freddy's 2",
+          "description": "A wiki oficial aponta Five Nights at Freddy's 2 como a origem da Marionette e enquadra a personagem como parte do elenco mais amplo do jogo inspirado em FNAF."
+        },
+        {
+          "title": "Aparência",
+          "meta": "Notas de design público",
+          "description": "A Marionette é descrita como um animatrônico preto e magro com listras brancas nos membros, três dedos longos, um rosto de máscara de comédia, bochechas vermelhas, lágrimas roxas e três botões brancos no peito."
+        },
+        {
+          "title": "Estatísticas Atuais",
+          "meta": "Preço, função e movimento",
+          "description": "A página da personagem mantém Preço, Velocidade de Caminhada, Velocidade de Corrida, Estamina e Função como TBA por enquanto."
+        },
+        {
+          "title": "Notas de Desenvolvimento",
+          "meta": "Reformulação do modelo",
+          "description": "A galeria mostra um modelo descartado e observa que a personagem receberá uma futura reformulação de textura."
+        }
+      ]
+    },
+    "biteByNightLoreGuide": {
+      "title": "Guia de Lore de Bite By Night",
       "displayType": "accordion",
-      "intro": "Estas são as principais perguntas sobre plataformas e acesso que os jogadores costumam fazer antes de comprar Lucid Blocks.",
-      "faqs": [
+      "eyebrow": "História",
+      "subtitle": "O material público da história ainda é compacto, mas a wiki oficial já define a direção geral do jogo. Bite By Night está construindo sua própria lore, enquanto ainda se inspira fortemente em personagens e temas de FNAF.",
+      "intro": "Este módulo mantém o resumo da história fundamentado no que as páginas oficiais já dizem. Ele explica a direção da lore do jogo, o escopo público atual da história e quais fios de personagens estão visíveis na wiki hoje, sem derivar para teorias ou especulações de fãs.",
+      "items": [
         {
-          "question": "Lucid Blocks é singleplayer?",
-          "answer": "Sim. Lucid Blocks é um jogo singleplayer."
+          "title": "A Configuração Principal",
+          "content": "Bite By Night é enquadrado como um futuro jogo de terror de sobrevivência assimétrico no Roblox, onde sobreviventes e um assassino se enfrentam em rodadas cronometradas. Seu estilo geral está claramente enraizado no terror inspirado em FNAF, sendo construído para uma estrutura de partida de classe contra assassino."
         },
         {
-          "question": "Multijogador ou cooperativo estão planejados?",
-          "answer": "Não. O modo multijogador não está planejado para o lançamento nem para atualizações futuras."
+          "title": "Direção da Lore",
+          "content": "O Q&A público afirma que o jogo segue sua própria lore. Isso torna o projeto mais do que uma simples recontagem, embora utilize personagens e inspirações reconhecíveis ligados a FNAF."
         },
         {
-          "question": "Onde posso jogar Lucid Blocks?",
-          "answer": "Ele está disponível atualmente no Steam para Windows."
+          "title": "O que a Página de Lore Estabelece Atualmente",
+          "content": "A página dedicada à Lore diz que os principais detalhes da história do jogo ainda são desconhecidos. No momento, ela aponta os leitores principalmente para o lado dos assassinos do elenco, em vez de uma linha do tempo completa ou história do mundo."
         },
         {
-          "question": "Quanto custa Lucid Blocks?",
-          "answer": "$9,99 no Steam."
+          "title": "Âncoras de História Nomeadas",
+          "content": "A estrutura atual da lore já centraliza o elenco de assassinos, com Springtrap, The Mimic e Ennard mencionados diretamente. Marionette também adiciona um fio ligado a Charlie através da futura página de assassinos."
         },
         {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso."
+          "title": "O Fio da História Pública da Marionette",
+          "content": "A página da Marionette conecta a personagem a Charlie e explica que o animatrônico deveria protegê-la, mas falhou em ajudar quando ela foi aprisionada. Este é um dos textos de personagem no estilo lore mais claros visíveis atualmente na wiki."
         },
         {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 ou 9.0.4 é a configuração comumente recomendada para o Steam Deck."
-        },
-        {
-          "question": "Lucid Blocks funciona no Linux?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
-        },
-        {
-          "question": "Haverá suporte para Mac ou Android?",
-          "answer": "Eles podem ser suportados no futuro, mas não são plataformas de lançamento atuais."
-        },
-        {
-          "question": "Lucid Blocks possui traduções?",
-          "answer": "Não. Atualmente não há traduções planejadas."
-        },
-        {
-          "question": "Lucid Blocks continuará recebendo atualizações?",
-          "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
+          "title": "Onde a História Pública Para",
+          "content": "Ainda não há uma linha do tempo pública mais ampla, divisão de facções ou cronologia completa de eventos na página de lore. No momento, a camada visível da história foca primeiro nos personagens, com a narrativa mais ampla ainda sendo mantida em segredo."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Steam Deck e Controle em Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks pode rodar no Steam Deck, mas a configuração padrão pode precisar de ajustes. Teclado e mouse continuam sendo a opção mais fluida para menus e jogabilidade geral.",
-      "faqs": [
+    "biteByNightWiki": {
+      "title": "Wiki e Hub de Navegação de Bite By Night",
+      "displayType": "cardGrid",
+      "eyebrow": "Hub do Banco de Dados",
+      "subtitle": "Um ponto de entrada focado em navegação para jogadores que desejam acesso rápido às páginas do banco de dados em vez de ler um guia longo. Isso reflete os caminhos de navegação públicos mais fortes já expostos pela wiki oficial e pela cobertura de suporte da wiki do Roblox.",
+      "intro": "Use este módulo como o diretório da página inicial para as páginas de referência mais importantes do site. A wiki oficial já agrupa o projeto em torno de assassinos, classes, mapas, conteúdo da loja, emotes e páginas de respostas rápidas.",
+      "items": [
         {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 funciona bem, e o Proton 9.0.4 é uma correção comumente compartilhada para problemas no Steam Deck."
+          "title": "Assassinos",
+          "meta": "Hub do elenco",
+          "description": "O hub de assassinos cobre o trio de lançamento composto por Springtrap, The Mimic e Ennard, e também acompanha nomes futuros como Marionette e Mangle."
         },
         {
-          "question": "O que devo fazer se os controles do Steam Deck não estiverem funcionando?",
-          "answer": "Force a compatibilidade e mude o jogo para o Proton 9.0.4. A configuração padrão pode não aceitar a entrada do controle corretamente."
+          "title": "Classes",
+          "meta": "Hub de funções de sobreviventes",
+          "description": "O hub de classes é o principal ponto de entrada para estilos de jogo e páginas de funções de sobreviventes, tornando-o o melhor lugar para ramificar a navegação em builds e funções específicas."
         },
         {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus do jogo não foram projetados para isso."
+          "title": "Mapas",
+          "meta": "Hub de locais",
+          "description": "A navegação da wiki oficial inclui uma seção de Mapas para jogadores que desejam referências de estágios, páginas de ambiente e navegação relacionada a locais de partida."
         },
         {
-          "question": "O suporte para Linux é possível?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
+          "title": "Loja",
+          "meta": "Hub de loja e desbloqueios",
+          "description": "A seção da Loja já está presente na navegação principal da wiki e funciona bem como um destino para cosméticos, itens desbloqueáveis e futuras páginas relacionadas a compras."
         },
         {
-          "question": "Qual é a melhor configuração de entrada?",
-          "answer": "Teclado e mouse são a opção mais fluida para navegação em menus e jogabilidade geral momento a momento."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Configurações e Acessibilidade de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks já possui algumas configurações práticas e notas de compatibilidade que importam imediatamente quando os jogadores iniciam o jogo pela primeira vez.",
-      "settings": [
-        {
-          "name": "Configurações de Exibição",
-          "type": "Opção de Conforto",
-          "description": "As Configurações de Exibição incluem uma opção que permite aos jogadores ocultar as mãos na tela."
+          "title": "P&R e FAQ",
+          "meta": "Hub de respostas rápidas",
+          "description": "Estas páginas centralizam respostas oficiais curtas sobre a direção da história, estrutura de jogabilidade e suporte de plataforma, o que as torna úteis para buscas rápidas baseadas em intenção."
         },
         {
-          "name": "Compatibilidade Gráfica",
-          "type": "Requisito do Sistema",
-          "description": "O suporte a __PROTECTED_38625270__ é necessário para que os gráficos sejam renderizados corretamente. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas e erros gráficos graves."
-        },
-        {
-          "name": "Preferência de Entrada",
-          "type": "Configuração de Controle",
-          "description": "O suporte a controle existe, mas o teclado e o mouse proporcionam uma experiência mais fluida porque os menus não foram construídos para o uso de controle."
-        },
-        {
-          "name": "Suporte de Idioma",
-          "type": "Localização",
-          "description": "A configuração atual é apenas em inglês, e nenhuma tradução está planejada no momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Atualizações e Notas de Patch de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks já está recebendo correções rápidas pós-lançamento e pequenas atualizações de usabilidade.",
-      "entries": [
-        {
-          "title": "Atualização 2.8.2",
-          "type": "Atualização de UI",
-          "description": "Renomeado \"awaken\" para \"exit\" no menu principal."
-        },
-        {
-          "title": "Pequeno Patch para Falhas na Inicialização",
-          "type": "Hotfix",
-          "description": "Um patch dedicado foi lançado para jogadores cujo jogo estava travando ao iniciar."
-        },
-        {
-          "title": "Suporte de Conteúdo Pós-Lançamento",
-          "type": "Nota do Roteiro",
-          "description": "Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Correção de Falhas e Solução de Problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "A maioria dos problemas imediatos de inicialização e falhas deve ser verificada em uma ordem simples: nível do patch, suporte gráfico, compatibilidade de plataforma e logs.",
-      "steps": [
-        {
-          "title": "Instale o Hotfix de Falhas Mais Recente",
-          "description": "Se o jogo estiver travando ao iniciar, atualize primeiro e teste novamente com o patch de falha de inicialização mais recente."
-        },
-        {
-          "title": "Verifique o Suporte a __PROTECTED_38625270__",
-          "description": "Lucid Blocks requer suporte a __PROTECTED_38625270__. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas ou grandes problemas de renderização."
-        },
-        {
-          "title": "Use o Proton 9.0.4 no Steam Deck",
-          "description": "Se o comportamento de entrada ou inicialização do Steam Deck estiver quebrado, force a compatibilidade e mude para o Proton 9.0.4."
-        },
-        {
-          "title": "Colete Logs de Falhas",
-          "description": "Abra o Executar do Windows, cole %APPDATA%, vá para lucid blocks/logs e reúna os arquivos .txt para solução de problemas."
-        },
-        {
-          "title": "Relate o Problema Corretamente",
-          "description": "Compartilhe os logs e detalhes do dispositivo através do fórum oficial de bug-reports no Discord ou na página da comunidade do Steam."
+          "title": "Conteúdo do Jogo e Emotes",
+          "meta": "Hub de navegação",
+          "description": "Essas ramificações de navegação atuam como categorias de banco de dados mais leves para jogadores que desejam explorar listas de conteúdo, sistemas secundários e páginas de estilo colecionável."
         }
       ]
     }
@@ -756,197 +795,197 @@
   "faq": {
     "title": "Perguntas",
     "titleHighlight": "Frequentes",
-    "subtitle": "Tudo o que você precisa saber sobre Lucid Blocks",
+    "subtitle": "Tudo o que você precisa saber sobre Bite By Night",
     "questions": [
       {
-        "question": "O Lucid Blocks é um jogo singleplayer?",
-        "answer": "Sim. Lucid Blocks é um jogo exclusivamente singleplayer, sem planos para multiplayer ou co-op."
+        "question": "O que é Bite By Night?",
+        "answer": "Bite By Night é um jogo de terror assimétrico no Roblox inspirado em FNAF e Dead by Daylight. Sobreviventes trabalham juntos para completar objetivos enquanto um assassino os caça."
       },
       {
-        "question": "O que é o sistema Apotheosis em Lucid Blocks?",
-        "answer": "Apotheosis é o sistema de criação por fusão de forma livre do Lucid Blocks. Em vez de seguir receitas fixas, você combina materiais e descobre seus próprios caminhos de criação."
+        "question": "Bite By Night é gratuito?",
+        "answer": "Sim. Bite By Night é gratuito para jogar na plataforma Roblox."
       },
       {
-        "question": "Onde posso jogar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponível atualmente no Steam para Windows. O suporte para Linux e Steam Deck está disponível através do Proton 9.0."
+        "question": "Quantas classes existem no Bite By Night?",
+        "answer": "Bite By Night foi lançado com 4 classes de sobreviventes: Cliente, Lutador, Curandeiro e Guarda de Segurança, cada um com habilidades e funções únicas."
       },
       {
-        "question": "Quanto custa o Lucid Blocks?",
-        "answer": "O Lucid Blocks custa US$ 9,99 no Steam."
+        "question": "Quantos assassinos existem no Bite By Night?",
+        "answer": "Bite By Night foi lançado com 3 assassinos: Springtrap, The Mimic e Ennard, cada um apresentando habilidades e estilos de jogo distintos."
       },
       {
-        "question": "O Lucid Blocks tem suporte para controles?",
-        "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso. Teclado e mouse são a opção mais fluida."
+        "question": "Existem códigos para Bite By Night?",
+        "answer": "Atualmente não há códigos ativos para Bite By Night. Espera-se que os códigos cheguem com futuras atualizações e eventos."
       },
       {
-        "question": "O Lucid Blocks receberá atualizações?",
-        "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não há a intenção de mantê-las em um cronograma regular indefinido."
+        "question": "Onde posso encontrar a comunidade de Bite By Night?",
+        "answer": "O servidor oficial do Discord tem mais de 231.000 membros. Você também pode seguir @bitebynightdev no X e Instagram para as últimas atualizações."
       }
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
+    "title": "Pronto para jogar Bite By Night?",
+    "description": "Junte-se à comunidade de Bite By Night no Discord para guias, atualizações, códigos e discussões!",
     "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
+    "joinGame": "Jogar no Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
+    "title": "Bite By Night Wiki",
+    "description": "Seu hub de recursos completo para classes, assassinos, mapas, códigos e guias de sobrevivência de Bite By Night.",
     "resources": "Recursos",
     "community": "Comunidade",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Comunidade Steam",
-    "steamStore": "Loja Steam",
+    "reddit": "Reddit",
+    "roblox": "Jogue no Roblox",
     "about": "Sobre",
     "privacy": "Política de Privacidade",
     "terms": "Termos de Serviço",
-    "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Bite By Night Wiki. Não afiliado à Roblox Corporation ou aos desenvolvedores de Bite By Night.",
     "disclaimer": "Site de recursos não oficial feito por fãs."
   },
   "pages": {
     "release-and-access": {
-      "title": "Bite By Night Release & Access",
-      "description": "Release date tracking, platform access info, early access updates, and launch timeline for Bite By Night on Roblox.",
-      "metaTitle": "Bite By Night Release Date & Access - Launch Timeline",
-      "metaDescription": "Track the Bite By Night release date, platform access, early access status, and launch updates for the Roblox FNAF-inspired horror game.",
-      "categoryLabel": "RELEASE & ACCESS",
-      "whatIs": "What is Release & Access?",
-      "whatIsDescription": "Everything about Bite By Night's release timeline, platform availability, early access status, and launch updates. Stay informed on when and how to play.",
-      "why": "Why track release info?",
+      "title": "Lançamento e Acesso do Bite By Night",
+      "description": "Acompanhamento da data de lançamento, informações de acesso à plataforma, atualizações de acesso antecipado e cronograma de lançamento para Bite By Night no Roblox.",
+      "metaTitle": "Data de Lançamento e Acesso do Bite By Night - Cronograma de Lançamento",
+      "metaDescription": "Acompanhe a data de lançamento do Bite By Night, acesso à plataforma, status de acesso antecipado e atualizações de lançamento para o jogo de terror do Roblox inspirado em FNAF.",
+      "categoryLabel": "LANÇAMENTO E ACESSO",
+      "whatIs": "O que é Lançamento e Acesso?",
+      "whatIsDescription": "Tudo sobre o cronograma de lançamento do Bite By Night, disponibilidade de plataforma, status de acesso antecipado e atualizações de lançamento. Fique informado sobre quando e como jogar.",
+      "why": "Por que acompanhar as informações de lançamento?",
       "whySteps": {
-        "step1Title": "Know the Launch Date",
-        "step1Description": "Stay updated on the official release date and any schedule changes",
-        "step2Title": "Check Platform Access",
-        "step2Description": "Find out which platforms support Bite By Night and how to access it",
-        "step3Title": "Follow Early Access",
-        "step3Description": "Track early access updates and testing phases before full launch"
+        "step1Title": "Saiba a Data de Lançamento",
+        "step1Description": "Fique atualizado sobre a data oficial de lançamento e quaisquer mudanças no cronograma",
+        "step2Title": "Verifique o Acesso à Plataforma",
+        "step2Description": "Descubra quais plataformas suportam o Bite By Night e como acessá-lo",
+        "step3Title": "Acompanhe o Acesso Antecipado",
+        "step3Description": "Acompanhe as atualizações de acesso antecipado e fases de teste antes do lançamento completo"
       },
-      "featured": "Featured & Essential",
-      "all": "All Release & Access Articles"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Lançamento e Acesso"
     },
     "guide": {
-      "title": "Bite By Night Guides",
-      "description": "Complete gameplay guides covering classes, killers, maps, objectives, tier lists, and survival strategies for Bite By Night.",
-      "metaTitle": "Bite By Night Guides - Classes, Killers & Survival Strategies",
-      "metaDescription": "Complete Bite By Night guides covering classes, killers, maps, objectives, and survival strategies for the Roblox asymmetrical horror game.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "From beginner tips to advanced strategies, these guides cover everything about Bite By Night's survivor classes, killer matchups, map tactics, and objective completion.",
-      "why": "Why read guides?",
+      "title": "Guias de Bite By Night",
+      "description": "Guias completos de jogabilidade cobrindo classes, assassinos, mapas, objetivos, tier lists e estratégias de sobrevivência para Bite By Night.",
+      "metaTitle": "Guias de Bite By Night - Classes, Assassinos e Estratégias de Sobrevivência",
+      "metaDescription": "Guias completos de Bite By Night cobrindo classes, assassinos, mapas, objetivos e estratégias de sobrevivência para o jogo de terror assimétrico do Roblox.",
+      "categoryLabel": "GUIAS DE JOGO",
+      "whatIs": "O que são Guias?",
+      "whatIsDescription": "De dicas para iniciantes a estratégias avançadas, estes guias cobrem tudo sobre as classes de sobreviventes, confrontos contra assassinos, táticas de mapa e conclusão de objetivos em Bite By Night.",
+      "why": "Por que ler guias?",
       "whySteps": {
-        "step1Title": "Learn the Basics",
-        "step1Description": "Understand match flow, class roles, and killer mechanics from your first game",
-        "step2Title": "Improve Your Play",
-        "step2Description": "Master class abilities, killer counters, and map positioning",
-        "step3Title": "Win More Matches",
-        "step3Description": "Apply tier list knowledge and team strategies to escape consistently"
+        "step1Title": "Aprenda o Básico",
+        "step1Description": "Entenda o fluxo da partida, as funções das classes e as mecânicas dos assassinos desde o seu primeiro jogo",
+        "step2Title": "Melhore sua Jogabilidade",
+        "step2Description": "Domine as habilidades das classes, counters de assassinos e posicionamento no mapa",
+        "step3Title": "Vença Mais Partidas",
+        "step3Description": "Aplique o conhecimento das tier lists e estratégias de equipe para escapar consistentemente"
       },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias"
     },
     "codes": {
-      "title": "Bite By Night Codes",
-      "description": "All active and expired Bite By Night codes with rewards and step-by-step redemption instructions.",
-      "metaTitle": "Bite By Night Codes - Free Rewards & Redemption Guide",
-      "metaDescription": "All active and expired Bite By Night codes with free rewards and redemption instructions. Updated regularly with new code drops.",
-      "categoryLabel": "CODES & REWARDS",
-      "whatIs": "What are Codes?",
-      "whatIsDescription": "Redeem codes in Bite By Night for free rewards including skins, currency, and items. Codes are released during updates, events, and community milestones.",
-      "why": "Why check codes?",
+      "title": "Códigos Bite By Night",
+      "description": "Todos os códigos Bite By Night ativos e expirados com recompensas e instruções de resgate passo a passo.",
+      "metaTitle": "Códigos Bite By Night - Recompensas Gratuitas e Guia de Resgate",
+      "metaDescription": "Todos os códigos Bite By Night ativos e expirados com recompensas gratuitas e instruções de resgate. Atualizado regularmente com novos códigos.",
+      "categoryLabel": "CÓDIGOS E RECOMPENSAS",
+      "whatIs": "O que são Códigos?",
+      "whatIsDescription": "Resgate códigos no Bite By Night para obter recompensas gratuitas, incluindo skins, moedas e itens. Os códigos são lançados durante atualizações, eventos e marcos da comunidade.",
+      "why": "Por que verificar os códigos?",
       "whySteps": {
-        "step1Title": "Free Rewards",
-        "step1Description": "Get skins, currency, and items without spending anything",
-        "step2Title": "Limited Time",
-        "step2Description": "Codes expire — redeem them before they are gone",
-        "step3Title": "Stay Updated",
-        "step3Description": "New codes drop with updates, events, and milestones"
+        "step1Title": "Recompensas Gratuitas",
+        "step1Description": "Obtenha skins, moedas e itens sem gastar nada",
+        "step2Title": "Tempo Limitado",
+        "step2Description": "Os códigos expiram — resgate-os antes que acabem",
+        "step3Title": "Mantenha-se Atualizado",
+        "step3Description": "Novos códigos são lançados com atualizações, eventos e marcos"
       },
-      "featured": "Featured & Essential",
-      "all": "All Codes"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Códigos"
     },
     "roster": {
-      "title": "Bite By Night Roster",
-      "description": "Complete killer and survivor roster overview including launch characters, upcoming additions, and role breakdowns.",
-      "metaTitle": "Bite By Night Roster - Killers, Survivors & Upcoming Characters",
-      "metaDescription": "Browse the full Bite By Night roster of killers and survivors. Track launch characters, upcoming additions, and role breakdowns for the Roblox horror game.",
-      "categoryLabel": "ROSTER",
-      "whatIs": "What is the Roster?",
-      "whatIsDescription": "The complete list of playable killers and survivor classes in Bite By Night, including confirmed launch characters and upcoming roster additions.",
-      "why": "Why browse the roster?",
+      "title": "Elenco de Bite By Night",
+      "description": "Visão geral completa do elenco de assassinos e sobreviventes, incluindo personagens de lançamento, adições futuras e divisões de funções.",
+      "metaTitle": "Elenco de Bite By Night - Assassinos, Sobreviventes e Personagens Futuros",
+      "metaDescription": "Navegue pelo elenco completo de assassinos e sobreviventes de Bite By Night. Acompanhe os personagens de lançamento, adições futuras e divisões de funções para o jogo de terror do Roblox.",
+      "categoryLabel": "ELENCO",
+      "whatIs": "O que é o Elenco?",
+      "whatIsDescription": "A lista completa de assassinos jogáveis e classes de sobreviventes em Bite By Night, incluindo personagens de lançamento confirmados e futuras adições ao elenco.",
+      "why": "Por que navegar pelo elenco?",
       "whySteps": {
-        "step1Title": "Know All Characters",
-        "step1Description": "See every killer and survivor class available in the game",
-        "step2Title": "Track New Additions",
-        "step2Description": "Stay updated on upcoming killers like Marionette and Mangle",
-        "step3Title": "Compare Roles",
-        "step3Description": "Understand how each character fits into the killer vs survivor dynamic"
+        "step1Title": "Conheça Todos os Personagens",
+        "step1Description": "Veja cada classe de assassino e sobrevivente disponível no jogo",
+        "step2Title": "Acompanhe Novas Adições",
+        "step2Description": "Mantenha-se atualizado sobre os próximos assassinos, como Marionette e Mangle",
+        "step3Title": "Compare Funções",
+        "step3Description": "Entenda como cada personagem se encaixa na dinâmica assassino vs sobrevivente"
       },
-      "featured": "Featured & Essential",
-      "all": "All Roster Articles"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos do Elenco"
     },
     "character": {
-      "title": "Bite By Night Characters",
-      "description": "Individual character guides for Springtrap, Ennard, The Mimic, Marionette, and more in Bite By Night.",
-      "metaTitle": "Bite By Night Characters - Springtrap, Ennard & Mimic Guides",
-      "metaDescription": "Detailed Bite By Night character guides covering Springtrap, Ennard, The Mimic, Marionette, and more. Learn abilities, counters, and lore.",
-      "categoryLabel": "CHARACTERS",
-      "whatIs": "What are Character Guides?",
-      "whatIsDescription": "In-depth guides for individual Bite By Night characters. Learn each killer's abilities, strengths, weaknesses, FNAF origins, and how to play against them.",
-      "why": "Why study characters?",
+      "title": "Personagens de Bite By Night",
+      "description": "Guias individuais de personagens para Springtrap, Ennard, The Mimic, Marionette e mais em Bite By Night.",
+      "metaTitle": "Personagens de Bite By Night - Guias de Springtrap, Ennard & Mimic",
+      "metaDescription": "Guias detalhados de personagens de Bite By Night cobrindo Springtrap, Ennard, The Mimic, Marionette e mais. Aprenda habilidades, counters e lore.",
+      "categoryLabel": "PERSONAGENS",
+      "whatIs": "O que são Guias de Personagens?",
+      "whatIsDescription": "Guias aprofundados para personagens individuais de Bite By Night. Aprenda as habilidades, pontos fortes, fraquezas, origens de FNAF e como jogar contra cada assassino.",
+      "why": "Por que estudar os personagens?",
       "whySteps": {
-        "step1Title": "Master Abilities",
-        "step1Description": "Understand each character's full kit including attacks, traps, and special moves",
-        "step2Title": "Learn Counterplay",
-        "step2Description": "Develop specific strategies to survive against each killer",
-        "step3Title": "Discover Origins",
-        "step3Description": "Explore the FNAF-inspired backstories behind each character"
+        "step1Title": "Domine as Habilidades",
+        "step1Description": "Entenda o kit completo de cada personagem, incluindo ataques, armadilhas e movimentos especiais",
+        "step2Title": "Aprenda o Counterplay",
+        "step2Description": "Desenvolva estratégias específicas para sobreviver contra cada assassino",
+        "step3Title": "Descubra as Origens",
+        "step3Description": "Explore as histórias de origem inspiradas em FNAF por trás de cada personagem"
       },
-      "featured": "Featured & Essential",
-      "all": "All Character Guides"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Personagens"
     },
     "media": {
-      "title": "Bite By Night Media",
-      "description": "Trailers, skins gallery, OST, logos, and visual media content for Bite By Night.",
-      "metaTitle": "Bite By Night Media - Trailers, Skins & Visual Content",
-      "metaDescription": "Browse Bite By Night media including official trailers, skin galleries, OST tracks, logos, and visual content for the Roblox horror game.",
-      "categoryLabel": "MEDIA",
-      "whatIs": "What is Media?",
-      "whatIsDescription": "Official and community media for Bite By Night including trailers, skin showcases, soundtracks, logos, and other visual content.",
-      "why": "Why browse media?",
+      "title": "Mídia de Bite By Night",
+      "description": "Trailers, galeria de skins, OST, logos e conteúdo de mídia visual para Bite By Night.",
+      "metaTitle": "Bite By Night Media - Trailers, Skins e Conteúdo Visual",
+      "metaDescription": "Navegue pela mídia de Bite By Night, incluindo trailers oficiais, galerias de skins, faixas da OST, logos e conteúdo visual para o jogo de terror do Roblox.",
+      "categoryLabel": "MÍDIA",
+      "whatIs": "O que é Mídia?",
+      "whatIsDescription": "Mídia oficial e da comunidade para Bite By Night, incluindo trailers, demonstrações de skins, trilhas sonoras, logos e outros conteúdos visuais.",
+      "why": "Por que navegar pela mídia?",
       "whySteps": {
-        "step1Title": "Watch Trailers",
-        "step1Description": "See official trailer breakdowns and character reveal analysis",
-        "step2Title": "Browse Skins",
-        "step2Description": "Preview all killer skins, cosmetic variants, and unlock methods",
-        "step3Title": "Explore Content",
-        "step3Description": "Access OST, logos, and other visual assets from the game"
+        "step1Title": "Assista aos Trailers",
+        "step1Description": "Veja análises detalhadas de trailers oficiais e revelações de personagens",
+        "step2Title": "Navegue pelas Skins",
+        "step2Description": "Visualize todas as skins de assassinos, variantes cosméticas e métodos de desbloqueio",
+        "step3Title": "Explore o Conteúdo",
+        "step3Description": "Acesse a OST, logos e outros recursos visuais do jogo"
       },
-      "featured": "Featured & Essential",
-      "all": "All Media Content"
+      "featured": "Destaques e Essenciais",
+      "all": "Todo o Conteúdo de Mídia"
     },
     "rumors-and-issues": {
-      "title": "Bite By Night Rumors & Issues",
-      "description": "Community discussions on concepts, leaks, collaborations, and known issues for Bite By Night.",
-      "metaTitle": "Bite By Night Rumors & Issues - Leaks, Concepts & Community Topics",
-      "metaDescription": "Bite By Night community discussions covering concepts, leaks, potential collaborations, and known issues for the Roblox horror game.",
-      "categoryLabel": "RUMORS & ISSUES",
-      "whatIs": "What are Rumors & Issues?",
-      "whatIsDescription": "Community-discussed topics including game concepts, potential leaks, collaboration possibilities, and known issues in Bite By Night.",
-      "why": "Why follow rumors & issues?",
+      "title": "Rumores e Problemas de Bite By Night",
+      "description": "Discussões da comunidade sobre conceitos, vazamentos, colaborações e problemas conhecidos de Bite By Night.",
+      "metaTitle": "Rumores e Problemas de Bite By Night - Vazamentos, Conceitos e Tópicos da Comunidade",
+      "metaDescription": "Discussões da comunidade de Bite By Night abrangendo conceitos, vazamentos, possíveis colaborações e problemas conhecidos para o jogo de terror do Roblox.",
+      "categoryLabel": "RUMORES E PROBLEMAS",
+      "whatIs": "O que são Rumores e Problemas?",
+      "whatIsDescription": "Tópicos discutidos pela comunidade, incluindo conceitos do jogo, possíveis vazamentos, possibilidades de colaboração e problemas conhecidos em Bite By Night.",
+      "why": "Por que acompanhar rumores e problemas?",
       "whySteps": {
-        "step1Title": "Stay Informed",
-        "step1Description": "Know what the community is discussing about upcoming content and changes",
-        "step2Title": "Track Known Issues",
-        "step2Description": "Stay aware of current bugs, glitches, and developer responses",
-        "step3Title": "Follow Concepts",
-        "step3Description": "See community concepts and potential collaborations being discussed"
+        "step1Title": "Mantenha-se Informado",
+        "step1Description": "Saiba o que a comunidade está discutindo sobre os próximos conteúdos e mudanças",
+        "step2Title": "Acompanhe Problemas Conhecidos",
+        "step2Description": "Fique atento a bugs atuais, falhas e respostas dos desenvolvedores",
+        "step3Title": "Siga Conceitos",
+        "step3Description": "Veja conceitos da comunidade e possíveis colaborações sendo discutidas"
       },
-      "featured": "Featured & Essential",
-      "all": "All Rumors & Issues"
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Rumores e Problemas"
     }
   }
 }

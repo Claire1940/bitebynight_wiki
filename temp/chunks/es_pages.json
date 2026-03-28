@@ -1,0 +1,144 @@
+{
+  "pages": {
+    "release-and-access": {
+      "title": "Lanzamiento y acceso de Bite By Night",
+      "description": "Seguimiento de la fecha de lanzamiento, información de acceso a plataformas, actualizaciones de acceso anticipado y cronograma de lanzamiento para Bite By Night en Roblox.",
+      "metaTitle": "Fecha de lanzamiento y acceso de Bite By Night - Cronograma de lanzamiento",
+      "metaDescription": "Sigue la fecha de lanzamiento de Bite By Night, el acceso a plataformas, el estado del acceso anticipado y las actualizaciones de lanzamiento para el juego de terror inspirado en FNAF de Roblox.",
+      "categoryLabel": "LANZAMIENTO Y ACCESO",
+      "whatIs": "¿Qué es Lanzamiento y Acceso?",
+      "whatIsDescription": "Todo sobre el cronograma de lanzamiento de Bite By Night, disponibilidad en plataformas, estado del acceso anticipado y actualizaciones de lanzamiento. Mantente informado sobre cuándo y cómo jugar.",
+      "why": "¿Por qué seguir la información de lanzamiento?",
+      "whySteps": {
+        "step1Title": "Conoce la fecha de lanzamiento",
+        "step1Description": "Mantente al día con la fecha de lanzamiento oficial y cualquier cambio en el cronograma",
+        "step2Title": "Consulta el acceso a plataformas",
+        "step2Description": "Descubre qué plataformas son compatibles con Bite By Night y cómo acceder",
+        "step3Title": "Sigue el acceso anticipado",
+        "step3Description": "Rastrea las actualizaciones del acceso anticipado y las fases de prueba antes del lanzamiento completo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos de Lanzamiento y Acceso"
+    },
+    "guide": {
+      "title": "Guías de Bite By Night",
+      "description": "Guías completas de juego que cubren clases, asesinos, mapas, objetivos, listas de niveles y estrategias de supervivencia para Bite By Night.",
+      "metaTitle": "Guías de Bite By Night - Clases, asesinos y estrategias de supervivencia",
+      "metaDescription": "Guías completas de Bite By Night que cubren clases, asesinos, mapas, objetivos y estrategias de supervivencia para el juego de terror asimétrico de Roblox.",
+      "categoryLabel": "GUÍAS DE JUEGO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Desde consejos para principiantes hasta estrategias avanzadas, estas guías cubren todo sobre las clases de sobrevivientes, enfrentamientos contra asesinos, tácticas de mapas y cumplimiento de objetivos en Bite By Night.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende lo básico",
+        "step1Description": "Entiende el flujo de la partida, los roles de clase y las mecánicas de los asesinos desde tu primer juego",
+        "step2Title": "Mejora tu juego",
+        "step2Description": "Domina las habilidades de clase, los contraataques a asesinos y el posicionamiento en el mapa",
+        "step3Title": "Gana más partidas",
+        "step3Description": "Aplica el conocimiento de las listas de niveles y las estrategias de equipo para escapar consistentemente"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "codes": {
+      "title": "Códigos de Bite By Night",
+      "description": "Todos los códigos activos y expirados de Bite By Night con recompensas e instrucciones de canje paso a paso.",
+      "metaTitle": "Códigos de Bite By Night - Recompensas gratuitas y guía de canje",
+      "metaDescription": "Todos los códigos activos y expirados de Bite By Night con recompensas gratuitas e instrucciones de canje. Actualizado regularmente con nuevos lanzamientos de códigos.",
+      "categoryLabel": "CÓDIGOS Y RECOMPENSAS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Canjea códigos en Bite By Night para obtener recompensas gratuitas que incluyen skins, moneda y objetos. Los códigos se lanzan durante actualizaciones, eventos y logros de la comunidad.",
+      "why": "¿Por qué revisar los códigos?",
+      "whySteps": {
+        "step1Title": "Recompensas gratuitas",
+        "step1Description": "Obtén skins, moneda y objetos sin gastar nada",
+        "step2Title": "Tiempo limitado",
+        "step2Description": "Los códigos expiran; canjéalos antes de que desaparezcan",
+        "step3Title": "Mantente actualizado",
+        "step3Description": "Nuevos códigos aparecen con actualizaciones, eventos y logros"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los códigos"
+    },
+    "roster": {
+      "title": "Roster de Bite By Night",
+      "description": "Resumen completo del elenco de asesinos y sobrevivientes, incluyendo personajes de lanzamiento, próximas adiciones y desglose de roles.",
+      "metaTitle": "Roster de Bite By Night - Asesinos, sobrevivientes y próximos personajes",
+      "metaDescription": "Explora el roster completo de asesinos y sobrevivientes de Bite By Night. Sigue a los personajes de lanzamiento, las próximas adiciones y el desglose de roles para el juego de terror de Roblox.",
+      "categoryLabel": "ROSTER",
+      "whatIs": "¿Qué es el Roster?",
+      "whatIsDescription": "La lista completa de asesinos jugables y clases de sobrevivientes en Bite By Night, incluyendo personajes confirmados para el lanzamiento y próximas adiciones al elenco.",
+      "why": "¿Por qué explorar el roster?",
+      "whySteps": {
+        "step1Title": "Conoce a todos los personajes",
+        "step1Description": "Mira cada clase de asesino y sobreviviente disponible en el juego",
+        "step2Title": "Sigue las nuevas adiciones",
+        "step2Description": "Mantente al día con los próximos asesinos como Marionette y Mangle",
+        "step3Title": "Compara roles",
+        "step3Description": "Entiende cómo encaja cada personaje en la dinámica de asesino contra sobreviviente"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los artículos del roster"
+    },
+    "character": {
+      "title": "Personajes de Bite By Night",
+      "description": "Guías individuales de personajes para Springtrap, Ennard, The Mimic, Marionette y más en Bite By Night.",
+      "metaTitle": "Personajes de Bite By Night - Guías de Springtrap, Ennard y Mimic",
+      "metaDescription": "Guías detalladas de personajes de Bite By Night que cubren a Springtrap, Ennard, The Mimic, Marionette y más. Aprende habilidades, contraataques e historia.",
+      "categoryLabel": "PERSONAJES",
+      "whatIs": "¿Qué son las guías de personajes?",
+      "whatIsDescription": "Guías detalladas para personajes individuales de Bite By Night. Aprende las habilidades, fortalezas, debilidades, orígenes de FNAF de cada asesino y cómo jugar contra ellos.",
+      "why": "¿Por qué estudiar a los personajes?",
+      "whySteps": {
+        "step1Title": "Domina las habilidades",
+        "step1Description": "Entiende el conjunto completo de cada personaje, incluyendo ataques, trampas y movimientos especiales",
+        "step2Title": "Aprende el contrajuego",
+        "step2Description": "Desarrolla estrategias específicas para sobrevivir contra cada asesino",
+        "step3Title": "Descubre los orígenes",
+        "step3Description": "Explora las historias inspiradas en FNAF detrás de cada personaje"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de personajes"
+    },
+    "media": {
+      "title": "Multimedia de Bite By Night",
+      "description": "Tráileres, galería de skins, banda sonora original (OST), logotipos y contenido multimedia visual para Bite By Night.",
+      "metaTitle": "Multimedia de Bite By Night - Tráileres, skins y contenido visual",
+      "metaDescription": "Explora el contenido multimedia de Bite By Night, incluyendo tráileres oficiales, galerías de skins, pistas de la banda sonora, logotipos y contenido visual para el juego de terror de Roblox.",
+      "categoryLabel": "MULTIMEDIA",
+      "whatIs": "¿Qué es Multimedia?",
+      "whatIsDescription": "Contenido multimedia oficial y de la comunidad para Bite By Night, incluyendo tráileres, exhibiciones de skins, bandas sonoras, logotipos y otro contenido visual.",
+      "why": "¿Por qué explorar multimedia?",
+      "whySteps": {
+        "step1Title": "Mira los tráileres",
+        "step1Description": "Mira desgloses de tráileres oficiales y análisis de revelación de personajes",
+        "step2Title": "Explora las skins",
+        "step2Description": "Previsualiza todas las skins de asesinos, variantes cosméticas y métodos de desbloqueo",
+        "step3Title": "Explora el contenido",
+        "step3Description": "Accede a la banda sonora, logotipos y otros recursos visuales del juego"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todo el contenido multimedia"
+    },
+    "rumors-and-issues": {
+      "title": "Rumores y problemas de Bite By Night",
+      "description": "Discusiones de la comunidad sobre conceptos, filtraciones, colaboraciones y problemas conocidos de Bite By Night.",
+      "metaTitle": "Rumores y problemas de Bite By Night - Filtraciones, conceptos y temas de la comunidad",
+      "metaDescription": "Discusiones de la comunidad de Bite By Night que cubren conceptos, filtraciones, posibles colaboraciones y problemas conocidos para el juego de terror de Roblox.",
+      "categoryLabel": "RUMORES Y PROBLEMAS",
+      "whatIs": "¿Qué son Rumores y Problemas?",
+      "whatIsDescription": "Temas discutidos por la comunidad, incluyendo conceptos del juego, posibles filtraciones, posibilidades de colaboración y problemas conocidos en Bite By Night.",
+      "why": "¿Por qué seguir rumores y problemas?",
+      "whySteps": {
+        "step1Title": "Mantente informado",
+        "step1Description": "Conoce lo que la comunidad está discutiendo sobre el próximo contenido y cambios",
+        "step2Title": "Sigue los problemas conocidos",
+        "step2Description": "Mantente al tanto de los errores actuales, fallos y respuestas de los desarrolladores",
+        "step3Title": "Sigue los conceptos",
+        "step3Description": "Mira los conceptos de la comunidad y las posibles colaboraciones que se están discutiendo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los rumores y problemas"
+    }
+  }
+}
